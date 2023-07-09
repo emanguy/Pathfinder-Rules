@@ -72,15 +72,16 @@
 		{"type":"text","text":"There are **activities** you can perform which may take more than one action","id":"2568b660df4057c5","x":330,"y":873,"width":307,"height":105},
 		{"type":"text","text":"### Strike\n* **1 action**\n* Roll to attack against a creature, using their AC\n* Add proficiency and ability scores to the roll\n* Performing more than one on the same turn incurs penalties:\n\t* **-5 to hit** on the second attack\n\t* **-10 to hit** on the third attack","id":"cffecfd8216ba0e2","x":685,"y":1075,"width":345,"height":327},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":222,"y":1148,"width":250,"height":60},
-		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":367,"y":1326,"width":258,"height":129},
-		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":92,"y":1495,"width":440,"height":275},
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-882,"y":1075,"width":250,"height":153},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-213,"y":539,"width":250,"height":87},
 		{"id":"bf16b6aab7a30341","x":-203,"y":1269,"width":265,"height":85,"type":"text","text":"## Conditions and Damage"},
-		{"id":"d0a2d97e0c5df40a","x":-243,"y":1545,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
 		{"id":"a644040da8a177ab","x":-528,"y":1715,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
-		{"id":"07b19d6b7cccf9ce","x":-653,"y":1436,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
-		{"id":"6dcfae6e6d6690b4","x":-594,"y":1279,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"}
+		{"id":"6dcfae6e6d6690b4","x":-594,"y":1279,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"},
+		{"id":"07b19d6b7cccf9ce","x":-693,"y":1495,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
+		{"id":"d0a2d97e0c5df40a","x":-203,"y":1556,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
+		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":520,"y":1513,"width":440,"height":275},
+		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":222,"y":1366,"width":258,"height":129},
+		{"id":"7b3f10a41defe5a0","x":76,"y":1556,"width":292,"height":179,"type":"text","text":"**Alignment damage** only affects creatures of the alternate alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -107,7 +108,7 @@
 		{"id":"18b6ba27da332871","fromNode":"f81953593323817a","fromSide":"top","toNode":"64b80d95603310c2","toSide":"bottom"},
 		{"id":"01ff5b6b43114bb5","fromNode":"7ead8186a683758f","fromSide":"top","toNode":"1a9b4d60302827b4","toSide":"bottom"},
 		{"id":"3fe34a233ad8eb32","fromNode":"718f624e160d35d0","fromSide":"bottom","toNode":"51b4a9b724a583d3","toSide":"top"},
-		{"id":"d904536ad7e01951","fromNode":"718f624e160d35d0","fromSide":"left","toNode":"3f70ea5aa1c73dd5","toSide":"top","label":"Action icons"},
+		{"id":"d904536ad7e01951","fromNode":"718f624e160d35d0","fromSide":"bottom","toNode":"3f70ea5aa1c73dd5","toSide":"top","label":"Action icons"},
 		{"id":"c47f1857f22637ec","fromNode":"7eddd2eb69521764","fromSide":"top","toNode":"086ac9e3b8e3ddde","toSide":"right","label":"Example ability statblock"},
 		{"id":"704ff58e08323b2e","fromNode":"7eddd2eb69521764","fromSide":"bottom","toNode":"558d4b986e81d031","toSide":"top"},
 		{"id":"4138265aa571c212","fromNode":"7eddd2eb69521764","fromSide":"bottom","toNode":"79e1c603d5ab1226","toSide":"top"},
@@ -146,6 +147,7 @@
 		{"id":"87093901aa74aed1","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"07b19d6b7cccf9ce","toSide":"right"},
 		{"id":"2fc1646ecfeba27e","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"d0a2d97e0c5df40a","toSide":"top"},
 		{"id":"151bbe9062a4e8f3","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a644040da8a177ab","toSide":"top"},
-		{"id":"af204f4a513538ef","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"6dcfae6e6d6690b4","toSide":"right"}
+		{"id":"af204f4a513538ef","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"6dcfae6e6d6690b4","toSide":"right"},
+		{"id":"febf80ca7c13a6de","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"7b3f10a41defe5a0","toSide":"top"}
 	]
 }
