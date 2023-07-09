@@ -41,4 +41,4 @@
 	* Class DC (10 + class DC proficiency)
 	* Hero points (start with 1)
 	* Armor class (10 + dex + armor bonus)
-	* 
+	* Calculate your bulk
