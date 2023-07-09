@@ -63,7 +63,8 @@
 		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1167,"y":539,"width":259,"height":152},
 		{"type":"text","text":"Armor can still be used, but there's an AC penalty when broken:\n* -1 for light armor\n* -2 for medium armor\n* -3 for heavy armor","id":"9657ec08577676c7","x":1160,"y":813,"width":250,"height":220},
 		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":603,"y":411,"width":320,"height":118},
-		{"id":"cb202561f6c886bd","x":-719,"y":-980,"width":279,"height":210,"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing"}
+		{"id":"cb202561f6c886bd","x":-719,"y":-980,"width":279,"height":210,"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing"},
+		{"id":"261c64091931ff67","x":-1180,"y":-902,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -115,6 +116,7 @@
 		{"id":"82b139a8a6eed404","fromNode":"cf908237f3850fc2","fromSide":"left","toNode":"356f4ad74ac3a371","toSide":"bottom"},
 		{"id":"1fa9e9c2416b7cd1","fromNode":"fed95ebeb82f52c4","fromSide":"left","toNode":"f116faa3196c914f","toSide":"bottom"},
 		{"id":"0cdb113d3021f23a","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"92b4740aad6e5a7e","toSide":"bottom"},
-		{"id":"64f8f675bc4afdd1","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"cb202561f6c886bd","toSide":"bottom"}
+		{"id":"64f8f675bc4afdd1","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"cb202561f6c886bd","toSide":"bottom"},
+		{"id":"b40a318709aff827","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"261c64091931ff67","toSide":"bottom"}
 	]
 }
