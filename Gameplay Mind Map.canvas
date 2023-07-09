@@ -77,8 +77,10 @@
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-882,"y":1075,"width":250,"height":153},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-213,"y":539,"width":250,"height":87},
 		{"id":"bf16b6aab7a30341","x":-203,"y":1269,"width":265,"height":85,"type":"text","text":"## Conditions and Damage"},
-		{"id":"07b19d6b7cccf9ce","x":-530,"y":1455,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
-		{"id":"d0a2d97e0c5df40a","x":-243,"y":1545,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"}
+		{"id":"d0a2d97e0c5df40a","x":-243,"y":1545,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
+		{"id":"a644040da8a177ab","x":-528,"y":1715,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
+		{"id":"07b19d6b7cccf9ce","x":-653,"y":1436,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
+		{"id":"6dcfae6e6d6690b4","x":-594,"y":1279,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -141,7 +143,9 @@
 		{"id":"13404021d3e921c1","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"9ecc1f329545197f","toSide":"bottom"},
 		{"id":"eaead85156ceeaf7","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"acda5854ae5182ad","toSide":"bottom"},
 		{"id":"f090471ffa2e2d28","fromNode":"2fdd0b78ccad5580","fromSide":"bottom","toNode":"bf16b6aab7a30341","toSide":"top"},
-		{"id":"87093901aa74aed1","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"07b19d6b7cccf9ce","toSide":"top"},
-		{"id":"2fc1646ecfeba27e","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"d0a2d97e0c5df40a","toSide":"top"}
+		{"id":"87093901aa74aed1","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"07b19d6b7cccf9ce","toSide":"right"},
+		{"id":"2fc1646ecfeba27e","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"d0a2d97e0c5df40a","toSide":"top"},
+		{"id":"151bbe9062a4e8f3","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a644040da8a177ab","toSide":"top"},
+		{"id":"af204f4a513538ef","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"6dcfae6e6d6690b4","toSide":"right"}
 	]
 }
