@@ -4,4 +4,5 @@
 * [ ] Add class features from your advancement table
 * [ ] Select feats as noted on the advancement table
 * [ ] Add spells and spell slots for spellcasters
-* [ ] Increase all your proficiency bonuses to reflect your new level or any abili
+* [ ] Increase all your proficiency bonuses to reflect your new level or any ability score increases
+* [ ] Adjust bonuses from feats and other abilities based on your level
