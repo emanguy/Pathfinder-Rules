@@ -75,13 +75,15 @@
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-882,"y":1075,"width":250,"height":153},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-213,"y":539,"width":250,"height":87},
 		{"id":"bf16b6aab7a30341","x":-203,"y":1269,"width":265,"height":85,"type":"text","text":"## Conditions and Damage"},
-		{"id":"a644040da8a177ab","x":-528,"y":1715,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
 		{"id":"6dcfae6e6d6690b4","x":-594,"y":1279,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"},
-		{"id":"07b19d6b7cccf9ce","x":-693,"y":1495,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
-		{"id":"d0a2d97e0c5df40a","x":-203,"y":1556,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
 		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":520,"y":1513,"width":440,"height":275},
-		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":222,"y":1366,"width":258,"height":129},
-		{"id":"7b3f10a41defe5a0","x":76,"y":1556,"width":292,"height":179,"type":"text","text":"**Alignment damage** only affects creatures of the alternate alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies"}
+		{"id":"7b3f10a41defe5a0","x":76,"y":1556,"width":292,"height":179,"type":"text","text":"**Alignment damage** only affects creatures of the opposite alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies"},
+		{"id":"d0a2d97e0c5df40a","x":-63,"y":1840,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
+		{"id":"07b19d6b7cccf9ce","x":-882,"y":1458,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
+		{"id":"a644040da8a177ab","x":-602,"y":1695,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
+		{"id":"afdb96b8a253d305","x":-320,"y":1567,"width":300,"height":257,"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**"},
+		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":144,"y":1312,"width":258,"height":129},
+		{"id":"c90a7487cb6eae7c","x":-549,"y":1877,"width":250,"height":177,"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -148,6 +150,8 @@
 		{"id":"2fc1646ecfeba27e","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"d0a2d97e0c5df40a","toSide":"top"},
 		{"id":"151bbe9062a4e8f3","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a644040da8a177ab","toSide":"top"},
 		{"id":"af204f4a513538ef","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"6dcfae6e6d6690b4","toSide":"right"},
-		{"id":"febf80ca7c13a6de","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"7b3f10a41defe5a0","toSide":"top"}
+		{"id":"febf80ca7c13a6de","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"7b3f10a41defe5a0","toSide":"top"},
+		{"id":"4bb2059d0707706d","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"afdb96b8a253d305","toSide":"top"},
+		{"id":"1f345bea427d8189","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"c90a7487cb6eae7c","toSide":"top"}
 	]
 }
