@@ -32,3 +32,4 @@
 * Keep an eye on your bulk!
 ## Calculate Modifiers
 * Calculate perception, your saving throws, weapon "to hit" rolls and damage modifiers, and skill modifiers based on their base attributes
+## Final Details
