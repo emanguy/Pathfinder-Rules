@@ -57,8 +57,8 @@
 		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":781,"y":-343,"width":250,"height":124},
 		{"type":"text","text":"See the [[Level Up Checklist]] for more","id":"dff090c5ece96c8c","x":-787,"y":-916,"width":250,"height":82},
 		{"type":"text","text":"## Broken Status","id":"a6252e50c0aebe49","x":781,"y":613,"width":250,"height":60},
-		{"id":"9ecc1f329545197f","x":-1489,"y":148,"width":338,"height":148,"type":"text","text":"The GM may roll **secret checks** for you, using your skill bonus behind the screen. You will not know what was rolled or the DC, but you will likely know the outcome"},
-		{"id":"acda5854ae5182ad","x":-1838,"y":76,"width":248,"height":124,"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check"},
+		{"type":"text","text":"The GM may roll **secret checks** for you, using your skill bonus behind the screen. You will not know what was rolled or the DC, but you will likely know the outcome","id":"9ecc1f329545197f","x":-1489,"y":148,"width":338,"height":148},
+		{"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check","id":"acda5854ae5182ad","x":-1838,"y":76,"width":248,"height":124},
 		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2096,"y":333,"width":294,"height":144},
 		{"type":"text","text":"Beating or rolling under the DC by 10 will **cause critical success or critical failure**, respectively for checks","id":"96818109aa05adf1","x":-2339,"y":340,"width":213,"height":224},
 		{"type":"text","text":"**Crit success (critical hit)** doubles your damage on an attack","id":"b74657bcd3d6e5b2","x":-2096,"y":493,"width":264,"height":96},
@@ -75,17 +75,18 @@
 		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":350,"y":786,"width":250,"height":60},
 		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":32,"y":868,"width":263,"height":110},
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-140,"y":345,"width":250,"height":60},
-		{"id":"7b3f10a41defe5a0","x":127,"y":1513,"width":292,"height":179,"type":"text","text":"**Alignment damage** only affects creatures of the opposite alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies"},
-		{"id":"d0a2d97e0c5df40a","x":152,"y":1720,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
-		{"id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177,"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage"},
-		{"id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257,"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**"},
-		{"id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225,"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction"},
-		{"id":"1d9ff49e5f1f3fde","x":-1260,"y":1264,"width":280,"height":104,"type":"text","text":"Attacking **non-lethally with a lethal weapon** incurs a **-2 penalty to attack**"},
-		{"id":"bf16b6aab7a30341","x":-99,"y":1642,"width":159,"height":50,"type":"text","text":"## Damage"},
-		{"id":"a644040da8a177ab","x":-760,"y":1923,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
-		{"id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
-		{"id":"6dcfae6e6d6690b4","x":-480,"y":1567,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"},
-		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-480,"y":1377,"width":250,"height":153}
+		{"type":"text","text":"**Alignment damage** only affects creatures of the opposite alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies","id":"7b3f10a41defe5a0","x":127,"y":1513,"width":292,"height":179},
+		{"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)","id":"d0a2d97e0c5df40a","x":152,"y":1720,"width":250,"height":214},
+		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
+		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257},
+		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
+		{"type":"text","text":"Attacking **non-lethally with a lethal weapon** incurs a **-2 penalty to attack**. This penalty also occurs when attempting to attack **lethally with a non-lethal weapon**","id":"1d9ff49e5f1f3fde","x":-1260,"y":1264,"width":480,"height":104},
+		{"type":"text","text":"## Damage","id":"bf16b6aab7a30341","x":-99,"y":1642,"width":159,"height":50},
+		{"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them","id":"a644040da8a177ab","x":-760,"y":1923,"width":250,"height":145},
+		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197},
+		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":-480,"y":1567,"width":250,"height":201},
+		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-480,"y":1377,"width":250,"height":153},
+		{"id":"9c7c2c1f7117440e","x":-126,"y":-774,"width":250,"height":60,"type":"text","text":"## Conditions"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -156,6 +157,7 @@
 		{"id":"4bb2059d0707706d","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"afdb96b8a253d305","toSide":"top"},
 		{"id":"1f345bea427d8189","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"c90a7487cb6eae7c","toSide":"top"},
 		{"id":"9f40409688bb37aa","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a8b6c7d11613d139","toSide":"top"},
-		{"id":"e0c75afb9212aae7","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"8b156813ef78ac72","toSide":"right"}
+		{"id":"e0c75afb9212aae7","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"8b156813ef78ac72","toSide":"right"},
+		{"id":"cf9ea27c8939cfe2","fromNode":"fed95ebeb82f52c4","fromSide":"top","toNode":"9c7c2c1f7117440e","toSide":"bottom"}
 	]
 }
