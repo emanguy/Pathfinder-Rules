@@ -7,12 +7,6 @@
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":-128,"y":973,"width":250,"height":60},
 		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":17,"y":1151,"width":258,"height":129},
 		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":-792,"y":960,"width":440,"height":275},
-		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll.","id":"8ce26d395e9b3052","x":901,"y":130,"width":259,"height":216},
-		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":820,"y":-194,"width":250,"height":124},
-		{"type":"text","text":"Characters physically cannot carry more than **10 + Str Mod** in bulk.","id":"5bbe75da4778f3e3","x":1080,"y":-194,"width":250,"height":87},
-		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1180,"y":-41,"width":255,"height":214},
-		{"type":"text","text":"Coins have bulk - 1 bulk per 1000 coins rounded down","id":"2bc2f0324c6578be","x":1418,"y":-147,"width":250,"height":60},
-		{"type":"text","text":"Items have HP based on their material, or this will be called out for armor","id":"d832a098d1b34f2d","x":1466,"y":289,"width":281,"height":113},
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":94,"y":285,"width":250,"height":60},
 		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":490,"y":-297,"width":250,"height":74},
 		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":182,"y":-161,"width":250,"height":60},
@@ -57,7 +51,13 @@
 		{"type":"text","text":"### Fortitude Save\n\nUsed when health or vitality are under attack like with poison or disease","id":"f070c1004884e410","x":-1500,"y":440,"width":262,"height":182},
 		{"type":"file","file":"obsidian_data/assets/Pf2e Statblock.jpg","id":"086ac9e3b8e3ddde","x":-1140,"y":-661,"width":231,"height":260},
 		{"type":"text","text":"### Kinds of Currency\n\n* Platinum pieces (1pp = 10gp)\n* Gold pieces (most common) (1gp = 10sp)\n* Silver pieces (most common) (1sp = 10cp)\n* Copper pieces","id":"64b80d95603310c2","x":-537,"y":-667,"width":420,"height":207},
-		{"type":"text","text":"Players start with **15 gp** initially to spend on equipment","id":"4f1de23f5a0600c5","x":-804,"y":-553,"width":250,"height":93}
+		{"type":"text","text":"Players start with **15 gp** initially to spend on equipment","id":"4f1de23f5a0600c5","x":-804,"y":-553,"width":250,"height":93},
+		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":820,"y":-194,"width":250,"height":124},
+		{"type":"text","text":"Characters physically cannot carry more than **10 + Str Mod** in bulk.","id":"5bbe75da4778f3e3","x":1080,"y":-194,"width":250,"height":87},
+		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll.","id":"8ce26d395e9b3052","x":901,"y":130,"width":259,"height":216},
+		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1180,"y":-41,"width":255,"height":214},
+		{"type":"text","text":"Coins have bulk - 1 bulk per 1000 coins rounded down","id":"2bc2f0324c6578be","x":1418,"y":-147,"width":250,"height":60},
+		{"type":"text","text":"Items have HP based on their material, or this will be called out for armor","id":"d832a098d1b34f2d","x":1466,"y":289,"width":281,"height":113}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
