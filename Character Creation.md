@@ -31,4 +31,4 @@
 * You can buy equipment using your starting **15 gp**. Equipment is in **Chapter 6**
 * Keep an eye on your bulk!
 ## Calculate Modifiers
-* Calculate perception, your saving throws, weapon "to hit" rolls and damage modifiers
+* Calculate perception, your saving throws, weapon "to hit" rolls and damage modifiers, and skill modifiers based on their base attributes
