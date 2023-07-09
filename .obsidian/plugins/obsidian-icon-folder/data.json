@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasMap",
+      "FasWandMagicSparkles",
+      "FasUserGroup",
+      "FasLocationDot",
+      "FasPencil"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "Locations": "FasLocationDot",
+  "Characters": "FasUserGroup",
+  "Ongoing Quests": "FasNewspaper",
+  "Session Notes": "FasPencil",
+  "Spell Reference": "FasWandMagicSparkles",
+  "Gameplay Mind Map.canvas": "FasMap"
+}
