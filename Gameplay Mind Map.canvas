@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"type":"group","id":"30c5a45ab4e85eec","x":-1440,"y":140,"width":850,"height":264,"label":"DCs and Crits"},
+		{"type":"group","id":"30c5a45ab4e85eec","x":-2040,"y":140,"width":1450,"height":264,"label":"DCs and Crits"},
 		{"type":"group","id":"60679394a6e34b7b","x":-1520,"y":420,"width":830,"height":222,"label":"Saving Throws"},
 		{"type":"group","id":"36daed7121a34b22","x":-1567,"y":680,"width":732,"height":250,"label":"Attack Rolls"},
 		{"type":"group","id":"ea5a402a1e848871","x":-20,"y":600,"width":712,"height":245,"label":"Actions"},
@@ -66,7 +66,9 @@
 		{"id":"92b4740aad6e5a7e","x":-1363,"y":-857,"width":250,"height":60,"type":"text","text":"You gain a level every **1000 XP**"},
 		{"id":"ba31ebf322a0cf78","x":-644,"y":-819,"width":310,"height":127,"type":"text","text":"If your intelligence modifier increases, make sure to become **trained in an additional skill** and **gain a new language**"},
 		{"id":"cb202561f6c886bd","x":-1083,"y":-939,"width":279,"height":210,"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing"},
-		{"id":"dff090c5ece96c8c","x":-787,"y":-916,"width":250,"height":82,"type":"text","text":"See the [[Level Up Checklist]] for more"}
+		{"id":"dff090c5ece96c8c","x":-787,"y":-916,"width":250,"height":82,"type":"text","text":"See the [[Level Up Checklist]] for more"},
+		{"id":"8b156813ef78ac72","x":-1700,"y":160,"width":250,"height":153,"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified"},
+		{"id":"d3f53f96751d4887","x":-2020,"y":160,"width":294,"height":188,"type":"text","text":"When dealing with **more than one multiplier**, just add the multipliers together, subtracting one for each multiplier after the first (so two x2 bonuses become an x3 (2 + 2 - 1))"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
