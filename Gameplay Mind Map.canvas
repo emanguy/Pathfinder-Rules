@@ -14,9 +14,6 @@
 		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":12,"y":708,"width":263,"height":110},
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":615,"y":66,"width":250,"height":95},
 		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-94,"y":460,"width":276,"height":91},
-		{"type":"text","text":"Armor can still be used, but there's an AC penalty when broken:\n* -1 for light armor\n* -2 for medium armor\n* -3 for heavy armor","id":"9657ec08577676c7","x":1140,"y":708,"width":250,"height":220},
-		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1466,"y":448,"width":304,"height":145},
-		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1466,"y":610,"width":259,"height":152},
 		{"type":"text","text":"You can use **one reaction** in a round","id":"19e9b2afffa52edb","x":12,"y":613,"width":220,"height":73},
 		{"type":"text","text":"# Pathfinder 2E","id":"fed95ebeb82f52c4","x":-154,"y":-65,"width":282,"height":73},
 		{"type":"text","text":"## Play Resources","id":"7882a46d05e022c7","x":-137,"y":-214,"width":250,"height":60},
@@ -39,7 +36,6 @@
 		{"type":"text","text":"### Kinds of Currency\n\n* Platinum pieces (1pp = 10gp)\n* Gold pieces (most common) (1gp = 10sp)\n* Silver pieces (most common) (1sp = 10cp)\n* Copper pieces","id":"64b80d95603310c2","x":-537,"y":-667,"width":420,"height":207},
 		{"type":"text","text":"Players start with **15 gp** initially to spend on equipment","id":"4f1de23f5a0600c5","x":-804,"y":-553,"width":250,"height":93},
 		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1180,"y":-41,"width":255,"height":214},
-		{"type":"text","text":"Items have HP based on their material, or this will be called out for armor","id":"d832a098d1b34f2d","x":1466,"y":289,"width":281,"height":113},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":-128,"y":973,"width":250,"height":60},
 		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-477,"y":340,"width":250,"height":60},
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-660,"y":621,"width":320,"height":174},
@@ -62,7 +58,11 @@
 		{"type":"text","text":"**Armor Class (AC)** is calculated based on the character/creature's dexterity and their proficiency with the armor they're wearing. The formula is **10 + Dex + Armor Bonus**","id":"b0dfdda54b339b3e","x":-1320,"y":-88,"width":286,"height":201},
 		{"type":"text","text":"## Gear and Weapons","id":"154bdb7a918ba0a4","x":182,"y":204,"width":290,"height":68},
 		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll.","id":"8ce26d395e9b3052","x":763,"y":173,"width":259,"height":216},
-		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":603,"y":389,"width":320,"height":118}
+		{"type":"text","text":"Items have HP based on their material, or this will be called out for armor","id":"d832a098d1b34f2d","x":1167,"y":216,"width":281,"height":113},
+		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1167,"y":368,"width":304,"height":145},
+		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1167,"y":539,"width":259,"height":152},
+		{"type":"text","text":"Armor can still be used, but there's an AC penalty when broken:\n* -1 for light armor\n* -2 for medium armor\n* -3 for heavy armor","id":"9657ec08577676c7","x":1160,"y":813,"width":250,"height":220},
+		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":603,"y":411,"width":320,"height":118}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
