@@ -2,14 +2,13 @@
 	"nodes":[
 		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":818,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"36daed7121a34b22","x":-1280,"y":820,"width":732,"height":440,"label":"Attack Rolls"},
-		{"type":"group","id":"30c5a45ab4e85eec","x":-2035,"y":20,"width":620,"height":440,"label":"DCs and Crits"},
+		{"type":"group","id":"30c5a45ab4e85eec","x":-2380,"y":320,"width":620,"height":440,"label":"DCs and Crits"},
 		{"type":"group","id":"ea5a402a1e848871","x":-100,"y":780,"width":712,"height":245,"label":"Actions"},
 		{"type":"text","text":"**Armor Class (AC)** is calculated based on the character/creature's dexterity and their proficiency with the armor they're wearing. The formula is **10 + Dex + Armor Bonus**","id":"b0dfdda54b339b3e","x":-1320,"y":-88,"width":286,"height":201},
 		{"type":"text","text":"**Ability boosts** are applied during level ups. They typically increase an ability's score by **2**, but if the score is already 18 or higher it only increases by **1**.","id":"558d4b986e81d031","x":-991,"y":-71,"width":291,"height":171},
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-660,"y":621,"width":320,"height":174},
 		{"type":"text","text":"You begin each session with at least **1 hero point**","id":"8d24967389500e59","x":-477,"y":1033,"width":250,"height":84},
 		{"type":"text","text":"## Hero Points","id":"764fb3964bb20fab","x":-440,"y":833,"width":250,"height":60},
-		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-477,"y":340,"width":250,"height":60},
 		{"type":"text","text":"## Gameplay Rules","id":"b78660d484f5b44d","x":-243,"y":113,"width":250,"height":60},
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-18,"y":324,"width":250,"height":60},
 		{"type":"text","text":"**Ability Flaws** decrease ability scores by **2**, acting as the opposite of an **ability boost**","id":"79e1c603d5ab1226","x":-684,"y":-43,"width":294,"height":111},
@@ -53,7 +52,6 @@
 		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-1887,"y":1050,"width":344,"height":214},
 		{"type":"text","text":"**Fortune effects**, which may allow you to do things like reroll dice, can only be applied once per roll","id":"c2c4cbbd2261ae6a","x":-1087,"y":170,"width":274,"height":126},
 		{"type":"text","text":"When dealing with **more than one multiplier**, just add the multipliers together, subtracting one for each multiplier after the first (so two x2 bonuses become an x3 (2 + 2 - 1))","id":"d3f53f96751d4887","x":-755,"y":131,"width":294,"height":188},
-		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1200,"y":572,"width":250,"height":141},
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-882,"y":1075,"width":250,"height":153},
 		{"type":"text","text":"### Strike\n* **1 action**\n* Roll to attack against a creature, using their AC\n* Add proficiency and ability scores to the roll\n* Performing more than one on the same turn incurs penalties:\n\t* **-5 to hit** on the second attack\n\t* **-10 to hit** on the third attack","id":"cffecfd8216ba0e2","x":403,"y":1065,"width":345,"height":327},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":-60,"y":1138,"width":250,"height":60},
@@ -70,11 +68,14 @@
 		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":781,"y":-343,"width":250,"height":124},
 		{"type":"text","text":"See the [[Level Up Checklist]] for more","id":"dff090c5ece96c8c","x":-787,"y":-916,"width":250,"height":82},
 		{"type":"text","text":"## Broken Status","id":"a6252e50c0aebe49","x":781,"y":613,"width":250,"height":60},
-		{"type":"text","text":"Beating or rolling under the DC by 10 will **cause critical success or critical failure**, respectively for checks","id":"96818109aa05adf1","x":-1994,"y":40,"width":213,"height":224},
-		{"type":"text","text":"**Crit success (critical hit)** doubles your damage on an attack","id":"b74657bcd3d6e5b2","x":-1751,"y":193,"width":264,"height":96},
-		{"type":"text","text":"Rolling a nat 20 to hit is an automatic critical success (critical hit)","id":"b34d011a6414181e","x":-1751,"y":301,"width":220,"height":139},
-		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-1751,"y":33,"width":294,"height":144},
-		{"id":"9ecc1f329545197f","x":-1447,"y":312,"width":250,"height":60,"type":"text","text":"The GM may roll **secret checks** for you, using your skill bonus behind the screen. You will not know wht"}
+		{"id":"9ecc1f329545197f","x":-1489,"y":148,"width":338,"height":148,"type":"text","text":"The GM may roll **secret checks** for you, using your skill bonus behind the screen. You will not know what was rolled or the DC, but you will likely know the outcome"},
+		{"id":"acda5854ae5182ad","x":-1838,"y":76,"width":248,"height":124,"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check"},
+		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2096,"y":333,"width":294,"height":144},
+		{"type":"text","text":"Beating or rolling under the DC by 10 will **cause critical success or critical failure**, respectively for checks","id":"96818109aa05adf1","x":-2339,"y":340,"width":213,"height":224},
+		{"type":"text","text":"**Crit success (critical hit)** doubles your damage on an attack","id":"b74657bcd3d6e5b2","x":-2096,"y":493,"width":264,"height":96},
+		{"type":"text","text":"Rolling a nat 20 to hit is an automatic critical success (critical hit)","id":"b34d011a6414181e","x":-2096,"y":601,"width":220,"height":139},
+		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-1020,"y":405,"width":265,"height":60},
+		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1302,"y":621,"width":250,"height":141}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -105,7 +106,7 @@
 		{"id":"c47f1857f22637ec","fromNode":"7eddd2eb69521764","fromSide":"top","toNode":"086ac9e3b8e3ddde","toSide":"right","label":"Example ability statblock"},
 		{"id":"704ff58e08323b2e","fromNode":"7eddd2eb69521764","fromSide":"bottom","toNode":"558d4b986e81d031","toSide":"top"},
 		{"id":"4138265aa571c212","fromNode":"7eddd2eb69521764","fromSide":"bottom","toNode":"79e1c603d5ab1226","toSide":"top"},
-		{"id":"ded5476319c421a6","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"36daed7121a34b22","toSide":"top"},
+		{"id":"ded5476319c421a6","fromNode":"0daac4d485ee6ccf","fromSide":"bottom","toNode":"36daed7121a34b22","toSide":"top"},
 		{"id":"a6f463a1fdf0e22a","fromNode":"fed95ebeb82f52c4","fromSide":"bottom","toNode":"154bdb7a918ba0a4","toSide":"left"},
 		{"id":"341e79a7bec49249","fromNode":"154bdb7a918ba0a4","fromSide":"right","toNode":"8ce26d395e9b3052","toSide":"left"},
 		{"id":"9e35909e3f5a6643","fromNode":"154bdb7a918ba0a4","fromSide":"right","toNode":"7b03b89a29d3880c","toSide":"left"},
@@ -132,7 +133,9 @@
 		{"id":"83335583441b881b","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"dff090c5ece96c8c","toSide":"bottom"},
 		{"id":"a076611a1ccefcdb","fromNode":"2fdd0b78ccad5580","fromSide":"bottom","toNode":"8cdc51900c6d6f02","toSide":"top"},
 		{"id":"b0424ff24e7ca424","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"d3f53f96751d4887","toSide":"bottom"},
-		{"id":"1e3f3ceccaa753aa","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"c2c4cbbd2261ae6a","toSide":"bottom"},
-		{"id":"20a524be2327f5b3","fromNode":"0daac4d485ee6ccf","fromSide":"bottom","toNode":"700817a23704b7d8","toSide":"right"}
+		{"id":"1e3f3ceccaa753aa","fromNode":"0daac4d485ee6ccf","fromSide":"top","toNode":"c2c4cbbd2261ae6a","toSide":"bottom"},
+		{"id":"20a524be2327f5b3","fromNode":"0daac4d485ee6ccf","fromSide":"bottom","toNode":"700817a23704b7d8","toSide":"right"},
+		{"id":"13404021d3e921c1","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"9ecc1f329545197f","toSide":"bottom"},
+		{"id":"eaead85156ceeaf7","fromNode":"0daac4d485ee6ccf","fromSide":"left","toNode":"acda5854ae5182ad","toSide":"bottom"}
 	]
 }
