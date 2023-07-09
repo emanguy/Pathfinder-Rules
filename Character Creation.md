@@ -33,3 +33,12 @@
 ## Calculate Modifiers
 * Calculate perception, your saving throws, weapon "to hit" rolls and damage modifiers, and skill modifiers based on their base attributes
 ## Final Details
+* Flesh out the following:
+	* Alignment
+	* Deity your character follows (required for certain classes)
+	* Age
+	* Gender/Pronouns
+	* Class DC (10 + class DC proficiency)
+	* Hero points (start with 1)
+	* Armor class (10 + dex + armor bonus)
+	* 
