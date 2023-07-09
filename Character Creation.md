@@ -1,7 +1,6 @@
 # Character Creation
 ## Ability Scores (Initial)
 * All scores start at 10, then are changed by ancestry/background/class
-* Once all that is done, add 4 more Ability Boosts (see [[Gameplay Mind Map.canvas|Gameplay Mind Map]])
 ## Ancestry
 * Determines **Size, Speed, Languages**, helps with **HP**, adds **ability boosts and flaws**
 * 4 things to do:;
@@ -30,4 +29,4 @@
 * Record class features noted in advancement tables
 ## Buy Equipment
 * You can buy equipment using your starting **15 gp**. Equipment is in **Chapter 6**
-* 
+* Keep an eye on your bulk!
