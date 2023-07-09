@@ -1,7 +1,7 @@
 {
 	"nodes":[
+		{"type":"group","id":"36daed7121a34b22","x":-1280,"y":820,"width":732,"height":580,"label":"Attack Rolls"},
 		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":818,"width":830,"height":482,"label":"Saving Throws"},
-		{"type":"group","id":"36daed7121a34b22","x":-1280,"y":820,"width":732,"height":440,"label":"Attack Rolls"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2380,"y":320,"width":620,"height":440,"label":"DCs and Crits"},
 		{"type":"group","id":"ea5a402a1e848871","x":0,"y":760,"width":712,"height":245,"label":"Actions"},
 		{"type":"text","text":"**Armor Class (AC)** is calculated based on the character/creature's dexterity and their proficiency with the armor they're wearing. The formula is **10 + Dex + Armor Bonus**","id":"b0dfdda54b339b3e","x":-1320,"y":-88,"width":286,"height":201},
@@ -67,7 +67,6 @@
 		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1302,"y":621,"width":250,"height":141},
 		{"type":"text","text":"### Strike\n* **1 action**\n* Roll to attack against a creature, using their AC\n* Add proficiency and ability scores to the roll\n* Performing more than one on the same turn incurs penalties:\n\t* **-5 to hit** on the second attack\n\t* **-10 to hit** on the third attack","id":"cffecfd8216ba0e2","x":685,"y":1075,"width":345,"height":327},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":222,"y":1148,"width":250,"height":60},
-		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-882,"y":1075,"width":250,"height":153},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-213,"y":539,"width":250,"height":87},
 		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":520,"y":1513,"width":440,"height":275},
 		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":144,"y":1312,"width":258,"height":129},
@@ -76,15 +75,17 @@
 		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":350,"y":786,"width":250,"height":60},
 		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":32,"y":868,"width":263,"height":110},
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-140,"y":345,"width":250,"height":60},
-		{"id":"bf16b6aab7a30341","x":-100,"y":1402,"width":159,"height":50,"type":"text","text":"## Damage"},
-		{"id":"6dcfae6e6d6690b4","x":-426,"y":1452,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"},
 		{"id":"7b3f10a41defe5a0","x":127,"y":1513,"width":292,"height":179,"type":"text","text":"**Alignment damage** only affects creatures of the opposite alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies"},
 		{"id":"d0a2d97e0c5df40a","x":152,"y":1720,"width":250,"height":214,"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)"},
-		{"id":"07b19d6b7cccf9ce","x":-660,"y":1653,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
-		{"id":"a644040da8a177ab","x":-660,"y":1862,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
 		{"id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177,"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage"},
 		{"id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257,"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**"},
-		{"id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225,"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction"}
+		{"id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225,"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction"},
+		{"id":"1d9ff49e5f1f3fde","x":-1260,"y":1264,"width":280,"height":104,"type":"text","text":"Attacking **non-lethally with a lethal weapon** incurs a **-2 penalty to attack**"},
+		{"id":"bf16b6aab7a30341","x":-99,"y":1642,"width":159,"height":50,"type":"text","text":"## Damage"},
+		{"id":"a644040da8a177ab","x":-760,"y":1923,"width":250,"height":145,"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them"},
+		{"id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197,"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off."},
+		{"id":"6dcfae6e6d6690b4","x":-480,"y":1567,"width":250,"height":201,"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living"},
+		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-480,"y":1377,"width":250,"height":153}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -154,6 +155,7 @@
 		{"id":"febf80ca7c13a6de","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"7b3f10a41defe5a0","toSide":"left"},
 		{"id":"4bb2059d0707706d","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"afdb96b8a253d305","toSide":"top"},
 		{"id":"1f345bea427d8189","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"c90a7487cb6eae7c","toSide":"top"},
-		{"id":"9f40409688bb37aa","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a8b6c7d11613d139","toSide":"top"}
+		{"id":"9f40409688bb37aa","fromNode":"bf16b6aab7a30341","fromSide":"bottom","toNode":"a8b6c7d11613d139","toSide":"top"},
+		{"id":"e0c75afb9212aae7","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"8b156813ef78ac72","toSide":"right"}
 	]
 }
