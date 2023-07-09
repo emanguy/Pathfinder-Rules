@@ -60,13 +60,13 @@
 		{"type":"text","text":"Campaigns available at paizo.com","id":"3ee9de4312ecc0db","x":80,"y":-628,"width":250,"height":77},
 		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":353,"y":-297,"width":250,"height":74},
 		{"type":"file","file":"obsidian_data/assets/Pf2e Statblock.jpg","id":"086ac9e3b8e3ddde","x":-1680,"y":-502,"width":231,"height":260},
-		{"id":"ba31ebf322a0cf78","x":-769,"y":-806,"width":310,"height":127,"type":"text","text":"If your intelligence modifier increases, make sure to become **trained in an additional skill** and **gain a new language**"},
-		{"id":"dff090c5ece96c8c","x":-769,"y":-939,"width":250,"height":82,"type":"text","text":"See the [[Level Up Checklist]] for more"},
-		{"id":"261c64091931ff67","x":-1409,"y":-889,"width":290,"height":178,"type":"text","text":"If your constitution modifier increases, this **retroactively improves all HP increases**, so if you went from +1 to +2, make sure to add a +1 to your HP for **every previous level**"},
-		{"id":"cb202561f6c886bd","x":-1089,"y":-889,"width":279,"height":210,"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing"},
-		{"id":"92b4740aad6e5a7e","x":-1229,"y":-969,"width":250,"height":60,"type":"text","text":"You gain a level every **1000 XP**"},
 		{"id":"f116faa3196c914f","x":-1169,"y":-506,"width":250,"height":60,"type":"text","text":"## Leveling Up"},
-		{"type":"text","text":"## Currency","id":"f81953593323817a","x":-577,"y":-373,"width":250,"height":60}
+		{"type":"text","text":"## Currency","id":"f81953593323817a","x":-577,"y":-373,"width":250,"height":60},
+		{"id":"261c64091931ff67","x":-1564,"y":-756,"width":290,"height":178,"type":"text","text":"If your constitution modifier increases, this **retroactively improves all HP increases**, so if you went from +1 to +2, make sure to add a +1 to your HP for **every previous level**"},
+		{"id":"92b4740aad6e5a7e","x":-1363,"y":-857,"width":250,"height":60,"type":"text","text":"You gain a level every **1000 XP**"},
+		{"id":"ba31ebf322a0cf78","x":-644,"y":-819,"width":310,"height":127,"type":"text","text":"If your intelligence modifier increases, make sure to become **trained in an additional skill** and **gain a new language**"},
+		{"id":"cb202561f6c886bd","x":-1083,"y":-939,"width":279,"height":210,"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing"},
+		{"id":"dff090c5ece96c8c","x":-787,"y":-916,"width":250,"height":82,"type":"text","text":"See the [[Level Up Checklist]] for more"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -119,8 +119,8 @@
 		{"id":"1fa9e9c2416b7cd1","fromNode":"fed95ebeb82f52c4","fromSide":"left","toNode":"f116faa3196c914f","toSide":"right"},
 		{"id":"0cdb113d3021f23a","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"92b4740aad6e5a7e","toSide":"bottom"},
 		{"id":"64f8f675bc4afdd1","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"cb202561f6c886bd","toSide":"bottom"},
-		{"id":"b40a318709aff827","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"261c64091931ff67","toSide":"bottom"},
-		{"id":"36569e157b109cca","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"ba31ebf322a0cf78","toSide":"bottom"},
+		{"id":"b40a318709aff827","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"261c64091931ff67","toSide":"right"},
+		{"id":"36569e157b109cca","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"ba31ebf322a0cf78","toSide":"left"},
 		{"id":"83335583441b881b","fromNode":"f116faa3196c914f","fromSide":"top","toNode":"dff090c5ece96c8c","toSide":"bottom"}
 	]
 }
