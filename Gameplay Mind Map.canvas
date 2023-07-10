@@ -25,16 +25,14 @@
 		{"type":"text","text":"Campaigns available at paizo.com","id":"3ee9de4312ecc0db","x":80,"y":-628,"width":250,"height":77},
 		{"type":"text","text":"## Leveling Up","id":"f116faa3196c914f","x":-1169,"y":-506,"width":250,"height":60},
 		{"type":"text","text":"If your constitution modifier increases, this **retroactively improves all HP increases**, so if you went from +1 to +2, make sure to add a +1 to your HP for **every previous level**","id":"261c64091931ff67","x":-1564,"y":-756,"width":290,"height":178},
-		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":364,"y":-20,"width":250,"height":60},
 		{"type":"text","text":"May need the bestiary, but monster stat blocks can also be found at paizo.com/prd","id":"80a41caee2637518","x":366,"y":-648,"width":300,"height":117},
 		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":353,"y":-297,"width":250,"height":74},
 		{"type":"text","text":"If your intelligence modifier increases, make sure to become **trained in an additional skill** and **gain a new language**","id":"ba31ebf322a0cf78","x":-644,"y":-819,"width":310,"height":127},
 		{"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing","id":"cb202561f6c886bd","x":-1083,"y":-939,"width":279,"height":210},
 		{"type":"text","text":"You gain a level every **1000 XP**","id":"92b4740aad6e5a7e","x":-1363,"y":-857,"width":250,"height":60},
 		{"type":"text","text":"Everything takes place in the **Age of Lost Omens** in canon","id":"ba6f414d0bec2037","x":500,"y":-187,"width":263,"height":111},
-		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":615,"y":66,"width":250,"height":95},
 		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":603,"y":411,"width":320,"height":118},
-		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll.","id":"8ce26d395e9b3052","x":763,"y":173,"width":259,"height":216},
+		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll, up to a maximum of **-10** beyond which attacks aren't possible.","id":"8ce26d395e9b3052","x":700,"y":140,"width":322,"height":249},
 		{"type":"text","text":"Armor can still be used, but there's an AC penalty when broken:\n* -1 for light armor\n* -2 for medium armor\n* -3 for heavy armor","id":"9657ec08577676c7","x":1160,"y":813,"width":250,"height":220},
 		{"type":"text","text":"Items have HP based on their material, or this will be called out for armor","id":"d832a098d1b34f2d","x":1167,"y":216,"width":281,"height":113},
 		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1167,"y":368,"width":304,"height":145},
@@ -86,7 +84,9 @@
 		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197},
 		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":-480,"y":1567,"width":250,"height":201},
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-480,"y":1377,"width":250,"height":153},
-		{"id":"9c7c2c1f7117440e","x":-263,"y":-386,"width":250,"height":105,"type":"text","text":"## Conditions\n\nSee [[Conditions Index]]"}
+		{"id":"9c7c2c1f7117440e","x":-263,"y":-386,"width":250,"height":105,"type":"text","text":"## Conditions\n\nSee [[Conditions Index]]"},
+		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":660,"y":10,"width":250,"height":95},
+		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":299,"y":-50,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
