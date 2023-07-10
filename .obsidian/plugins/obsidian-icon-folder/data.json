@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasBolt",
       "FasListCheck",
       "FasMap",
       "FasWandMagicSparkles",
-      "FasUserGroup",
-      "FasLocationDot"
+      "FasUserGroup"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,5 +29,6 @@
   "Spell Reference": "FasWandMagicSparkles",
   "Gameplay Mind Map.canvas": "FasMap",
   "Level Up Checklist.md": "FasListCheck",
-  "Character Creation.md": "FasUserGroup"
+  "Character Creation.md": "FasUserGroup",
+  "Conditions Index.md": "FasBolt"
 }

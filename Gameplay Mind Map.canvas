@@ -86,7 +86,7 @@
 		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197},
 		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":-480,"y":1567,"width":250,"height":201},
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-480,"y":1377,"width":250,"height":153},
-		{"id":"9c7c2c1f7117440e","x":-126,"y":-774,"width":250,"height":60,"type":"text","text":"## Conditions"}
+		{"id":"9c7c2c1f7117440e","x":-263,"y":-386,"width":250,"height":105,"type":"text","text":"## Conditions\n\nSee [[Conditions Index]]"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
