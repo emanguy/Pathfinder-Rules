@@ -88,7 +88,8 @@
 		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":700,"y":-271,"width":250,"height":60},
 		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1283,"y":-183,"width":255,"height":214},
 		{"id":"ba756d087d899385","x":1147,"y":83,"width":250,"height":60,"type":"text","text":"## Targeting"},
-		{"id":"ff1123c4cee46fb2","x":1635,"y":5,"width":250,"height":60,"type":"text","text":""}
+		{"id":"ff1123c4cee46fb2","x":1640,"y":-60,"width":245,"height":108,"type":"text","text":"A **burst** effect is like a sphere in D&D, going a certain distance in all directions"},
+		{"id":"cdd69ebf4917c7c7","x":1720,"y":55,"width":269,"height":88,"type":"text","text":"A **cone** is always a quarter-circle whose radius is as long as the cone length"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -162,6 +163,7 @@
 		{"id":"e0c75afb9212aae7","fromNode":"bf16b6aab7a30341","fromSide":"left","toNode":"8b156813ef78ac72","toSide":"right"},
 		{"id":"cf9ea27c8939cfe2","fromNode":"fed95ebeb82f52c4","fromSide":"top","toNode":"9c7c2c1f7117440e","toSide":"bottom"},
 		{"id":"8f238de86b09d0ca","fromNode":"154bdb7a918ba0a4","fromSide":"top","toNode":"ba756d087d899385","toSide":"left"},
-		{"id":"081bad0ae1e8371d","fromNode":"ba756d087d899385","fromSide":"right","toNode":"ff1123c4cee46fb2","toSide":"left"}
+		{"id":"081bad0ae1e8371d","fromNode":"ba756d087d899385","fromSide":"right","toNode":"ff1123c4cee46fb2","toSide":"left"},
+		{"id":"1cb349ff8ed4a262","fromNode":"ba756d087d899385","fromSide":"right","toNode":"cdd69ebf4917c7c7","toSide":"left"}
 	]
 }
