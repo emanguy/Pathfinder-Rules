@@ -97,7 +97,9 @@
 		{"id":"411a0f5e8f843805","x":-118,"y":-735,"width":250,"height":60,"type":"text","text":"## Afflictions"},
 		{"id":"8917e4ddd1e504bd","x":-407,"y":-1020,"width":250,"height":142,"type":"text","text":"**Critically failing** the saving throw on being exposed to an affliction will immediately advance you to stage 2"},
 		{"id":"28d61848d92cdc80","x":-138,"y":-1020,"width":250,"height":133,"type":"text","text":"Afflictions are things suffered from things like **disease, poison, or radiation**"},
-		{"id":"b9271b2431015f7d","x":52,"y":-963,"width":250,"height":60,"type":"text","text":"An affliction is composed of a **saving throw** followed by "}
+		{"id":"b9271b2431015f7d","x":150,"y":-1080,"width":314,"height":193,"type":"text","text":"An affliction is composed of a **saving throw** followed by multiple **stages of affliction**. There is a duration for each stage, and a max duration of the overall affliction."},
+		{"id":"4a987732db551b9a","x":553,"y":-1020,"width":294,"height":237,"type":"text","text":"After the **duration of the stage of affliction**, you must reroll the save. A **success** reduces the stage by 1, while a **critical success** reduces it by 2. The same applies for failures and critical failures in the opposite direction."},
+		{"id":"a19a092a0d157c6e","x":517,"y":-753,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -180,6 +182,8 @@
 		{"id":"af3fb1bdc8b2baea","fromNode":"9c7c2c1f7117440e","fromSide":"top","toNode":"411a0f5e8f843805","toSide":"bottom"},
 		{"id":"94c274b82fac2ad0","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"8917e4ddd1e504bd","toSide":"bottom"},
 		{"id":"e8bb7e0d78106a05","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"28d61848d92cdc80","toSide":"bottom"},
-		{"id":"3a01dc171d4ca4b4","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"b9271b2431015f7d","toSide":"bottom"}
+		{"id":"3a01dc171d4ca4b4","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"b9271b2431015f7d","toSide":"bottom"},
+		{"id":"4292ed315286574a","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"4a987732db551b9a","toSide":"left"},
+		{"id":"f6ee67e8b41470ed","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"a19a092a0d157c6e","toSide":"left"}
 	]
 }
