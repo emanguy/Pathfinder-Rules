@@ -60,7 +60,6 @@
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":897,"y":-136,"width":250,"height":95},
 		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":700,"y":-271,"width":250,"height":60},
 		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1283,"y":-183,"width":255,"height":214},
-		{"type":"text","text":"## Targeting","id":"ba756d087d899385","x":1147,"y":83,"width":250,"height":60},
 		{"type":"text","text":"**Ability Flaws** decrease ability scores by **2**, acting as the opposite of an **ability boost**","id":"79e1c603d5ab1226","x":-684,"y":-43,"width":294,"height":111},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":222,"y":1148,"width":250,"height":60},
 		{"type":"text","text":"Players start with **15 gp** initially to spend on equipment","id":"4f1de23f5a0600c5","x":-804,"y":-553,"width":250,"height":93},
@@ -88,10 +87,12 @@
 		{"type":"file","file":"obsidian_data/assets/Pf2e Statblock.jpg","id":"086ac9e3b8e3ddde","x":-1680,"y":-502,"width":231,"height":260},
 		{"type":"text","text":"### Reflex Save\n\nUsed when trying to dodge to avoid danger, like diving out of the way of a fireball","id":"2c1a6cbe9543fac7","x":-1840,"y":838,"width":250,"height":182},
 		{"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check","id":"acda5854ae5182ad","x":-1838,"y":76,"width":248,"height":124},
-		{"type":"text","text":"A **burst** effect is like a sphere in D&D, going a certain distance in all directions","id":"ff1123c4cee46fb2","x":1746,"y":-149,"width":245,"height":108},
-		{"type":"text","text":"A **cone** is always a quarter-circle whose radius is as long as the cone length. The rules seem to want you to only aim up/down/left/right or diagonally with cones, though this should be flexible","id":"cdd69ebf4917c7c7","x":1823,"y":-23,"width":280,"height":213},
-		{"type":"text","text":"**Lines** are self explanatory","id":"c5b4a6483ec25f78","x":1541,"y":130,"width":250,"height":60},
-		{"type":"text","text":"An **emanation** radiates from the edge of your token in all directions, so a 10 foot emanation will affect more area for a large creature than a medium creature","id":"02b107358f1719f8","x":1589,"y":231,"width":314,"height":137}
+		{"type":"text","text":"## Targeting","id":"ba756d087d899385","x":1416,"y":54,"width":250,"height":60},
+		{"type":"text","text":"A **burst** effect is like a sphere in D&D, going a certain distance in all directions","id":"ff1123c4cee46fb2","x":1945,"y":-123,"width":245,"height":108},
+		{"type":"text","text":"A **cone** is always a quarter-circle whose radius is as long as the cone length. The rules seem to want you to only aim up/down/left/right or diagonally with cones, though this should be flexible","id":"cdd69ebf4917c7c7","x":2022,"y":3,"width":280,"height":213},
+		{"type":"text","text":"**Lines** are self explanatory","id":"c5b4a6483ec25f78","x":1740,"y":156,"width":250,"height":60},
+		{"type":"text","text":"An **emanation** radiates from the edge of your token in all directions, so a 10 foot emanation will affect more area for a large creature than a medium creature","id":"02b107358f1719f8","x":1788,"y":257,"width":314,"height":137},
+		{"id":"5e92f9038423431c","x":1912,"y":-460,"width":250,"height":305,"type":"text","text":"### Line of Effect\n\nYou can only be affected by an area effect if there is a straight, open line between you and the effect's point of origin. A **1 foot square gap** is enough to establish line of effect."}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -168,6 +169,7 @@
 		{"id":"081bad0ae1e8371d","fromNode":"ba756d087d899385","fromSide":"right","toNode":"ff1123c4cee46fb2","toSide":"left"},
 		{"id":"1cb349ff8ed4a262","fromNode":"ba756d087d899385","fromSide":"right","toNode":"cdd69ebf4917c7c7","toSide":"left"},
 		{"id":"48266b643e771398","fromNode":"ba756d087d899385","fromSide":"right","toNode":"02b107358f1719f8","toSide":"left"},
-		{"id":"df88a17b87b20832","fromNode":"ba756d087d899385","fromSide":"right","toNode":"c5b4a6483ec25f78","toSide":"left"}
+		{"id":"df88a17b87b20832","fromNode":"ba756d087d899385","fromSide":"right","toNode":"c5b4a6483ec25f78","toSide":"left"},
+		{"id":"cdfe9541833c4b5f","fromNode":"ba756d087d899385","fromSide":"right","toNode":"5e92f9038423431c","toSide":"left"}
 	]
 }
