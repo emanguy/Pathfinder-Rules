@@ -100,7 +100,8 @@
 		{"id":"b9271b2431015f7d","x":16,"y":-1109,"width":314,"height":193,"type":"text","text":"An affliction is composed of a **saving throw** followed by multiple **stages of affliction**. There is a duration for each stage, and a max duration of the overall affliction."},
 		{"id":"4a987732db551b9a","x":260,"y":-1362,"width":294,"height":237,"type":"text","text":"After the **duration of the stage of affliction**, you must reroll the save. A **success** reduces the stage by 1, while a **critical success** reduces it by 2. The same applies for failures and critical failures in the opposite direction."},
 		{"id":"a19a092a0d157c6e","x":407,"y":-1054,"width":330,"height":116,"type":"text","text":"Being **exposed to a poison** more than once will cause another saving throw and potentially increase your stage"},
-		{"id":"30786f7859349a8a","x":600,"y":-911,"width":250,"height":60,"type":"text","text":"**Virulent infections** are harder to get rid of. They require 2 successful saving throws and **critical successes** only re"}
+		{"id":"30786f7859349a8a","x":600,"y":-911,"width":313,"height":156,"type":"text","text":"**Virulent afflictions** are harder to get rid of. They require 2 successful saving throws and **critical successes** only reduce the stage by 1."},
+		{"id":"23688d1341039a50","x":-459,"y":-1277,"width":250,"height":152,"type":"text","text":"**Conditions from afflictions** stay according to the rules of the condition, so they may outlast the affliction"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -186,6 +187,7 @@
 		{"id":"3a01dc171d4ca4b4","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"b9271b2431015f7d","toSide":"bottom"},
 		{"id":"4292ed315286574a","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"4a987732db551b9a","toSide":"bottom"},
 		{"id":"f6ee67e8b41470ed","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"a19a092a0d157c6e","toSide":"bottom"},
-		{"id":"7a07946ef721751c","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"30786f7859349a8a","toSide":"left"}
+		{"id":"7a07946ef721751c","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"30786f7859349a8a","toSide":"left"},
+		{"id":"c2daa3c89339a8e1","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"23688d1341039a50","toSide":"bottom"}
 	]
 }
