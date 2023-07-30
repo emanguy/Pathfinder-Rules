@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"type":"group","id":"36daed7121a34b22","x":-1280,"y":820,"width":732,"height":580,"label":"Attack Rolls"},
-		{"type":"group","id":"99f1a9a2af2efa21","x":-3120,"y":668,"width":918,"height":437,"label":"Counteract Checks"},
 		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":960,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2420,"y":180,"width":620,"height":440,"label":"DCs and Crits"},
+		{"type":"group","id":"99f1a9a2af2efa21","x":-2880,"y":668,"width":678,"height":392,"label":"Counteract Checks"},
 		{"type":"group","id":"ea5a402a1e848871","x":0,"y":760,"width":712,"height":245,"label":"Actions"},
 		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":845,"y":718,"width":320,"height":118},
 		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1561,"y":744,"width":304,"height":145},
@@ -94,18 +94,19 @@
 		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257},
 		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
 		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
-		{"type":"text","text":"### Reflex Save\n\nUsed when trying to dodge to avoid danger, like diving out of the way of a fireball","id":"2c1a6cbe9543fac7","x":-1840,"y":980,"width":250,"height":182},
 		{"type":"text","text":"### Will Save\n\nDefending against things that affect your mind, such as **charm** or **confusion** spells","id":"2e5b5b984ff02945","x":-1580,"y":980,"width":250,"height":182},
-		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-1887,"y":1192,"width":344,"height":214},
-		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2136,"y":193,"width":294,"height":144},
 		{"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check","id":"acda5854ae5182ad","x":-1760,"y":86,"width":248,"height":124},
 		{"type":"text","text":"### Fortitude Save\n\nUsed when health or vitality are under attack like with poison or disease","id":"f070c1004884e410","x":-2120,"y":980,"width":262,"height":182},
 		{"type":"text","text":"Beating or rolling under the DC by 10 will **cause critical success or critical failure**, respectively for checks","id":"96818109aa05adf1","x":-2379,"y":200,"width":213,"height":224},
 		{"type":"text","text":"**Crit success (critical hit)** doubles your damage on an attack","id":"b74657bcd3d6e5b2","x":-2136,"y":353,"width":264,"height":96},
 		{"type":"text","text":"Rolling a nat 20 to hit is an automatic critical success (critical hit)","id":"b34d011a6414181e","x":-2136,"y":461,"width":220,"height":139},
-		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-2784,"y":680,"width":313,"height":255},
-		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-2460,"y":680,"width":250,"height":128},
-		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[Level-based DC table]]","id":"e50990108915a478","x":-3100,"y":680,"width":290,"height":180}
+		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2136,"y":193,"width":294,"height":144},
+		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-1887,"y":1192,"width":344,"height":214},
+		{"type":"text","text":"### Reflex Save\n\nUsed when trying to dodge to avoid danger, like diving out of the way of a fireball","id":"2c1a6cbe9543fac7","x":-1840,"y":980,"width":250,"height":182},
+		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[Level-based DC table]]","id":"e50990108915a478","x":-2851,"y":680,"width":290,"height":180},
+		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-2535,"y":680,"width":313,"height":255},
+		{"id":"2a1d7d059e0696cf","x":-2851,"y":880,"width":290,"height":157,"type":"text","text":"The **counteract modifier** is the spellcasting modifier of the caster if it's a spell, otherwise the modifier could be outlined in the effect of an item"},
+		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-2535,"y":943,"width":313,"height":94}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
