@@ -104,7 +104,7 @@
 		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
 		{"id":"89df4f771569d48e","x":-769,"y":-1072,"width":250,"height":60,"type":"text","text":"## Counteracting"},
 		{"id":"27a531841c5f131d","x":-980,"y":-1264,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"},
-		{"id":"d91e9068ef4ebb00","x":-747,"y":-1283,"width":250,"height":60,"type":"text","text":"The DC for the counteract check varies:\n* For **afflictions** the DC is listed in the affliction block\n* For **spells** use the caster's DC\n* "}
+		{"id":"d91e9068ef4ebb00","x":-747,"y":-1283,"width":250,"height":60,"type":"text","text":"The DC for the counteract check varies:\n* For **afflictions** the DC is listed in the affliction block\n* For **spells** use the caster's DC or the spell's counteract level"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
