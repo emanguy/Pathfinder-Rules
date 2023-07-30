@@ -105,7 +105,7 @@
 		{"type":"text","text":"Rolling a nat 20 to hit is an automatic critical success (critical hit)","id":"b34d011a6414181e","x":-2136,"y":461,"width":220,"height":139},
 		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-2784,"y":680,"width":313,"height":255},
 		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-2460,"y":680,"width":250,"height":128},
-		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect.","id":"e50990108915a478","x":-3187,"y":704,"width":250,"height":156}
+		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[Level-based DC table]]","id":"e50990108915a478","x":-3100,"y":680,"width":290,"height":180}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
