@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"type":"group","id":"36daed7121a34b22","x":-1280,"y":820,"width":732,"height":580,"label":"Attack Rolls"},
-		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":818,"width":830,"height":482,"label":"Saving Throws"},
+		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":960,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2380,"y":320,"width":620,"height":440,"label":"DCs and Crits"},
 		{"type":"group","id":"ea5a402a1e848871","x":0,"y":760,"width":712,"height":245,"label":"Actions"},
 		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":845,"y":718,"width":320,"height":118},
@@ -69,12 +69,8 @@
 		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1302,"y":621,"width":250,"height":141},
 		{"type":"text","text":"Different levels of **proficiency**:\n* Untrained - +0\n* Trained - Character level + 2\n* Expert - Character level + 4\n* Master - Character level + 6\n* Legendary - Character level + 8","id":"57e77a3188b0eff6","x":-1408,"y":-322,"width":340,"height":217},
 		{"type":"text","text":"The GM may roll **secret checks** for you, using your skill bonus behind the screen. You will not know what was rolled or the DC, but you will likely know the outcome","id":"9ecc1f329545197f","x":-1489,"y":148,"width":338,"height":148},
-		{"type":"text","text":"### Will Save\n\nDefending against things that affect your mind, such as **charm** or **confusion** spells","id":"2e5b5b984ff02945","x":-1580,"y":838,"width":250,"height":182},
 		{"type":"file","file":"obsidian_data/assets/Pf2e Statblock.jpg","id":"086ac9e3b8e3ddde","x":-1680,"y":-502,"width":231,"height":260},
-		{"type":"text","text":"### Reflex Save\n\nUsed when trying to dodge to avoid danger, like diving out of the way of a fireball","id":"2c1a6cbe9543fac7","x":-1840,"y":838,"width":250,"height":182},
 		{"type":"text","text":"**Flat checks** are just a d20 roll with no modifiers, like a D&D luck check","id":"acda5854ae5182ad","x":-1838,"y":76,"width":248,"height":124},
-		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-1887,"y":1050,"width":344,"height":214},
-		{"type":"text","text":"### Fortitude Save\n\nUsed when health or vitality are under attack like with poison or disease","id":"f070c1004884e410","x":-2120,"y":838,"width":262,"height":182},
 		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2096,"y":333,"width":294,"height":144},
 		{"type":"text","text":"**Crit success (critical hit)** doubles your damage on an attack","id":"b74657bcd3d6e5b2","x":-2096,"y":493,"width":264,"height":96},
 		{"type":"text","text":"Rolling a nat 20 to hit is an automatic critical success (critical hit)","id":"b34d011a6414181e","x":-2096,"y":601,"width":220,"height":139},
@@ -103,8 +99,12 @@
 		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
 		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
 		{"id":"89df4f771569d48e","x":-769,"y":-1072,"width":250,"height":60,"type":"text","text":"## Counteracting"},
-		{"id":"27a531841c5f131d","x":-980,"y":-1264,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"},
-		{"id":"d91e9068ef4ebb00","x":-747,"y":-1283,"width":250,"height":60,"type":"text","text":"The DC for the counteract check varies:\n* For **afflictions** the DC is listed in the affliction block\n* For **spells** use the caster's DC or the spell's counteract level"}
+		{"id":"27a531841c5f131d","x":-1193,"y":-1072,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"},
+		{"id":"d91e9068ef4ebb00","x":-1100,"y":-1380,"width":313,"height":255,"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**"},
+		{"type":"text","text":"### Fortitude Save\n\nUsed when health or vitality are under attack like with poison or disease","id":"f070c1004884e410","x":-2120,"y":980,"width":262,"height":182},
+		{"type":"text","text":"### Reflex Save\n\nUsed when trying to dodge to avoid danger, like diving out of the way of a fireball","id":"2c1a6cbe9543fac7","x":-1840,"y":980,"width":250,"height":182},
+		{"type":"text","text":"### Will Save\n\nDefending against things that affect your mind, such as **charm** or **confusion** spells","id":"2e5b5b984ff02945","x":-1580,"y":980,"width":250,"height":182},
+		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-1887,"y":1192,"width":344,"height":214}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -192,8 +192,7 @@
 		{"id":"f6ee67e8b41470ed","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"a19a092a0d157c6e","toSide":"bottom"},
 		{"id":"7a07946ef721751c","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"30786f7859349a8a","toSide":"left"},
 		{"id":"c2daa3c89339a8e1","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"23688d1341039a50","toSide":"bottom"},
-		{"id":"51bed365995d45ff","fromNode":"9c7c2c1f7117440e","fromSide":"top","toNode":"89df4f771569d48e","toSide":"right"},
-		{"id":"1093b7529be4d5f9","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"27a531841c5f131d","toSide":"bottom"},
-		{"id":"d02a831519597e67","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"d91e9068ef4ebb00","toSide":"bottom"}
+		{"id":"1093b7529be4d5f9","fromNode":"89df4f771569d48e","fromSide":"left","toNode":"27a531841c5f131d","toSide":"right"},
+		{"id":"d02a831519597e67","fromNode":"89df4f771569d48e","fromSide":"left","toNode":"d91e9068ef4ebb00","toSide":"bottom"}
 	]
 }
