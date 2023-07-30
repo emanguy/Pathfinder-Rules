@@ -102,8 +102,9 @@
 		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257},
 		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
 		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
-		{"id":"89df4f771569d48e","x":-614,"y":-1056,"width":250,"height":60,"type":"text","text":"## Counteracting"},
-		{"id":"27a531841c5f131d","x":-776,"y":-1286,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"}
+		{"id":"89df4f771569d48e","x":-769,"y":-1072,"width":250,"height":60,"type":"text","text":"## Counteracting"},
+		{"id":"27a531841c5f131d","x":-980,"y":-1264,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"},
+		{"id":"d91e9068ef4ebb00","x":-747,"y":-1283,"width":250,"height":60,"type":"text","text":"The DC for the counteract check varies:\n* For **afflictions** the DC is listed in the affliction block\n* For **spells** use the caster's DC\n* "}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -191,7 +192,8 @@
 		{"id":"f6ee67e8b41470ed","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"a19a092a0d157c6e","toSide":"bottom"},
 		{"id":"7a07946ef721751c","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"30786f7859349a8a","toSide":"left"},
 		{"id":"c2daa3c89339a8e1","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"23688d1341039a50","toSide":"bottom"},
-		{"id":"51bed365995d45ff","fromNode":"9c7c2c1f7117440e","fromSide":"top","toNode":"89df4f771569d48e","toSide":"bottom"},
-		{"id":"1093b7529be4d5f9","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"27a531841c5f131d","toSide":"bottom"}
+		{"id":"51bed365995d45ff","fromNode":"9c7c2c1f7117440e","fromSide":"top","toNode":"89df4f771569d48e","toSide":"right"},
+		{"id":"1093b7529be4d5f9","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"27a531841c5f131d","toSide":"bottom"},
+		{"id":"d02a831519597e67","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"d91e9068ef4ebb00","toSide":"bottom"}
 	]
 }
