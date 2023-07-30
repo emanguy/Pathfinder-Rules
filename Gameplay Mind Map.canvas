@@ -4,13 +4,6 @@
 		{"type":"group","id":"60679394a6e34b7b","x":-2140,"y":818,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2380,"y":320,"width":620,"height":440,"label":"DCs and Crits"},
 		{"type":"group","id":"ea5a402a1e848871","x":0,"y":760,"width":712,"height":245,"label":"Actions"},
-		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
-		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257},
-		{"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them","id":"a644040da8a177ab","x":-760,"y":1923,"width":250,"height":145},
-		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":520,"y":1513,"width":440,"height":275},
-		{"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)","id":"d0a2d97e0c5df40a","x":152,"y":1720,"width":250,"height":214},
-		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197},
-		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
 		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":845,"y":718,"width":320,"height":118},
 		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1561,"y":744,"width":304,"height":145},
 		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1561,"y":915,"width":259,"height":152},
@@ -101,7 +94,16 @@
 		{"id":"4a987732db551b9a","x":260,"y":-1362,"width":294,"height":237,"type":"text","text":"After the **duration of the stage of affliction**, you must reroll the save. A **success** reduces the stage by 1, while a **critical success** reduces it by 2. The same applies for failures and critical failures in the opposite direction."},
 		{"id":"a19a092a0d157c6e","x":407,"y":-1054,"width":330,"height":116,"type":"text","text":"Being **exposed to a poison** more than once will cause another saving throw and potentially increase your stage"},
 		{"id":"30786f7859349a8a","x":600,"y":-911,"width":313,"height":156,"type":"text","text":"**Virulent afflictions** are harder to get rid of. They require 2 successful saving throws and **critical successes** only reduce the stage by 1."},
-		{"id":"23688d1341039a50","x":-459,"y":-1277,"width":250,"height":152,"type":"text","text":"**Conditions from afflictions** stay according to the rules of the condition, so they may outlast the affliction"}
+		{"id":"23688d1341039a50","x":-459,"y":-1277,"width":250,"height":152,"type":"text","text":"**Conditions from afflictions** stay according to the rules of the condition, so they may outlast the affliction"},
+		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":520,"y":1513,"width":440,"height":275},
+		{"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)","id":"d0a2d97e0c5df40a","x":152,"y":1720,"width":250,"height":214},
+		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-760,"y":1720,"width":250,"height":197},
+		{"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them","id":"a644040da8a177ab","x":-760,"y":1923,"width":250,"height":145},
+		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":-170,"y":1963,"width":300,"height":257},
+		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-480,"y":2043,"width":250,"height":177},
+		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":149,"y":1995,"width":331,"height":225},
+		{"id":"89df4f771569d48e","x":-614,"y":-1056,"width":250,"height":60,"type":"text","text":"## Counteracting"},
+		{"id":"27a531841c5f131d","x":-776,"y":-1286,"width":250,"height":89,"type":"text","text":"Some actions can counteract **afflictions, effects, and spells**"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -188,6 +190,8 @@
 		{"id":"4292ed315286574a","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"4a987732db551b9a","toSide":"bottom"},
 		{"id":"f6ee67e8b41470ed","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"a19a092a0d157c6e","toSide":"bottom"},
 		{"id":"7a07946ef721751c","fromNode":"411a0f5e8f843805","fromSide":"right","toNode":"30786f7859349a8a","toSide":"left"},
-		{"id":"c2daa3c89339a8e1","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"23688d1341039a50","toSide":"bottom"}
+		{"id":"c2daa3c89339a8e1","fromNode":"411a0f5e8f843805","fromSide":"top","toNode":"23688d1341039a50","toSide":"bottom"},
+		{"id":"51bed365995d45ff","fromNode":"9c7c2c1f7117440e","fromSide":"top","toNode":"89df4f771569d48e","toSide":"bottom"},
+		{"id":"1093b7529be4d5f9","fromNode":"89df4f771569d48e","fromSide":"top","toNode":"27a531841c5f131d","toSide":"bottom"}
 	]
 }
