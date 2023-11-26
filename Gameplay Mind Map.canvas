@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"a39aba164a8d645b","type":"group","x":-2562,"y":1480,"width":972,"height":760,"label":"0 HP"},
+		{"id":"a39aba164a8d645b","type":"group","x":-2640,"y":1480,"width":972,"height":760,"label":"0 HP"},
 		{"type":"group","id":"99f1a9a2af2efa21","x":-3160,"y":451,"width":678,"height":738,"label":"Counteract Checks"},
 		{"type":"group","id":"36daed7121a34b22","x":-1560,"y":760,"width":732,"height":580,"label":"Attack Rolls"},
 		{"type":"group","id":"60679394a6e34b7b","x":-2420,"y":948,"width":830,"height":482,"label":"Saving Throws"},
@@ -106,22 +106,23 @@
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":-417,"y":1377,"width":250,"height":153},
 		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":-700,"y":1500,"width":250,"height":201},
 		{"id":"f79d8fa0004c873f","x":-700,"y":1123,"width":520,"height":194,"type":"text","text":"### Heroic Recovery\nWhen you're about to make a **recovery check** or increase your [[Dying]] level, you can spend **all of your hero points to recover**. Doing this causes you to **not increase your wounded level** but if you already had [[Wounded]] the level would stay the same. You stabilize at 0HP."},
-		{"id":"aa37ddbd9ac375de","type":"text","text":"When **PCs, significant villains, or creatures that have abilities that might bring them back to 1HP** hit 0, they're at risk of death but not dead","x":-2542,"y":1507,"width":262,"height":165},
-		{"id":"99c0cc44c09d1771","type":"text","text":"If you **take damage while dying**, increase your [[Dying]] level by 1, or 2 if it's the result of a crit success from an enemy or your own crit failure. You add your [[Wounded]] level as well.","x":-2262,"y":1507,"width":257,"height":240},
-		{"id":"d80fbeb4ad4ee0eb","type":"text","text":"When you hit 0, the following happens:\n1. You move your initiative to the turn immediately before the one where you were reduced to 0HP\n2. You gain the [[Dying]] 1 condition, or Dying 2 if you were felled via the enemy's critical success or your own critical failure\n\t1. If you have [[Wounded]], increase your Dying level by an amount equal to your Wounded level","x":-1986,"y":1507,"width":368,"height":333},
-		{"id":"7bb2f0d7c9c9d12d","type":"text","text":"If you hit 0 via a nonlethal attack, you are [[Unconscious]] with 0 HP.","x":-2542,"y":1691,"width":262,"height":113},
-		{"id":"ff9645bf5c3bada6","x":-2542,"y":1820,"width":262,"height":168,"type":"text","text":"If you **die**, you're reduced to 0 HP if you previously had more and for all intents and purposes you are an **object**."},
-		{"id":"40709613c28fc015","type":"text","text":"On your turn you can make a **recovery check** to try to recover from [[Dying]]. The **DC is 10 + your dying level**. These are the effects of your rolls:\n* **Crit success** reduces your dying value by 2\n* **Success** reduces your dying value by 1\n* **Failure** increases your dying value by 1\n* **Crit failure** increases your dying value by 2","x":-1986,"y":1862,"width":368,"height":358},
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-547,"y":713,"width":250,"height":56},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-180,"y":440,"width":250,"height":87},
 		{"type":"text","text":"## Hero Points","id":"764fb3964bb20fab","x":-305,"y":918,"width":250,"height":60},
 		{"type":"text","text":"## Damage","id":"bf16b6aab7a30341","x":-140,"y":1676,"width":167,"height":50},
 		{"type":"text","text":"You begin each session with at least **1 hero point**","id":"8d24967389500e59","x":-108,"y":1064,"width":250,"height":84},
 		{"id":"bf67b36202cb1c40","type":"text","text":"## HP and Dying","x":-1145,"y":1394,"width":250,"height":60},
-		{"id":"5ebb81f9767cd271","x":-1560,"y":1377,"width":250,"height":133,"type":"text","text":"If you ever take **twice your max HP or more damage with a single attack** you die instantly"},
-		{"id":"cb4a0e9bbb52a839","x":-1560,"y":1540,"width":320,"height":180,"type":"text","text":"Some effects have the **death trait**. This means if you drop to 0 HP as a result of the effect you instantly die. Some effects may also say they kill you outright, which also instakills you"},
-		{"id":"63f811d28496eba6","x":-1560,"y":1878,"width":390,"height":342,"type":"text","text":"### Temp HP\nTracked separately from normal HP and are reduced first, before normal HP.\n\nThey usually have a duration and can only come from one source at a time. They **cannot be increased via healing**.\n\nIf you get more from another source, you can choose to get rid of your old temp HP or keep the current temp HP and refuse the new one.\n\n\n"},
-		{"id":"e77833660abf9962","x":-1145,"y":1638,"width":340,"height":382,"type":"text","text":"### Regeneration\n\nA creature with regeneration regenerates HP at the beginning of its turn. While the regeneration is active, **it cannot hit a dying level that would kill it**.\n\nIf the creature takes a damage type listed in its regeneration entry, its regeneration is deactivated **before applying the damage** so that the creature can be killed via that damage type."}
+		{"id":"aa37ddbd9ac375de","type":"text","text":"When **PCs, significant villains, or creatures that have abilities that might bring them back to 1HP** hit 0, they're at risk of death but not dead","x":-2620,"y":1507,"width":262,"height":165},
+		{"id":"99c0cc44c09d1771","type":"text","text":"If you **take damage while dying**, increase your [[Dying]] level by 1, or 2 if it's the result of a crit success from an enemy or your own crit failure. You add your [[Wounded]] level as well.","x":-2340,"y":1507,"width":257,"height":240},
+		{"id":"d80fbeb4ad4ee0eb","type":"text","text":"When you hit 0, the following happens:\n1. You move your initiative to the turn immediately before the one where you were reduced to 0HP\n2. You gain the [[Dying]] 1 condition, or Dying 2 if you were felled via the enemy's critical success or your own critical failure\n\t1. If you have [[Wounded]], increase your Dying level by an amount equal to your Wounded level","x":-2064,"y":1507,"width":368,"height":333},
+		{"id":"7bb2f0d7c9c9d12d","type":"text","text":"If you hit 0 via a nonlethal attack, you are [[Unconscious]] with 0 HP.","x":-2620,"y":1691,"width":262,"height":113},
+		{"id":"ff9645bf5c3bada6","x":-2620,"y":1820,"width":262,"height":168,"type":"text","text":"If you **die**, you're reduced to 0 HP if you previously had more and for all intents and purposes you are an **object**."},
+		{"id":"40709613c28fc015","type":"text","text":"On your turn you can make a **recovery check** to try to recover from [[Dying]]. The **DC is 10 + your dying level**. These are the effects of your rolls:\n* **Crit success** reduces your dying value by 2\n* **Success** reduces your dying value by 1\n* **Failure** increases your dying value by 1\n* **Crit failure** increases your dying value by 2","x":-2064,"y":1862,"width":368,"height":358},
+		{"id":"e77833660abf9962","x":-1230,"y":1960,"width":340,"height":382,"type":"text","text":"### Regeneration\n\nA creature with regeneration regenerates HP at the beginning of its turn. While the regeneration is active, **it cannot hit a dying level that would kill it**.\n\nIf the creature takes a damage type listed in its regeneration entry, its regeneration is deactivated **before applying the damage** so that the creature can be killed via that damage type."},
+		{"id":"28bdf41d068a920b","x":-1020,"y":1601,"width":250,"height":341,"type":"text","text":"### Item HP\n\nItems have HP based on their material, including a **hardness value** which reduces incoming damage by that value.\n\nSee the \"item breakage\" section of the mind map for more info on broken items and destroyed items.\n\n"},
+		{"id":"63f811d28496eba6","x":-1640,"y":1923,"width":390,"height":342,"type":"text","text":"### Temp HP\nTracked separately from normal HP and are reduced first, before normal HP.\n\nThey usually have a duration and can only come from one source at a time. They **cannot be increased via healing**.\n\nIf you get more from another source, you can choose to get rid of your old temp HP or keep the current temp HP and refuse the new one.\n\n\n"},
+		{"id":"cb4a0e9bbb52a839","x":-1640,"y":1611,"width":320,"height":180,"type":"text","text":"Some effects have the **death trait**. This means if you drop to 0 HP as a result of the effect you instantly die. Some effects may also say they kill you outright, which also instakills you"},
+		{"id":"5ebb81f9767cd271","x":-1640,"y":1454,"width":250,"height":133,"type":"text","text":"If you ever take **twice your max HP or more damage with a single attack** you die instantly"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -216,6 +217,7 @@
 		{"id":"a39e8c89aa7e0911","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"cb4a0e9bbb52a839","toSide":"right"},
 		{"id":"db231f8268f3685d","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"5ebb81f9767cd271","toSide":"right"},
 		{"id":"5e60449e91c8da14","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"63f811d28496eba6","toSide":"top"},
-		{"id":"9518a9d92b2f3dea","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"e77833660abf9962","toSide":"top"}
+		{"id":"9518a9d92b2f3dea","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"e77833660abf9962","toSide":"top"},
+		{"id":"007b85ae7daa46fd","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"28bdf41d068a920b","toSide":"top"}
 	]
 }
