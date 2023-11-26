@@ -2,7 +2,8 @@
 	"nodes":[
 		{"type":"group","id":"99f1a9a2af2efa21","x":-3160,"y":451,"width":678,"height":738,"label":"Counteract Checks"},
 		{"type":"group","id":"36daed7121a34b22","x":-1560,"y":760,"width":732,"height":580,"label":"Attack Rolls"},
-		{"id":"a39aba164a8d645b","x":-1560,"y":1368,"width":755,"height":549,"type":"group","label":"0 HP"},
+		{"id":"a39aba164a8d645b","x":-1560,"y":1380,"width":755,"height":549,"type":"group","label":"0 HP"},
+		{"id":"a63121aec15f72eb","type":"group","x":-1560,"y":1380,"width":755,"height":549,"label":"0 HP"},
 		{"type":"group","id":"60679394a6e34b7b","x":-2420,"y":948,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2420,"y":180,"width":620,"height":440,"label":"DCs and Crits"},
 		{"type":"group","id":"ea5a402a1e848871","x":0,"y":760,"width":712,"height":245,"label":"Actions"},
@@ -113,7 +114,10 @@
 		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1449,"y":539,"width":250,"height":141},
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-1020,"y":539,"width":320,"height":174},
 		{"id":"bf67b36202cb1c40","x":-733,"y":989,"width":250,"height":60,"type":"text","text":"## HP and Dying"},
-		{"id":"2b67d56805427f6c","x":-1522,"y":1395,"width":262,"height":165,"type":"text","text":"When **PCs, significant villains, or creatures that have abilities that might bring them back to 1HP hit 0, they're at risk of death but not dead"}
+		{"id":"2b67d56805427f6c","x":-1522,"y":1407,"width":262,"height":165,"type":"text","text":"When **PCs, significant villains, or creatures that have abilities that might bring them back to 1HP** hit 0, they're at risk of death but not dead"},
+		{"id":"aa37ddbd9ac375de","type":"text","text":"When **PCs, significant villains, or creatures that have abilities that might bring them back to 1HP** hit 0, they're at risk of death but not dead","x":-1522,"y":1407,"width":262,"height":165},
+		{"id":"d80fbeb4ad4ee0eb","x":-1216,"y":1407,"width":368,"height":333,"type":"text","text":"When you hit 0, the following happens:\n1. You move your initiative to the turn immediately before the one where you were reduced to 0HP\n2. You gain the [[Dying]] 1 condition, or Dying 2 if you were felled via the enemy's critical success or your own critical failure\n\t1. If you have [[Wounded]], increase your Dying level by an amount equal to your Wounded level"},
+		{"id":"7bb2f0d7c9c9d12d","x":-1514,"y":1590,"width":244,"height":94,"type":"text","text":"If you hit 0 via a nonlethal attack, you are [[Unconscious]] with 0 HP."}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
