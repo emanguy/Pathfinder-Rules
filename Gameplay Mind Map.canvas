@@ -120,7 +120,8 @@
 		{"id":"bf67b36202cb1c40","type":"text","text":"## HP and Dying","x":-1145,"y":1394,"width":250,"height":60},
 		{"id":"5ebb81f9767cd271","x":-1560,"y":1377,"width":250,"height":133,"type":"text","text":"If you ever take **twice your max HP or more damage with a single attack** you die instantly"},
 		{"id":"cb4a0e9bbb52a839","x":-1560,"y":1540,"width":320,"height":180,"type":"text","text":"Some effects have the **death trait**. This means if you drop to 0 HP as a result of the effect you instantly die. Some effects may also say they kill you outright, which also instakills you"},
-		{"id":"63f811d28496eba6","x":-1560,"y":1878,"width":390,"height":322,"type":"text","text":"**Temporary HP** are tracked separately from normal HP and are reduced first, before normal HP.\n\nThey usually have a duration and can only come from one source at a time. They **cannot be increased via healing**.\n\nIf you get more from another source, you can choose to get rid of your old temp HP or keep the current temp HP and refuse the new one.\n\n\n"}
+		{"id":"63f811d28496eba6","x":-1560,"y":1878,"width":390,"height":342,"type":"text","text":"### Temp HP\nTracked separately from normal HP and are reduced first, before normal HP.\n\nThey usually have a duration and can only come from one source at a time. They **cannot be increased via healing**.\n\nIf you get more from another source, you can choose to get rid of your old temp HP or keep the current temp HP and refuse the new one.\n\n\n"},
+		{"id":"e77833660abf9962","x":-1145,"y":1638,"width":340,"height":224,"type":"text","text":"### Regeneration\n\nA creature with regeneration regenerates HP at the beginning of its turn. While the regeneration is active, **it cannot hit a dying level that would kill it**.\n\nIf the creature takes a damage type listed in its regeneration entry, "}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
@@ -214,6 +215,7 @@
 		{"id":"2e51c4d5e221db90","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"f79d8fa0004c873f","toSide":"right"},
 		{"id":"a39e8c89aa7e0911","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"cb4a0e9bbb52a839","toSide":"right"},
 		{"id":"db231f8268f3685d","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"5ebb81f9767cd271","toSide":"right"},
-		{"id":"5e60449e91c8da14","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"63f811d28496eba6","toSide":"top"}
+		{"id":"5e60449e91c8da14","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"63f811d28496eba6","toSide":"top"},
+		{"id":"9518a9d92b2f3dea","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"e77833660abf9962","toSide":"top"}
 	]
 }
