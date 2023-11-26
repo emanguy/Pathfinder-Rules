@@ -14,3 +14,4 @@
 	* You wake up if someone shakes you awake via an interact action
 	* You wake up if loud noise is being made around you
 		* If this is the case, you make a **perception check** to see if you wake up. The **DC is 5 for a battle**, otherwise use a creature's **stealth DC** if they're trying to be sneaky
+	* If you're just asleep, the DM can determine if something wakes you without using the loud noise rules
