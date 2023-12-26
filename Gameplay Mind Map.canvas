@@ -119,13 +119,13 @@
 		{"type":"text","text":"### Strike\n* **1 action**\n* Roll to attack against a creature, using their AC\n* Add proficiency and ability scores to the roll\n* Performing more than one on the same turn incurs penalties:\n\t* **-5 to hit** on the second attack\n\t* **-10 to hit** on the third attack","id":"cffecfd8216ba0e2","x":1411,"y":1607,"width":345,"height":327},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":993,"y":1683,"width":272,"height":52},
 		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":837,"y":1833,"width":258,"height":129},
-		{"id":"daf85e4c9068214a","x":535,"y":1290,"width":381,"height":125,"type":"text","text":"Activities may ask you to use specific actions within them - you **don't need to spend additional actions for these \"subordinate actions\"**"},
-		{"type":"text","text":"There are **activities** you can perform which may take more than one action","id":"2568b660df4057c5","x":609,"y":1172,"width":307,"height":105},
-		{"id":"c3ae602106f28194","x":593,"y":1022,"width":323,"height":129,"type":"text","text":"Some activities have the **exploration or downtime traits** to signify they can only be used during those times"},
-		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":251,"y":1298,"width":263,"height":117},
-		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":264,"y":1121,"width":250,"height":60},
-		{"type":"text","text":"You can use **one reaction** in a round","id":"19e9b2afffa52edb","x":294,"y":1204,"width":220,"height":73},
-		{"id":"2694875ff4448e9a","x":262,"y":870,"width":583,"height":139,"type":"text","text":"You can only use one action/activity/free action without a trigger at a time - if an activity says you dash twice and strike, you can't slip another action in the middle or rearrange the order of the actions. You can, however, use free actions or reactions with a trigger in the middle of another action."}
+		{"type":"text","text":"There are **activities** you can perform which may take more than one action","id":"2568b660df4057c5","x":560,"y":1172,"width":367,"height":105},
+		{"id":"c3ae602106f28194","x":560,"y":1022,"width":367,"height":129,"type":"text","text":"Some activities have the **exploration or downtime traits** to signify they can only be used during those times"},
+		{"id":"2694875ff4448e9a","x":279,"y":869,"width":648,"height":139,"type":"text","text":"You can only use **one action/activity/free action without a trigger at a time** - if an activity says you dash twice and strike, you can't slip another action in the middle or rearrange the order of the actions. You can, however, use free actions or reactions with a trigger in the middle of another action."},
+		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":279,"y":1022,"width":250,"height":60},
+		{"type":"text","text":"You can use **one reaction** in a round","id":"19e9b2afffa52edb","x":294,"y":1099,"width":220,"height":73},
+		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":266,"y":1200,"width":263,"height":117},
+		{"id":"daf85e4c9068214a","x":560,"y":1300,"width":367,"height":125,"type":"text","text":"Activities may ask you to use specific actions within them - you **don't need to spend additional actions for these \"subordinate actions\"**"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
