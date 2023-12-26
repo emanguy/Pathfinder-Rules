@@ -44,7 +44,6 @@
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-1020,"y":539,"width":320,"height":174},
 		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-1241,"y":419,"width":265,"height":60},
 		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll, up to a maximum of **-10** beyond which attacks aren't possible.","id":"8ce26d395e9b3052","x":843,"y":410,"width":322,"height":249},
-		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":275,"y":410,"width":250,"height":60},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-180,"y":440,"width":250,"height":87},
 		{"type":"text","text":"**Fortune effects**, which may allow you to do things like reroll dice, can only be applied once per roll","id":"c2c4cbbd2261ae6a","x":-1087,"y":170,"width":274,"height":126},
 		{"type":"text","text":"When dealing with **more than one multiplier**, just add the multipliers together, subtracting one for each multiplier after the first (so two x2 bonuses become an x3 (2 + 2 - 1))","id":"d3f53f96751d4887","x":-755,"y":131,"width":294,"height":188},
@@ -54,7 +53,6 @@
 		{"type":"text","text":"## Gear and Weapons","id":"154bdb7a918ba0a4","x":182,"y":204,"width":318,"height":68},
 		{"type":"text","text":"## Targeting","id":"ba756d087d899385","x":1167,"y":296,"width":250,"height":60},
 		{"type":"text","text":"You begin each session with at least **1 hero point**","id":"8d24967389500e59","x":-86,"y":1158,"width":250,"height":84},
-		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":275,"y":527,"width":276,"height":91},
 		{"type":"text","text":"A broken item still incurs the penalties for carrying it","id":"954687baaa5534d1","x":1273,"y":1033,"width":250,"height":89},
 		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1561,"y":744,"width":304,"height":145},
 		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1561,"y":915,"width":259,"height":152},
@@ -136,8 +134,11 @@
 		{"id":"47628e4bb13be872","x":1216,"y":-1024,"width":250,"height":60,"type":"text","text":"## Falling"},
 		{"id":"6de1469e0388ff65","x":1631,"y":-1102,"width":308,"height":157,"type":"text","text":"Falling **into a soft substance** like water or snow allows you to treat the fall as if it were **20 feet shorter** or **30 feet shorter** if you fell into it intentionally."},
 		{"id":"fca6547f9ce80a87","x":1624,"y":-1249,"width":277,"height":117,"type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter."},
-		{"id":"fc97f78f6af35997","x":1341,"y":-1620,"width":444,"height":343,"type":"text","text":" ### Falling on a creature\n\nLanding on a creature after a long fall is nearly impossible, but the creature rolls a **reflex save** to determine how much damage they take if you do fall on them.\n\n* On a **critical success** they take no damage\n* On a **success** they take 1/4 the damage you took during the fall\n* On a **failure** they take 1/2 the damage you took during the fall\n* On a **critical failure** they take the full damage you took during the fall."},
-		{"id":"f02d31083b9307a8","x":935,"y":-1243,"width":295,"height":124,"type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]]."}
+		{"id":"fc97f78f6af35997","x":1341,"y":-1680,"width":459,"height":403,"type":"text","text":" ### Falling on a creature\n\nLanding on a creature after a long fall is nearly impossible. A fallen-upon creature rolls a **reflex save** to determine how much damage they take if you do fall on them.\n\n* On a **critical success** they take no damage\n* On a **success** they take 1/4 the damage you took during the fall\n* On a **failure** they take 1/2 the damage you took during the fall\n* On a **critical failure** they take the full damage you took during the fall."},
+		{"id":"93feb613babe3930","x":960,"y":-1520,"width":324,"height":185,"type":"text","text":"Dropping an object **damages it the same way falling would damage a creature**, and dropping an object on a creature follows the same rules as a creature falling on a creature."},
+		{"id":"f02d31083b9307a8","x":827,"y":-1249,"width":295,"height":124,"type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]]."},
+		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":-67,"y":539,"width":250,"height":60},
+		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-55,"y":619,"width":276,"height":91}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -241,9 +242,10 @@
 		{"id":"6b2c80f6aa1c31ac","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"364ef9f0099e338a","toSide":"left"},
 		{"id":"8dfcb01f353064f8","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"d6881d98a0bcabc0","toSide":"left"},
 		{"id":"6f9ca3474000af75","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"47628e4bb13be872","toSide":"bottom"},
-		{"id":"f156f247336dccc8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"f02d31083b9307a8","toSide":"bottom"},
+		{"id":"f156f247336dccc8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"f02d31083b9307a8","toSide":"right"},
 		{"id":"4579958b541dc75a","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fca6547f9ce80a87","toSide":"left"},
 		{"id":"a1b450f847a2475d","fromNode":"47628e4bb13be872","fromSide":"right","toNode":"6de1469e0388ff65","toSide":"left"},
-		{"id":"4653030b5fe47ae8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fc97f78f6af35997","toSide":"bottom"}
+		{"id":"4653030b5fe47ae8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fc97f78f6af35997","toSide":"bottom"},
+		{"id":"97b1d3c6349f6543","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"93feb613babe3930","toSide":"bottom"}
 	]
 }
