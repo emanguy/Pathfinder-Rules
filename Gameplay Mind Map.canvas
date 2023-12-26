@@ -134,8 +134,10 @@
 		{"id":"bae065ff6d11e8af","x":590,"y":-796,"width":294,"height":121,"type":"text","text":"You need to hold your breath while **burrowing**, and probably need **tremorsense** to navigate underground."},
 		{"id":"e151b82822b03e07","x":912,"y":-855,"width":318,"height":118,"type":"text","text":"**Movement** works like D&D - different movement modes have different speeds measured in feet."},
 		{"id":"47628e4bb13be872","x":1216,"y":-1024,"width":250,"height":60,"type":"text","text":"## Falling"},
-		{"id":"f02d31083b9307a8","x":1075,"y":-1249,"width":295,"height":124,"type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]]."},
-		{"id":"fca6547f9ce80a87","x":1394,"y":-1249,"width":277,"height":117,"type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter."}
+		{"id":"6de1469e0388ff65","x":1631,"y":-1102,"width":308,"height":157,"type":"text","text":"Falling **into a soft substance** like water or snow allows you to treat the fall as if it were **20 feet shorter** or **30 feet shorter** if you fell into it intentionally."},
+		{"id":"fca6547f9ce80a87","x":1624,"y":-1249,"width":277,"height":117,"type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter."},
+		{"id":"fc97f78f6af35997","x":1341,"y":-1620,"width":444,"height":343,"type":"text","text":" ### Falling on a creature\n\nLanding on a creature after a long fall is nearly impossible, but the creature rolls a **reflex save** to determine how much damage they take if you do fall on them.\n\n* On a **critical success** they take no damage\n* On a **success** they take 1/4 the damage you took during the fall\n* On a **failure** they take 1/2 the damage you took during the fall\n* On a **critical failure** they take the full damage you took during the fall."},
+		{"id":"f02d31083b9307a8","x":935,"y":-1243,"width":295,"height":124,"type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]]."}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -240,6 +242,8 @@
 		{"id":"8dfcb01f353064f8","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"d6881d98a0bcabc0","toSide":"left"},
 		{"id":"6f9ca3474000af75","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"47628e4bb13be872","toSide":"bottom"},
 		{"id":"f156f247336dccc8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"f02d31083b9307a8","toSide":"bottom"},
-		{"id":"4579958b541dc75a","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fca6547f9ce80a87","toSide":"bottom"}
+		{"id":"4579958b541dc75a","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fca6547f9ce80a87","toSide":"left"},
+		{"id":"a1b450f847a2475d","fromNode":"47628e4bb13be872","fromSide":"right","toNode":"6de1469e0388ff65","toSide":"left"},
+		{"id":"4653030b5fe47ae8","fromNode":"47628e4bb13be872","fromSide":"top","toNode":"fc97f78f6af35997","toSide":"bottom"}
 	]
 }
