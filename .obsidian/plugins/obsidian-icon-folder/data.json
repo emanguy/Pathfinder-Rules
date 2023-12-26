@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasPersonWalking",
       "FasAlignLeft",
       "FasBolt",
       "FasListCheck",
-      "FasMap",
-      "FasWandMagicSparkles"
+      "FasMap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,5 +32,7 @@
   "Character Creation.md": "FasUserGroup",
   "Conditions Index.md": "FasBolt",
   "Level-based DC table.md": "FasAlignLeft",
-  "Detailed Conditions": "FasBolt"
+  "Detailed Conditions": "FasBolt",
+  "Actions Index.md": "FasPersonWalking",
+  "Detailed Actions": "FasPersonWalking"
 }

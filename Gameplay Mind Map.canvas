@@ -145,7 +145,9 @@
 		{"id":"f3ab5baa573e9f42","x":2660,"y":-216,"width":250,"height":71,"type":"text","text":"Creatures in **bright light** can be seen normally"},
 		{"id":"76c59b28276431ef","x":2593,"y":-366,"width":304,"height":118,"type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision"},
 		{"id":"eb418c8eda336b6f","x":2271,"y":-536,"width":283,"height":185,"type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition"},
-		{"id":"14442fc6f130afb0","x":1540,"y":-255,"width":250,"height":60,"type":"text","text":"## Senses"}
+		{"id":"14442fc6f130afb0","x":1540,"y":-255,"width":250,"height":60,"type":"text","text":"## Senses"},
+		{"id":"e0f130ed32dd0fff","x":1540,"y":-413,"width":250,"height":106,"type":"text","text":"There are 3 levels of detection - [[Observed]], [[Hidden]], and [[Unnoticed]]"},
+		{"id":"5ac58756c25d0493","x":1828,"y":-460,"width":292,"height":170,"type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature, otherwise you might need the [[Seek]] action to detect it"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -260,6 +262,8 @@
 		{"id":"fa85a2dbb9c4d383","fromNode":"eced779c5d6e1980","fromSide":"right","toNode":"f3ab5baa573e9f42","toSide":"left"},
 		{"id":"786eae535ea93a40","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"76c59b28276431ef","toSide":"left"},
 		{"id":"5212e38004843f72","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"eb418c8eda336b6f","toSide":"bottom"},
-		{"id":"c18a4b930bacb71d","fromNode":"eced779c5d6e1980","fromSide":"bottom","toNode":"18616abad0dc2e06","toSide":"top"}
+		{"id":"c18a4b930bacb71d","fromNode":"eced779c5d6e1980","fromSide":"bottom","toNode":"18616abad0dc2e06","toSide":"top"},
+		{"id":"ba216439d86a45b8","fromNode":"14442fc6f130afb0","fromSide":"top","toNode":"e0f130ed32dd0fff","toSide":"bottom"},
+		{"id":"bf20ff74c8184460","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"5ac58756c25d0493","toSide":"bottom"}
 	]
 }
