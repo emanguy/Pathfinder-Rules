@@ -145,7 +145,7 @@
 		{"id":"fca6547f9ce80a87","type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter.","x":1624,"y":-1249,"width":277,"height":117},
 		{"id":"f02d31083b9307a8","type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]].","x":827,"y":-1249,"width":295,"height":124},
 		{"id":"eb418c8eda336b6f","type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition","x":2452,"y":-598,"width":283,"height":185},
-		{"id":"5ac58756c25d0493","type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature, otherwise you might need the [[Seek]] action to detect it","x":1790,"y":-706,"width":292,"height":170},
+		{"id":"5ac58756c25d0493","type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature is in dim light or hidden, you might need the [[Seek]] action to detect it","x":1790,"y":-720,"width":311,"height":184},
 		{"id":"b2017d635618fca8","x":2040,"y":-530,"width":344,"height":305,"type":"text","text":"**Imprecise senses** like hearing are not as detailed as precise senses - you can automatically sense a creature with an imprecise sense but it will be [[Hidden]] rather than [[Observed]]. It may be undetected if using stealth or in an environment that distorts the sense, like a noisy room for hearing. In that case you need to use the [[Seek]] action to detect it."}
 	],
 	"edges":[
