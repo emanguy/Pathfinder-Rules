@@ -120,7 +120,6 @@
 		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":57,"y":-248,"width":250,"height":60},
 		{"type":"text","text":"Everything takes place in the **Age of Lost Omens** in canon","id":"ba6f414d0bec2037","x":378,"y":-225,"width":263,"height":111},
 		{"id":"eced779c5d6e1980","type":"text","text":"## Perception","x":2287,"y":-216,"width":250,"height":60},
-		{"id":"14442fc6f130afb0","type":"text","text":"## Senses","x":1540,"y":-255,"width":250,"height":60},
 		{"type":"text","text":"Campaigns available at paizo.com","id":"3ee9de4312ecc0db","x":7,"y":-589,"width":250,"height":77},
 		{"id":"a1f63f7e17873fb2","type":"text","text":"## Movement","x":712,"y":-505,"width":234,"height":55},
 		{"id":"f2da521e93a9ebb8","type":"text","text":"With a **climb speed** you don't need to perform **athletics checks** to climb. If it's a difficult surface though, you get a **+4 athletics circumstance bonus** if you need to use an athletics check to climb. With a climb speed, you're also **not [[Flat-footed]] while climbing**.","x":1084,"y":-492,"width":330,"height":241},
@@ -128,7 +127,6 @@
 		{"id":"a99055ecba462fdc","type":"text","text":"There are 3 light levels - **bright light, dim light, and darkness**","x":2620,"y":-103,"width":250,"height":112},
 		{"id":"f3ab5baa573e9f42","type":"text","text":"Creatures in **bright light** can be seen normally","x":2660,"y":-216,"width":250,"height":71},
 		{"id":"76c59b28276431ef","type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision","x":2593,"y":-366,"width":304,"height":118},
-		{"id":"e0f130ed32dd0fff","type":"text","text":"There are 3 levels of detection - [[Observed]], [[Hidden]], and [[Unnoticed]]","x":1540,"y":-413,"width":250,"height":106},
 		{"type":"text","text":"Being **exposed to a poison** more than once will cause another saving throw and potentially increase your stage","id":"a19a092a0d157c6e","x":407,"y":-1054,"width":330,"height":116},
 		{"type":"text","text":"## Play Resources","id":"7882a46d05e022c7","x":128,"y":-402,"width":250,"height":60},
 		{"type":"text","text":"May need the bestiary, but monster stat blocks can also be found at paizo.com/prd","id":"80a41caee2637518","x":282,"y":-622,"width":300,"height":117},
@@ -145,8 +143,12 @@
 		{"id":"fca6547f9ce80a87","type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter.","x":1624,"y":-1249,"width":277,"height":117},
 		{"id":"f02d31083b9307a8","type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]].","x":827,"y":-1249,"width":295,"height":124},
 		{"id":"eb418c8eda336b6f","type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition","x":2452,"y":-598,"width":283,"height":185},
-		{"id":"5ac58756c25d0493","type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature is in dim light or hidden, you might need the [[Seek]] action to detect it","x":1790,"y":-720,"width":311,"height":184},
-		{"id":"b2017d635618fca8","x":2040,"y":-530,"width":344,"height":305,"type":"text","text":"**Imprecise senses** like hearing are not as detailed as precise senses - you can automatically sense a creature with an imprecise sense but it will be [[Hidden]] rather than [[Observed]]. It may be undetected if using stealth or in an environment that distorts the sense, like a noisy room for hearing. In that case you need to use the [[Seek]] action to detect it."}
+		{"id":"5ac58756c25d0493","type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature is in dim light or hidden, you might need the [[Seek]] action to detect it","x":1937,"y":-855,"width":311,"height":184},
+		{"id":"b2017d635618fca8","x":2320,"y":-918,"width":344,"height":305,"type":"text","text":"**Imprecise senses** like hearing are not as detailed as precise senses - you can automatically sense a creature with an imprecise sense but it will be [[Hidden]] rather than [[Observed]]. It may be undetected if using stealth or in an environment that distorts the sense, like a noisy room for hearing. In that case you need to use the [[Seek]] action to detect it."},
+		{"id":"e0f130ed32dd0fff","type":"text","text":"There are 3 levels of detection - [[Observed]], [[Hidden]], and [[Undetected]]","x":1780,"y":-642,"width":250,"height":106},
+		{"id":"14442fc6f130afb0","type":"text","text":"## Senses","x":1780,"y":-492,"width":250,"height":60},
+		{"id":"2b2815337a549295","x":1740,"y":-390,"width":330,"height":139,"type":"text","text":"**Vague senses** like your sense of smell can detect an [[Unnoticed]] creature, making them [[Undetected]] but not [[Hidden]] or [[Observed]]."},
+		{"id":"6bdc0b974e21b0e3","x":2149,"y":-493,"width":250,"height":60,"type":"text","text":"Vision and hearing tend to be a creature's only precise and imprecise senses respectively, though a stat block may list that a creature has other precise or imprec"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -262,6 +264,8 @@
 		{"id":"ba216439d86a45b8","fromNode":"14442fc6f130afb0","fromSide":"top","toNode":"e0f130ed32dd0fff","toSide":"bottom"},
 		{"id":"bf20ff74c8184460","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"5ac58756c25d0493","toSide":"bottom"},
 		{"id":"ca2b63274e760068","fromNode":"718f624e160d35d0","fromSide":"bottom","toNode":"d1787105d70f216e","toSide":"top"},
-		{"id":"4e4602acd64c648e","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"b2017d635618fca8","toSide":"left"}
+		{"id":"4e4602acd64c648e","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"b2017d635618fca8","toSide":"left"},
+		{"id":"04a00404cdacd309","fromNode":"14442fc6f130afb0","fromSide":"bottom","toNode":"2b2815337a549295","toSide":"top"},
+		{"id":"c73102889794b741","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"6bdc0b974e21b0e3","toSide":"left"}
 	]
 }
