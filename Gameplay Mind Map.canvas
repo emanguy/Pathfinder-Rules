@@ -137,14 +137,15 @@
 		{"type":"text","text":"Characters physically cannot carry more than **10 + Str Mod** in bulk.","id":"5bbe75da4778f3e3","x":1075,"y":-134,"width":250,"height":87},
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":1055,"y":107,"width":250,"height":95},
 		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":582,"y":-86,"width":250,"height":154},
-		{"id":"14442fc6f130afb0","x":1475,"y":-255,"width":250,"height":60,"type":"text","text":"## Senses"},
 		{"id":"f2da521e93a9ebb8","x":1084,"y":-492,"width":330,"height":241,"type":"text","text":"With a **climb speed** you don't need to perform **athletics checks** to climb. If it's a difficult surface though, you get a **+4 athletics circumstance bonus** if you need to use an athletics check to climb. With a climb speed, you're also **not [[Flat-footed]] while climbing**."},
 		{"id":"364ef9f0099e338a","x":1284,"y":-675,"width":460,"height":139,"type":"text","text":"**Wind affects your fly speed** - flying with the wind grants you double movement, and flying against the wind behaves like difficult terrain or greater difficult terrain if you're flying up as well."},
-		{"id":"eced779c5d6e1980","x":2160,"y":-329,"width":250,"height":60,"type":"text","text":"## Perception"},
-		{"id":"a99055ecba462fdc","x":2545,"y":-371,"width":250,"height":112,"type":"text","text":"There are 3 light levels - **bright light, dim light, and darkness**"},
-		{"id":"f3ab5baa573e9f42","x":2540,"y":-480,"width":250,"height":71,"type":"text","text":"Creatures in **bright light** can be seen normally"},
-		{"id":"76c59b28276431ef","x":2296,"y":-620,"width":304,"height":118,"type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision"},
-		{"id":"eb418c8eda336b6f","x":1986,"y":-605,"width":250,"height":134,"type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition"}
+		{"id":"eced779c5d6e1980","x":2287,"y":-216,"width":250,"height":60,"type":"text","text":"## Perception"},
+		{"id":"18616abad0dc2e06","x":2279,"y":-72,"width":288,"height":120,"type":"text","text":"A creature going from darkness into bright light quickly may be [[Dazzled]] for a short time."},
+		{"id":"a99055ecba462fdc","x":2620,"y":-103,"width":250,"height":112,"type":"text","text":"There are 3 light levels - **bright light, dim light, and darkness**"},
+		{"id":"f3ab5baa573e9f42","x":2660,"y":-216,"width":250,"height":71,"type":"text","text":"Creatures in **bright light** can be seen normally"},
+		{"id":"76c59b28276431ef","x":2593,"y":-366,"width":304,"height":118,"type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision"},
+		{"id":"eb418c8eda336b6f","x":2271,"y":-536,"width":283,"height":185,"type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition"},
+		{"id":"14442fc6f130afb0","x":1540,"y":-255,"width":250,"height":60,"type":"text","text":"## Senses"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -256,8 +257,9 @@
 		{"id":"27b383b5681114bc","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"14442fc6f130afb0","toSide":"left"},
 		{"id":"bcfb018c8c2eb804","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"eced779c5d6e1980","toSide":"left"},
 		{"id":"9ab10cc4d9ea8d8c","fromNode":"eced779c5d6e1980","fromSide":"right","toNode":"a99055ecba462fdc","toSide":"left"},
-		{"id":"fa85a2dbb9c4d383","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"f3ab5baa573e9f42","toSide":"left"},
-		{"id":"786eae535ea93a40","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"76c59b28276431ef","toSide":"bottom"},
-		{"id":"5212e38004843f72","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"eb418c8eda336b6f","toSide":"bottom"}
+		{"id":"fa85a2dbb9c4d383","fromNode":"eced779c5d6e1980","fromSide":"right","toNode":"f3ab5baa573e9f42","toSide":"left"},
+		{"id":"786eae535ea93a40","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"76c59b28276431ef","toSide":"left"},
+		{"id":"5212e38004843f72","fromNode":"eced779c5d6e1980","fromSide":"top","toNode":"eb418c8eda336b6f","toSide":"bottom"},
+		{"id":"c18a4b930bacb71d","fromNode":"eced779c5d6e1980","fromSide":"bottom","toNode":"18616abad0dc2e06","toSide":"top"}
 	]
 }
