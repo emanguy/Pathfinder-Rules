@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"id":"a39aba164a8d645b","type":"group","x":-2640,"y":1480,"width":972,"height":760,"label":"0 HP"},
+		{"type":"group","id":"ea5a402a1e848871","x":164,"y":769,"width":788,"height":685,"label":"Actions"},
 		{"type":"group","id":"99f1a9a2af2efa21","x":-3160,"y":451,"width":678,"height":738,"label":"Counteract Checks"},
 		{"type":"group","id":"36daed7121a34b22","x":-1560,"y":760,"width":732,"height":580,"label":"Attack Rolls"},
-		{"type":"group","id":"ea5a402a1e848871","x":240,"y":854,"width":712,"height":586,"label":"Actions"},
 		{"type":"group","id":"60679394a6e34b7b","x":-2420,"y":948,"width":830,"height":482,"label":"Saving Throws"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-2420,"y":180,"width":620,"height":440,"label":"DCs and Crits"},
 		{"id":"28bdf41d068a920b","type":"text","text":"### Item HP\n\nItems have HP based on their material, including a **hardness value** which reduces incoming damage by that value.\n\nSee the \"item breakage\" section of the mind map for more info on broken items and destroyed items.\n\n","x":-1020,"y":1601,"width":250,"height":341},
@@ -43,7 +43,6 @@
 		{"type":"text","text":"A **fortune effect** and a **misfortune effect** will cancel each other out, causing a normal roll","id":"700817a23704b7d8","x":-1449,"y":539,"width":250,"height":141},
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-1020,"y":539,"width":320,"height":174},
 		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-1241,"y":419,"width":265,"height":60},
-		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":845,"y":718,"width":320,"height":118},
 		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll, up to a maximum of **-10** beyond which attacks aren't possible.","id":"8ce26d395e9b3052","x":843,"y":410,"width":322,"height":249},
 		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":275,"y":410,"width":250,"height":60},
 		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-180,"y":440,"width":250,"height":87},
@@ -119,13 +118,15 @@
 		{"type":"text","text":"### Strike\n* **1 action**\n* Roll to attack against a creature, using their AC\n* Add proficiency and ability scores to the roll\n* Performing more than one on the same turn incurs penalties:\n\t* **-5 to hit** on the second attack\n\t* **-10 to hit** on the third attack","id":"cffecfd8216ba0e2","x":1411,"y":1607,"width":345,"height":327},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":993,"y":1683,"width":272,"height":52},
 		{"type":"text","text":"### Cast a Spell\n\n* Usually takes **2 actions**","id":"51b4a9b724a583d3","x":837,"y":1833,"width":258,"height":129},
-		{"type":"text","text":"There are **activities** you can perform which may take more than one action","id":"2568b660df4057c5","x":560,"y":1172,"width":367,"height":105},
-		{"id":"c3ae602106f28194","x":560,"y":1022,"width":367,"height":129,"type":"text","text":"Some activities have the **exploration or downtime traits** to signify they can only be used during those times"},
-		{"id":"2694875ff4448e9a","x":279,"y":869,"width":648,"height":139,"type":"text","text":"You can only use **one action/activity/free action without a trigger at a time** - if an activity says you dash twice and strike, you can't slip another action in the middle or rearrange the order of the actions. You can, however, use free actions or reactions with a trigger in the middle of another action."},
-		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":279,"y":1022,"width":250,"height":60},
-		{"type":"text","text":"You can use **one reaction** in a round","id":"19e9b2afffa52edb","x":294,"y":1099,"width":220,"height":73},
-		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":266,"y":1200,"width":263,"height":117},
-		{"id":"daf85e4c9068214a","x":560,"y":1300,"width":367,"height":125,"type":"text","text":"Activities may ask you to use specific actions within them - you **don't need to spend additional actions for these \"subordinate actions\"**"}
+		{"type":"text","text":"## Breaking Items\n(some enemies have abilities that can damage items)","id":"7b03b89a29d3880c","x":970,"y":710,"width":320,"height":118},
+		{"type":"text","text":"There are **activities** you can perform which may take more than one action","id":"2568b660df4057c5","x":552,"y":1107,"width":367,"height":105},
+		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":183,"y":1115,"width":347,"height":77},
+		{"id":"daf85e4c9068214a","x":552,"y":1234,"width":367,"height":125,"type":"text","text":"Activities may ask you to use specific actions within them - you **don't need to spend additional actions for these \"subordinate actions\"**"},
+		{"id":"e821a296b6c6b769","x":183,"y":1220,"width":347,"height":209,"type":"text","text":"If you lose actions, **you can choose which one you lose.** e.g. the action you gain from the _haste_ spell restricts the actions you can perform with it - you could choose to lose that action instead of your normal actions."},
+		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":183,"y":960,"width":347,"height":65},
+		{"type":"text","text":"You can use **one reaction** in a round","id":"19e9b2afffa52edb","x":183,"y":1045,"width":347,"height":50},
+		{"id":"c3ae602106f28194","x":552,"y":960,"width":367,"height":129,"type":"text","text":"Some activities have the **exploration or downtime traits** to signify they can only be used during those times"},
+		{"id":"2694875ff4448e9a","x":183,"y":793,"width":736,"height":139,"type":"text","text":"You can only use **one action/activity/free action without a trigger at a time** - if an activity says you dash twice and strike, you can't slip another action in the middle or rearrange the order of the actions. You can, however, use free actions or reactions with a trigger in the middle of another action."}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
