@@ -71,13 +71,9 @@
 		{"type":"text","text":"### Line of Sight\n\nRanged attacks typically require line of sight. You need to be able to see part of your target in order to hit them. Effects like Darkness can obscure line of sight.","id":"58db9a0207e102a7","x":1850,"y":456,"width":290,"height":262},
 		{"type":"text","text":"A **cone** is always a quarter-circle whose radius is as long as the cone length. The rules seem to want you to only aim up/down/left/right or diagonally with cones, though this should be flexible","id":"cdd69ebf4917c7c7","x":2100,"y":143,"width":280,"height":213},
 		{"type":"text","text":"### Line of Effect\n\nYou can only be affected by an area effect if there is a straight, open line between you and the effect's point of origin. A **1 foot square gap** is enough to establish line of effect.","id":"5e92f9038423431c","x":1953,"y":-136,"width":295,"height":248},
-		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":182,"y":-161,"width":250,"height":60},
 		{"type":"text","text":"Different levels of **proficiency**:\n* Untrained - +0\n* Trained - Character level + 2\n* Expert - Character level + 4\n* Master - Character level + 6\n* Legendary - Character level + 8","id":"57e77a3188b0eff6","x":-1408,"y":-322,"width":340,"height":217},
 		{"type":"text","text":"## Attributes","id":"7eddd2eb69521764","x":-880,"y":-214,"width":250,"height":60},
 		{"type":"file","file":"obsidian_data/assets/Pf2e Statblock.jpg","id":"086ac9e3b8e3ddde","x":-1680,"y":-502,"width":231,"height":260},
-		{"type":"text","text":"## Play Resources","id":"7882a46d05e022c7","x":222,"y":-402,"width":250,"height":60},
-		{"type":"text","text":"Campaigns available at paizo.com","id":"3ee9de4312ecc0db","x":80,"y":-628,"width":250,"height":77},
-		{"type":"text","text":"May need the bestiary, but monster stat blocks can also be found at paizo.com/prd","id":"80a41caee2637518","x":366,"y":-648,"width":300,"height":117},
 		{"type":"text","text":"Rolling a Nat 20 **increases your degree of success by one**, while rolling a Nat 1 **reduces your degree of success by one**","id":"f901badb2b9502c2","x":-2136,"y":193,"width":294,"height":144},
 		{"type":"text","text":"## Currency","id":"f81953593323817a","x":-577,"y":-373,"width":250,"height":60},
 		{"type":"text","text":"### Kinds of Currency\n\n* Platinum pieces (1pp = 10gp)\n* Gold pieces (most common) (1gp = 10sp)\n* Silver pieces (most common) (1sp = 10cp)\n* Copper pieces","id":"64b80d95603310c2","x":-537,"y":-667,"width":420,"height":207},
@@ -125,16 +121,22 @@
 		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":946,"y":-372,"width":250,"height":124},
 		{"type":"text","text":"Characters physically cannot carry more than **10 + Str Mod** in bulk.","id":"5bbe75da4778f3e3","x":1075,"y":-201,"width":250,"height":87},
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":1055,"y":40,"width":250,"height":95},
-		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":416,"y":-322,"width":250,"height":74},
-		{"type":"text","text":"Everything takes place in the **Age of Lost Omens** in canon","id":"ba6f414d0bec2037","x":472,"y":-186,"width":263,"height":111},
-		{"id":"e151b82822b03e07","x":257,"y":-51,"width":318,"height":118,"type":"text","text":"**Movement** works like D&D - different movement modes have different speeds measured in feet."}
+		{"type":"text","text":"## Play Resources","id":"7882a46d05e022c7","x":128,"y":-402,"width":250,"height":60},
+		{"type":"text","text":"Campaigns available at paizo.com","id":"3ee9de4312ecc0db","x":7,"y":-589,"width":250,"height":77},
+		{"type":"text","text":"May need the bestiary, but monster stat blocks can also be found at paizo.com/prd","id":"80a41caee2637518","x":282,"y":-622,"width":300,"height":117},
+		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":57,"y":-248,"width":250,"height":60},
+		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":307,"y":-322,"width":250,"height":74},
+		{"type":"text","text":"Everything takes place in the **Age of Lost Omens** in canon","id":"ba6f414d0bec2037","x":378,"y":-225,"width":263,"height":111},
+		{"id":"a1f63f7e17873fb2","x":677,"y":-515,"width":234,"height":50,"type":"text","text":"## Movement"},
+		{"id":"e151b82822b03e07","x":635,"y":-681,"width":318,"height":118,"type":"text","text":"**Movement** works like D&D - different movement modes have different speeds measured in feet."},
+		{"id":"f2da521e93a9ebb8","x":1030,"y":-681,"width":330,"height":241,"type":"text","text":"With a **climb speed** you don't need to perform **athletics checks** to climb. If it's a difficult surface though, you get a **+4 athletics circumstance bonus** if you need to use an athletics check to climb. With a climb speed, you're also **not [[Flat-footed]] while climbing**."}
 	],
 	"edges":[
-		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"left"},
+		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"right","toNode":"ba6f414d0bec2037","toSide":"left"},
 		{"id":"e15809fc486d5d8d","fromNode":"fed95ebeb82f52c4","fromSide":"bottom","toNode":"b78660d484f5b44d","toSide":"top"},
 		{"id":"28a1c4f9028256fe","fromNode":"b78660d484f5b44d","fromSide":"bottom","toNode":"0daac4d485ee6ccf","toSide":"right"},
-		{"id":"49e265ad31e6b1e3","fromNode":"fed95ebeb82f52c4","fromSide":"top","toNode":"7882a46d05e022c7","toSide":"bottom"},
+		{"id":"49e265ad31e6b1e3","fromNode":"fed95ebeb82f52c4","fromSide":"top","toNode":"7882a46d05e022c7","toSide":"left"},
 		{"id":"ca21a8ff0c9fce59","fromNode":"b78660d484f5b44d","fromSide":"bottom","toNode":"2fdd0b78ccad5580","toSide":"top"},
 		{"id":"53ac646f7bab12e7","fromNode":"2fdd0b78ccad5580","fromSide":"right","toNode":"8972f11d7be07f3b","toSide":"left"},
 		{"id":"9d2fa657033c4789","fromNode":"2fdd0b78ccad5580","fromSide":"right","toNode":"0667003f8fc86eda","toSide":"left"},
@@ -224,6 +226,8 @@
 		{"id":"5e60449e91c8da14","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"63f811d28496eba6","toSide":"top"},
 		{"id":"9518a9d92b2f3dea","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"e77833660abf9962","toSide":"top"},
 		{"id":"007b85ae7daa46fd","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"28bdf41d068a920b","toSide":"top"},
-		{"id":"1400b30aeef8b147","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"e151b82822b03e07","toSide":"left"}
+		{"id":"1400b30aeef8b147","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"a1f63f7e17873fb2","toSide":"bottom"},
+		{"id":"545d4c15bb79b922","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"e151b82822b03e07","toSide":"bottom"},
+		{"id":"012ce91ebaf4b99c","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"f2da521e93a9ebb8","toSide":"left"}
 	]
 }
