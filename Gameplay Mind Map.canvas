@@ -94,12 +94,11 @@
 		{"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing","id":"cb202561f6c886bd","x":-1083,"y":-939,"width":279,"height":210},
 		{"type":"text","text":"After the **duration of the stage of affliction**, you must reroll the save. A **success** reduces the stage by 1, while a **critical success** reduces it by 2. The same applies for failures and critical failures in the opposite direction.","id":"4a987732db551b9a","x":260,"y":-1362,"width":294,"height":237},
 		{"type":"text","text":"Being **exposed to a poison** more than once will cause another saving throw and potentially increase your stage","id":"a19a092a0d157c6e","x":407,"y":-1054,"width":330,"height":116},
-		{"type":"text","text":"**Conditions from afflictions** stay according to the rules of the condition, so they may outlast the affliction","id":"23688d1341039a50","x":-459,"y":-1277,"width":250,"height":152},
+		{"type":"text","text":"**Conditions from afflictions** stay according to the rules of the condition, so they may outlast the affliction","id":"23688d1341039a50","x":-459,"y":-1300,"width":250,"height":175},
 		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-2815,"y":463,"width":313,"height":255},
 		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-2815,"y":726,"width":313,"height":94},
 		{"type":"text","text":"The result of a counteract check is as follows:\n1. On a **critical success** the spell/effect/affliction is removed if the target counteract level is no more than **3 levels higher** than your counteract level\n2. On a **success** the spell/effect/affliction is removed if the target counteract level is no more than **1 level higher** than your counteract level\n3. On a **failure** the spell/effect/affliction is only removed if the target counteract level is **less than your counteract level**\n4. On a **critical failure** the spell/effect/affliction is not removed","id":"0a6b1b63e22da780","x":-3128,"y":846,"width":626,"height":317},
 		{"type":"text","text":"Afflictions are things suffered from things like **disease, poison, or radiation**","id":"28d61848d92cdc80","x":-170,"y":-1286,"width":250,"height":133},
-		{"type":"text","text":"**Critically failing** the saving throw on being exposed to an affliction will immediately advance you to stage 2","id":"8917e4ddd1e504bd","x":-334,"y":-1125,"width":250,"height":142},
 		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[Level-based DC table]]","id":"e50990108915a478","x":-3131,"y":463,"width":290,"height":180},
 		{"type":"text","text":"The **counteract modifier** is the spellcasting modifier of the caster if it's a spell, otherwise the modifier could be outlined in the effect of an item","id":"2a1d7d059e0696cf","x":-3131,"y":663,"width":290,"height":157},
 		{"type":"file","file":"obsidian_data/assets/Pathfinder Action Icons.png","id":"3f70ea5aa1c73dd5","x":1260,"y":2006,"width":440,"height":275},
@@ -118,7 +117,7 @@
 		{"type":"text","text":"Coins have bulk. 1 bulk per 1000 coins rounded down","id":"2bc2f0324c6578be","x":1381,"y":-201,"width":250,"height":106},
 		{"type":"text","text":"### Encumbered Status\nWhen encumbered, you become **Clumsy 1** and have a **-10 penalty to speed**","id":"78f3e24a0902c818","x":1441,"y":-7,"width":255,"height":214},
 		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":858,"y":-95,"width":250,"height":60},
-		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":946,"y":-372,"width":250,"height":124},
+		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":946,"y":-402,"width":250,"height":154},
 		{"type":"text","text":"Characters physically cannot carry more than **10 + Str Mod** in bulk.","id":"5bbe75da4778f3e3","x":1075,"y":-201,"width":250,"height":87},
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":1055,"y":40,"width":250,"height":95},
 		{"type":"text","text":"## Play Resources","id":"7882a46d05e022c7","x":128,"y":-402,"width":250,"height":60},
@@ -127,9 +126,11 @@
 		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":57,"y":-248,"width":250,"height":60},
 		{"type":"text","text":"Set on the planet **Golarion**","id":"1a9b4d60302827b4","x":307,"y":-322,"width":250,"height":74},
 		{"type":"text","text":"Everything takes place in the **Age of Lost Omens** in canon","id":"ba6f414d0bec2037","x":378,"y":-225,"width":263,"height":111},
-		{"id":"a1f63f7e17873fb2","x":677,"y":-515,"width":234,"height":50,"type":"text","text":"## Movement"},
-		{"id":"e151b82822b03e07","x":635,"y":-681,"width":318,"height":118,"type":"text","text":"**Movement** works like D&D - different movement modes have different speeds measured in feet."},
-		{"id":"f2da521e93a9ebb8","x":1030,"y":-681,"width":330,"height":241,"type":"text","text":"With a **climb speed** you don't need to perform **athletics checks** to climb. If it's a difficult surface though, you get a **+4 athletics circumstance bonus** if you need to use an athletics check to climb. With a climb speed, you're also **not [[Flat-footed]] while climbing**."}
+		{"type":"text","text":"**Critically failing** the saving throw on being exposed to an affliction will immediately advance you to stage 2","id":"8917e4ddd1e504bd","x":-368,"y":-1058,"width":250,"height":142},
+		{"id":"f2da521e93a9ebb8","x":1301,"y":-505,"width":330,"height":241,"type":"text","text":"With a **climb speed** you don't need to perform **athletics checks** to climb. If it's a difficult surface though, you get a **+4 athletics circumstance bonus** if you need to use an athletics check to climb. With a climb speed, you're also **not [[Flat-footed]] while climbing**."},
+		{"id":"bae065ff6d11e8af","x":911,"y":-684,"width":294,"height":121,"type":"text","text":"You need to hold your breath while **burrowing**, and probably need **tremorsense** to navigate underground."},
+		{"id":"a1f63f7e17873fb2","x":712,"y":-505,"width":234,"height":55,"type":"text","text":"## Movement"},
+		{"id":"e151b82822b03e07","x":1058,"y":-833,"width":318,"height":118,"type":"text","text":"**Movement** works like D&D - different movement modes have different speeds measured in feet."}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -227,7 +228,8 @@
 		{"id":"9518a9d92b2f3dea","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"e77833660abf9962","toSide":"top"},
 		{"id":"007b85ae7daa46fd","fromNode":"bf67b36202cb1c40","fromSide":"bottom","toNode":"28bdf41d068a920b","toSide":"top"},
 		{"id":"1400b30aeef8b147","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"a1f63f7e17873fb2","toSide":"bottom"},
-		{"id":"545d4c15bb79b922","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"e151b82822b03e07","toSide":"bottom"},
-		{"id":"012ce91ebaf4b99c","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"f2da521e93a9ebb8","toSide":"left"}
+		{"id":"545d4c15bb79b922","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"e151b82822b03e07","toSide":"left"},
+		{"id":"012ce91ebaf4b99c","fromNode":"a1f63f7e17873fb2","fromSide":"right","toNode":"f2da521e93a9ebb8","toSide":"top"},
+		{"id":"d8132405abadb65e","fromNode":"a1f63f7e17873fb2","fromSide":"top","toNode":"bae065ff6d11e8af","toSide":"left"}
 	]
 }
