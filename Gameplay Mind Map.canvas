@@ -98,7 +98,6 @@
 		{"id":"fc97f78f6af35997","type":"text","text":" ### Falling on a creature\n\nLanding on a creature after a long fall is nearly impossible. A fallen-upon creature rolls a **reflex save** to determine how much damage they take if you do fall on them.\n\n* On a **critical success** they take no damage\n* On a **success** they take 1/4 the damage you took during the fall\n* On a **failure** they take 1/2 the damage you took during the fall\n* On a **critical failure** they take the full damage you took during the fall.","x":1341,"y":-1680,"width":459,"height":403},
 		{"id":"b3e473d8b381f9ff","x":2425,"y":-771,"width":250,"height":60,"type":"text","text":"## Special Senses"},
 		{"id":"1eb549349ea8881b","x":2800,"y":-846,"width":361,"height":211,"type":"text","text":"Creatures with **darkvision** treat dim light and darkness as if they were bright light, though the vision is in black and white. Creatures with **greater darkvision** have this benefit but can also see through **magical darkness**."},
-		{"id":"28dc7efea2e6b06f","x":2800,"y":-973,"width":307,"height":88,"type":"text","text":"Creatures with **low-light vision** treat dim light as if it were bright light."},
 		{"id":"93feb613babe3930","type":"text","text":"Dropping an object **damages it the same way falling would damage a creature**, and dropping an object on a creature follows the same rules as a creature falling on a creature.","x":960,"y":-1520,"width":324,"height":185},
 		{"type":"text","text":"## Conditions\n\nSee [[Conditions Index]]","id":"9c7c2c1f7117440e","x":-263,"y":-386,"width":250,"height":105},
 		{"type":"text","text":"### Kinds of Currency\n\n* Platinum pieces (1pp = 10gp)\n* Gold pieces (most common) (1gp = 10sp)\n* Silver pieces (most common) (1sp = 10cp)\n* Copper pieces","id":"64b80d95603310c2","x":-537,"y":-667,"width":420,"height":207},
@@ -151,7 +150,10 @@
 		{"type":"text","text":"Afflictions are things suffered from things like **disease, poison, or radiation**","id":"28d61848d92cdc80","x":-170,"y":-1286,"width":250,"height":133},
 		{"type":"text","text":"## Gear Limits (Bulk)","id":"cf908237f3850fc2","x":980,"y":157,"width":250,"height":95},
 		{"type":"text","text":"10 **light items** = 1 bulk","id":"356f4ad74ac3a371","x":912,"y":18,"width":250,"height":60},
-		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":669,"y":-136,"width":250,"height":154}
+		{"type":"text","text":"Characters can only carry up to **5 + Str Mod** in bulk. Carrying more than that makes you **encumbered**","id":"e3ecdccc2aad1640","x":669,"y":-136,"width":250,"height":154},
+		{"id":"7f281e89efb1bd63","x":2468,"y":-1057,"width":250,"height":172,"type":"text","text":"**Scent** is a sense used by a creature to dectect things via smell - this range can increase or decrease depending on wind conditions."},
+		{"id":"28dc7efea2e6b06f","x":2860,"y":-1171,"width":361,"height":295,"type":"text","text":"Creatures with **low-light vision** treat dim light as if it were bright light. You can treat this as if their vision radius in light is doubled compared to other creatures - if a creature would normally see 30 feet of bright light then 30 feet of dim light, a creature with low-light vision would see 60 feet of bright light followed by 60 feet of dim light."},
+		{"id":"071a9a98fb99d4e7","x":2780,"y":-601,"width":250,"height":60,"type":"text","text":"**Tremorsense** allows creatures to sense vibrations caused by movement. This only functions if the detected creature is on the same surface as the detector, and only if the detector is moving "}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -272,6 +274,8 @@
 		{"id":"c73102889794b741","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"6bdc0b974e21b0e3","toSide":"left"},
 		{"id":"fe9859cefec1e6d2","fromNode":"14442fc6f130afb0","fromSide":"right","toNode":"b3e473d8b381f9ff","toSide":"left"},
 		{"id":"83acb42f231ef664","fromNode":"b3e473d8b381f9ff","fromSide":"right","toNode":"1eb549349ea8881b","toSide":"left"},
-		{"id":"ce583ec39b640df7","fromNode":"b3e473d8b381f9ff","fromSide":"right","toNode":"28dc7efea2e6b06f","toSide":"left"}
+		{"id":"ce583ec39b640df7","fromNode":"b3e473d8b381f9ff","fromSide":"right","toNode":"28dc7efea2e6b06f","toSide":"left"},
+		{"id":"600ef43585dec73b","fromNode":"b3e473d8b381f9ff","fromSide":"top","toNode":"7f281e89efb1bd63","toSide":"bottom"},
+		{"id":"bea4803dddd7f0ec","fromNode":"b3e473d8b381f9ff","fromSide":"bottom","toNode":"071a9a98fb99d4e7","toSide":"top"}
 	]
 }
