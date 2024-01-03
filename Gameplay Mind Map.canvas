@@ -74,7 +74,6 @@
 		{"type":"text","text":"**Fortune effects**, which may allow you to do things like reroll dice, can only be applied once per roll","id":"c2c4cbbd2261ae6a","x":-1087,"y":170,"width":274,"height":126},
 		{"type":"text","text":"### Ranged Attacks\n\n* To hit: Dex + proficiency + bonuses and penalties\n* Damage: Damage die + bonuses and penalties\n\t* If thrown, add strength","id":"426b5c57b05d8433","x":-1162,"y":783,"width":314,"height":207},
 		{"id":"79f421e1da83ba12","type":"text","text":"When a creature hits **0 hp on a non-lethal attack** it is knocked out for some duration of time (usually 1 minute)","x":-1162,"y":1049,"width":314,"height":131},
-		{"id":"bf67b36202cb1c40","type":"text","text":"## HP and Dying","x":-1145,"y":1394,"width":250,"height":60},
 		{"type":"text","text":"## Rolls","id":"0daac4d485ee6ccf","x":-1241,"y":419,"width":265,"height":60},
 		{"type":"text","text":"Attacking **non-lethally with a lethal weapon** incurs a **-2 penalty to attack**. This penalty also occurs when attempting to attack **lethally with a non-lethal weapon**","id":"1d9ff49e5f1f3fde","x":-1540,"y":1204,"width":480,"height":113},
 		{"id":"d1787105d70f216e","type":"file","file":"Actions Index.md","x":867,"y":1860,"width":524,"height":560},
@@ -159,7 +158,8 @@
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-542,"y":1070,"width":250,"height":56},
 		{"type":"text","text":"**Initiative** is determined by **perception checks** (most of the time)","id":"8cdc51900c6d6f02","x":-848,"y":1411,"width":250,"height":87},
 		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":-667,"y":1336,"width":250,"height":60},
-		{"id":"941f5d282d0493a1","x":-300,"y":1355,"width":328,"height":285,"type":"text","text":"Encounters may not necessarily always be combat - as a result **different stats can be used for initiative** based on the nature of the encounter (if you use [[Avoid Notice]] while traveling, you may use a stealth check for encounters, and a social encounter may call for a deception or diplomacy check for initiative)"}
+		{"id":"941f5d282d0493a1","x":-300,"y":1355,"width":328,"height":285,"type":"text","text":"Encounters may not necessarily always be combat - as a result **different stats can be used for initiative** based on the nature of the encounter (if you use [[Avoid Notice]] while traveling, you may use a stealth check for encounters, and a social encounter may call for a deception or diplomacy check for initiative)"},
+		{"id":"bf67b36202cb1c40","type":"text","text":"## HP and Dying","x":-1185,"y":1366,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
