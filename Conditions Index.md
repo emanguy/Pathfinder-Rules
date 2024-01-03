@@ -24,6 +24,7 @@
 * [[Hostile]] - An NPC with this condition wants to harm you
 * [[Immobilized]] - You can't move
 * [[Indifferent]] - An NPC with this condition is indifferent towards you
+* [[Invisible]] - An NPC with this condition is invisible due to magic
 * [[Observed]] - You're in plain view
 * [[Paralyzed]] - Your body is frozen in place
 * [[Persistent damage]] - You keep taking damage every round
