@@ -39,7 +39,6 @@
 		{"id":"18616abad0dc2e06","type":"text","text":"A creature going from darkness into bright light quickly may be [[Dazzled]] for a short time.","x":2279,"y":-72,"width":288,"height":120},
 		{"id":"a99055ecba462fdc","type":"text","text":"There are 3 light levels - **bright light, dim light, and darkness**","x":2620,"y":-103,"width":250,"height":112},
 		{"id":"f3ab5baa573e9f42","type":"text","text":"Creatures in **bright light** can be seen normally","x":2660,"y":-216,"width":250,"height":71},
-		{"id":"76c59b28276431ef","type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision","x":2593,"y":-366,"width":304,"height":118},
 		{"type":"text","text":"## Leveling Up","id":"f116faa3196c914f","x":-1169,"y":-506,"width":250,"height":60},
 		{"type":"text","text":"If your constitution modifier increases, this **retroactively improves all HP increases**, so if you went from +1 to +2, make sure to add a +1 to your HP for **every previous level**","id":"261c64091931ff67","x":-1564,"y":-756,"width":290,"height":178},
 		{"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing","id":"cb202561f6c886bd","x":-1083,"y":-939,"width":279,"height":210},
@@ -50,7 +49,6 @@
 		{"id":"47628e4bb13be872","type":"text","text":"## Falling","x":1216,"y":-1024,"width":250,"height":60},
 		{"id":"6de1469e0388ff65","type":"text","text":"Falling **into a soft substance** like water or snow allows you to treat the fall as if it were **20 feet shorter** or **30 feet shorter** if you fell into it intentionally.","x":1631,"y":-1102,"width":308,"height":157},
 		{"id":"fca6547f9ce80a87","type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter.","x":1624,"y":-1249,"width":277,"height":117},
-		{"id":"eb418c8eda336b6f","type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition","x":2452,"y":-598,"width":283,"height":185},
 		{"id":"5ac58756c25d0493","type":"text","text":"**Precise senses** like vision can be used to automatically detect a creature in bright light. If a creature is in dim light or hidden, you might need the [[Seek]] action to detect it","x":1937,"y":-855,"width":311,"height":184},
 		{"id":"b2017d635618fca8","type":"text","text":"**Imprecise senses** like hearing are not as detailed as precise senses - you can automatically sense a creature with an imprecise sense but it will be [[Hidden]] rather than [[Observed]]. It may be undetected if using stealth or in an environment that distorts the sense, like a noisy room for hearing. In that case you need to use the [[Seek]] action to detect it an make it [[Hidden]].","x":2108,"y":-1190,"width":344,"height":305},
 		{"id":"b3e473d8b381f9ff","type":"text","text":"## Special Senses","x":2425,"y":-771,"width":250,"height":60},
@@ -74,7 +72,6 @@
 		{"type":"text","text":"### Line of Effect\n\nYou can only be affected by an area effect if there is a straight, open line between you and the effect's point of origin. A **1 foot square gap** is enough to establish line of effect.","id":"5e92f9038423431c","x":1953,"y":-136,"width":295,"height":248},
 		{"id":"14442fc6f130afb0","type":"text","text":"## Senses","x":1780,"y":-492,"width":250,"height":60},
 		{"id":"2b2815337a549295","type":"text","text":"**Vague senses** like your sense of smell can detect an [[Unnoticed]] creature, making them [[Undetected]] but not [[Hidden]] or [[Observed]].","x":1740,"y":-390,"width":330,"height":139},
-		{"id":"6bdc0b974e21b0e3","type":"text","text":"**Vision and hearing tend to be a creature's only precise and imprecise senses** respectively, though a stat block may list that a creature has other precise or imprecise senses, e.g. \"echolocation (precise)\"","x":2149,"y":-560,"width":291,"height":240},
 		{"id":"eced779c5d6e1980","type":"text","text":"## Perception","x":2220,"y":-220,"width":250,"height":60},
 		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1561,"y":915,"width":259,"height":152},
 		{"type":"text","text":"If an item's HP drops below its **breaking threshold** it becomes broken. At 0 HP it is **destroyed** and cannot be repaired.","id":"4abfe32bf8202add","x":1561,"y":744,"width":304,"height":145},
@@ -153,7 +150,10 @@
 		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":193,"y":741,"width":276,"height":91},
 		{"id":"f79d8fa0004c873f","type":"text","text":"### Heroic Recovery\nWhen you're about to make a **recovery check** or increase your [[Dying]] level, you can spend **all of your hero points to recover**. Doing this causes you to **not increase your wounded level** but if you already had [[Wounded]] the level would stay the same. You stabilize at 0HP.","x":-247,"y":508,"width":520,"height":194},
 		{"type":"text","text":"You begin each session with at least **1 hero point**","id":"8d24967389500e59","x":307,"y":634,"width":250,"height":84},
-		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll, up to a maximum of **-10** beyond which attacks aren't possible.","id":"8ce26d395e9b3052","x":980,"y":385,"width":322,"height":249}
+		{"type":"text","text":"### Weapon Range\nRanged weapons have a single range measured in feet. Each increment of that range you exceed incurs a **-2 penalty** to the attack roll, up to a maximum of **-10** beyond which attacks aren't possible.","id":"8ce26d395e9b3052","x":980,"y":385,"width":322,"height":249},
+		{"id":"76c59b28276431ef","type":"text","text":"Creatures in **dim light** have the [[Concealed]] condition unless the viewer has low-light vision or darkvision","x":2729,"y":-369,"width":304,"height":118},
+		{"id":"6bdc0b974e21b0e3","type":"text","text":"**Vision and hearing tend to be a creature's only precise and imprecise senses** respectively, though a stat block may list that a creature has other precise or imprecise senses, e.g. \"echolocation (precise)\"","x":2248,"y":-582,"width":291,"height":240},
+		{"id":"eb418c8eda336b6f","type":"text","text":"A creature in **darkness** is [[Undetected]] or [[Hidden]] unless the seeker has darkvision. A creature without darkvision also has the [[Blinded]] condition","x":2557,"y":-582,"width":283,"height":185}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
