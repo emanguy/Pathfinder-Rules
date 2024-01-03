@@ -159,7 +159,7 @@
 		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-542,"y":1070,"width":250,"height":56},
 		{"type":"text","text":"**Initiative** is determined by **perception checks** (most of the time)","id":"8cdc51900c6d6f02","x":-848,"y":1411,"width":250,"height":87},
 		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":-667,"y":1336,"width":250,"height":60},
-		{"id":"941f5d282d0493a1","x":-266,"y":1355,"width":294,"height":112,"type":"text","text":"Encounters may not necessarily always be combat - as a result different stats can be used for initiative based on the natu"}
+		{"id":"941f5d282d0493a1","x":-300,"y":1355,"width":328,"height":285,"type":"text","text":"Encounters may not necessarily always be combat - as a result **different stats can be used for initiative** based on the nature of the encounter (if you use [[Avoid Notice]] while traveling, you may use a stealth check for encounters, and a social encounter may call for a deception or diplomacy check for initiative)"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
