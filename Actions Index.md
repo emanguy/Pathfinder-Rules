@@ -19,10 +19,11 @@
 * [[Strike]]
 * [[Take Cover]]
 ## Specialty Actions
-* [[Arrest a Fall]]
+* [[Arrest a Fall]]       
 * [[Avert Gaze]]
 * [[Burrow]]
 * [[Fly]]
 * [[Grab an Edge]]
 * [[Mount]]
-* [[Point ]]
+* [[Point Out]]
+* [[Raise a Shield]]
