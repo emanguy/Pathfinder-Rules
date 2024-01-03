@@ -154,7 +154,7 @@
 		{"type":"text","text":"## Setting","id":"7ead8186a683758f","x":57,"y":-248,"width":250,"height":60},
 		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-39,"y":741,"width":276,"height":91},
 		{"type":"text","text":"You begin each session with at least **1 hero point**","id":"8d24967389500e59","x":500,"y":497,"width":250,"height":84},
-		{"id":"dcf0049615f2d3ca","x":364,"y":636,"width":250,"height":60,"type":"text","text":"Hero points only last for **one session**"}
+		{"id":"dcf0049615f2d3ca","x":521,"y":597,"width":261,"height":74,"type":"text","text":"Hero points only last for **one session**"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -278,6 +278,6 @@
 		{"id":"ce583ec39b640df7","fromNode":"b3e473d8b381f9ff","fromSide":"right","toNode":"28dc7efea2e6b06f","toSide":"bottom"},
 		{"id":"600ef43585dec73b","fromNode":"b3e473d8b381f9ff","fromSide":"top","toNode":"7f281e89efb1bd63","toSide":"bottom"},
 		{"id":"bea4803dddd7f0ec","fromNode":"b3e473d8b381f9ff","fromSide":"right","toNode":"071a9a98fb99d4e7","toSide":"left"},
-		{"id":"9cab08ae2714b797","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"dcf0049615f2d3ca","toSide":"top"}
+		{"id":"9cab08ae2714b797","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"dcf0049615f2d3ca","toSide":"left"}
 	]
 }
