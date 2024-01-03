@@ -65,11 +65,8 @@
 		{"type":"text","text":"# Pathfinder 2E","id":"fed95ebeb82f52c4","x":-154,"y":-65,"width":282,"height":73},
 		{"type":"text","text":"Damage to an item is reduced by the item's **hardness**, which is also dependent on its material","id":"05609fe917acf8cd","x":1561,"y":915,"width":259,"height":152},
 		{"type":"text","text":"Armor can still be used, but there's an AC penalty when broken:\n* -1 for light armor\n* -2 for medium armor\n* -3 for heavy armor","id":"9657ec08577676c7","x":1538,"y":1117,"width":250,"height":220},
-		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-547,"y":713,"width":250,"height":56},
 		{"type":"text","text":"## Gameplay Rules","id":"b78660d484f5b44d","x":-440,"y":242,"width":286,"height":60},
-		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":-305,"y":1007,"width":250,"height":60},
 		{"type":"text","text":"**Ability Flaws** decrease ability scores by **2**, acting as the opposite of an **ability boost**","id":"79e1c603d5ab1226","x":-684,"y":-43,"width":294,"height":111},
-		{"type":"text","text":"**Initiative** is determined by **perception checks**","id":"8cdc51900c6d6f02","x":-684,"y":1024,"width":250,"height":87},
 		{"type":"text","text":"When dealing with **more than one multiplier**, just add the multipliers together, subtracting one for each multiplier after the first (so two x2 bonuses become an x3 (2 + 2 - 1))","id":"d3f53f96751d4887","x":-755,"y":131,"width":294,"height":188},
 		{"type":"text","text":"## Kinds of actions\n","id":"718f624e160d35d0","x":993,"y":1683,"width":272,"height":52},
 		{"type":"text","text":"**Bonuses** and **penalties** may apply to certain checks. If there are multiple bonuses of the same type, **take the highest one**. If there are multiple penalties of the same type, **take the worst one**","id":"890e9c95042a1291","x":-1020,"y":539,"width":320,"height":174},
@@ -136,7 +133,6 @@
 		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-2815,"y":463,"width":313,"height":255},
 		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-2815,"y":726,"width":313,"height":94},
 		{"type":"text","text":"The **counteract modifier** is the spellcasting modifier of the caster if it's a spell, otherwise the modifier could be outlined in the effect of an item","id":"2a1d7d059e0696cf","x":-3131,"y":663,"width":290,"height":157},
-		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-138,"y":767,"width":276,"height":91},
 		{"id":"2694875ff4448e9a","type":"text","text":"You can only use **one action/activity/free action without a trigger at a time** - if an activity says you dash twice and strike, you can't slip another action in the middle or rearrange the order of the actions. You can, however, use free actions or reactions with a trigger in the middle of another action.","x":99,"y":1022,"width":736,"height":139},
 		{"type":"text","text":"You can take **3 actions** in a turn during a round","id":"66d924cbdb4d164e","x":99,"y":1189,"width":347,"height":65},
 		{"id":"c3ae602106f28194","type":"text","text":"Some activities have the **exploration or downtime traits** to signify they can only be used during those times","x":468,"y":1189,"width":367,"height":129},
@@ -150,15 +146,20 @@
 		{"id":"f79d8fa0004c873f","type":"text","text":"### Heroic Recovery\nWhen you're about to make a **recovery check** or increase your [[Dying]] level, you can spend **all of your hero points to recover**. Doing this causes you to **not increase your wounded level** but if you already had [[Wounded]] the level would stay the same. You stabilize at 0HP.","x":-292,"y":403,"width":520,"height":194},
 		{"id":"47fb8e0d1d7ec7d1","x":-266,"y":605,"width":494,"height":115,"type":"text","text":"### Reroll a check\n\nThis is a **fortune effect**. Spend one hero point to reroll a check and use the new result."},
 		{"type":"text","text":"**Alignment damage** only affects creatures of the opposite alignment, so good damage harms evil enemies and lawful damage harms chaotic enemies","id":"7b3f10a41defe5a0","x":529,"y":2332,"width":292,"height":179},
-		{"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)","id":"d0a2d97e0c5df40a","x":866,"y":2486,"width":250,"height":214},
-		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":210,"y":2614,"width":300,"height":257},
-		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":529,"y":2646,"width":331,"height":225},
-		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-380,"y":2371,"width":250,"height":197},
-		{"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them","id":"a644040da8a177ab","x":-380,"y":2574,"width":250,"height":145},
-		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":-100,"y":2694,"width":250,"height":177},
 		{"type":"text","text":"## Damage","id":"bf16b6aab7a30341","x":240,"y":2327,"width":167,"height":50},
 		{"type":"text","text":"Always **round down** when dealing with fractional values such as half damage unless otherwise specified","id":"8b156813ef78ac72","x":510,"y":2041,"width":250,"height":153},
-		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":196,"y":1804,"width":250,"height":201}
+		{"type":"text","text":"**Positive and negative** damage are special types of energy damage - positive damage only harms undead while negative damage only harms the living","id":"6dcfae6e6d6690b4","x":570,"y":1787,"width":250,"height":201},
+		{"type":"text","text":"Benefits gained as a result of a **critical hit** are not doubled (e.g. _flaming_ weapon rune persistent fire damage or extra damage die from _fatal_ weapon trait)","id":"d0a2d97e0c5df40a","x":960,"y":2539,"width":250,"height":214},
+		{"type":"text","text":"**Weakness** adds a set value of extra damage to a specific damage type - so if a creature has a _Bludgeoning 5_ weakness, bludgeoning damage automatically does an extra 5 damage. **Resistance** is the same but works in the opposite direction","id":"a8b6c7d11613d139","x":695,"y":2783,"width":331,"height":225},
+		{"type":"text","text":"**Bleed damage** is a persistent damage that affects creatures that actually have blood (so nonliving creatures are unaffected). Physical damage weaknesses and resistances apply. Bleed damage goes away **once healed to full HP**","id":"afdb96b8a253d305","x":352,"y":2694,"width":300,"height":257},
+		{"type":"text","text":"**Precision damage** adds damage to the normal damage type of a weapon. Some creatures can be immune to this damage","id":"c90a7487cb6eae7c","x":74,"y":2807,"width":250,"height":177},
+		{"type":"text","text":"Some creatures may have **immunity to critical hits**, meaning a critical hit deals normal damage against them","id":"a644040da8a177ab","x":-151,"y":2608,"width":250,"height":145},
+		{"type":"text","text":"**Persistent damage** is a condition where you take damage at the end of your turn. You then perform a **DC 15 flat check** to see if the effect wears off.","id":"07b19d6b7cccf9ce","x":-120,"y":2371,"width":250,"height":197},
+		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-146,"y":846,"width":276,"height":91},
+		{"type":"text","text":"## Encounters","id":"2fdd0b78ccad5580","x":-542,"y":1070,"width":250,"height":56},
+		{"type":"text","text":"**Initiative** is determined by **perception checks** (most of the time)","id":"8cdc51900c6d6f02","x":-848,"y":1411,"width":250,"height":87},
+		{"type":"text","text":"Each round is about 6 seconds of real time","id":"0667003f8fc86eda","x":-667,"y":1336,"width":250,"height":60},
+		{"id":"941f5d282d0493a1","x":-266,"y":1355,"width":294,"height":112,"type":"text","text":"Encounters may not necessarily always be combat - as a result different stats can be used for initiative based on the natu"}
 	],
 	"edges":[
 		{"id":"d3df6e48fd38eb33","fromNode":"fed95ebeb82f52c4","fromSide":"right","toNode":"7ead8186a683758f","toSide":"bottom"},
@@ -285,6 +286,8 @@
 		{"id":"81a9cb8d8ce2cc1e","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"d9f7adce885fe47b","toSide":"left"},
 		{"id":"491399c0bfcf520b","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"7fc2bdcbf81014cc","toSide":"left"},
 		{"id":"f919d34209a55c85","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"47fb8e0d1d7ec7d1","toSide":"right"},
-		{"id":"714db0a8f054b0a6","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"e205a3e2c9e1257a","toSide":"top"}
+		{"id":"714db0a8f054b0a6","fromNode":"764fb3964bb20fab","fromSide":"bottom","toNode":"e205a3e2c9e1257a","toSide":"top"},
+		{"id":"cdc69d5d9689f52e","fromNode":"bf16b6aab7a30341","fromSide":"right","toNode":"6dcfae6e6d6690b4","toSide":"bottom"},
+		{"id":"aff271f13b2ab804","fromNode":"2fdd0b78ccad5580","fromSide":"bottom","toNode":"941f5d282d0493a1","toSide":"top"}
 	]
 }
