@@ -1,6 +1,6 @@
 # Escape
-**1 action**
-#Attack tag
+#Actions/1 
+#Ability-tag/Attack
 
 * You attempt to escape from being [[Grabbed]], [[Immobilized]], or [[Restrained]]
 * Choose one source of these statuses. Make a check using your **unarmed attack modifier**, **acrobatics modifier**, or **athletics modifier** against the DC of the effect, which could be:
