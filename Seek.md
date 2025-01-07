@@ -7,4 +7,7 @@
 	* If you need precision for **creatures**, the GM will have you select a **30 foot cone** or a **15 foot burst** within line of sight
 		* You may take a penalty if it's an area further away
 	* If this is a search for **nearby objects**, you may choose up to a 10-foot square adjacent to you, though this may become a longer activity if the area is cluttered (more actions or could be minutes/hours)
-* 
+* The GM rolls a **secret perception check** on your behalf and compares it to the **Stealth DCs** of undetected or hidden creatures in the area or the **DC to detect each object**
+	* Creatures **may remain [[Hidden]] and not [[Observed]]** if you're using an imprecise sense like hearing or if the creature is under an effect such as [[Invisible]]
+
+* **Critical Success** - 
