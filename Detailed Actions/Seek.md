@@ -10,4 +10,5 @@
 * The GM rolls a **secret perception check** on your behalf and compares it to the **Stealth DCs** of undetected or hidden creatures in the area or the **DC to detect each object**
 	* Creatures **may remain [[Hidden]] and not [[Observed]]** if you're using an imprecise sense like hearing or if the creature is under an effect such as [[Invisible]]
 
-* **Critical Success** - 
+* **Critical Success** - Any **creatures** you critically succeeded against become [[Observed]] and if you were searching for an **object** you learn its location
+* **Success** - Any [[Undetected]] **creatures** you succeeded against are now [[Hidden]], and any [[Hidden]] creatures are now [[Observed]]. If you were searching for an **object**, you either learn its location or get a clue to its whereabouts (determined by the GM)
