@@ -9,3 +9,9 @@ You hide behind cover to take better advantage of it - you get a **situational b
 * Reflex saves against area effects
 * Stealth checks to [[Hide]], [[Sneak]], or other checks to avoid detection
 
+This effect lasts until:
+* You move from your current space
+* You use an #Ability-tag/Attack action
+* Become [[Unconscious]]
+* 
+
