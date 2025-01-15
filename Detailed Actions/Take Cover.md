@@ -12,6 +12,6 @@ You hide behind cover to take better advantage of it - you get a **situational b
 This effect lasts until:
 * You move from your current space
 * You use an #Ability-tag/Attack action
-* Become [[Unconscious]]
-* 
+* You become [[Unconscious]]
+* You end this effect as a free action
 
