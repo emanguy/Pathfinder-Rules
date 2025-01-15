@@ -11,3 +11,5 @@ Performing more than one on the same turn incurs penalties:
 * **-5 to hit** on the second attack
 * **-10 to hit** on the third attack
 
+**Success:** You deal damage according to the weapon or unarmed attack, including modifiers/bonuses/penalties you have to damage
+**Critical success:** Same as success, but the damage dealt is doubled
