@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mount.md",
-                "mode": "source",
+                "file": "Actions Index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mount"
+              "title": "Actions Index"
             }
           }
         ]
@@ -172,10 +172,10 @@
   },
   "active": "807cb3b1e24dc118",
   "lastOpenFiles": [
-    "Actions Index.md",
-    "Detailed Actions/Grab an Edge.md",
     "Mount.md",
-    "Gameplay Mind Map.canvas",
-    "Detailed Actions/Fly.md"
+    "Actions Index.md",
+    "Detailed Actions/Fly.md",
+    "Detailed Actions/Grab an Edge.md",
+    "Gameplay Mind Map.canvas"
   ]
 }
