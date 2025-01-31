@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "obsidian_data/assets",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "defaultViewMode": "preview"
 }
