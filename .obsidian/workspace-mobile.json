@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actions Index.md",
+                "file": "Grab an Edge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actions Index"
+              "title": "Grab an Edge"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "807cb3b1e24dc118",
   "lastOpenFiles": [
-    "Gameplay Mind Map.canvas",
     "Actions Index.md",
+    "Grab an Edge.md",
+    "Gameplay Mind Map.canvas",
     "Detailed Actions/Fly.md"
   ]
 }
