@@ -3,7 +3,7 @@
 		{"id":"d1c70cd25a18c35c","type":"group","x":-6600,"y":4720,"width":6000,"height":2420,"color":"5","label":"Gameplay Rules"},
 		{"id":"7c11ce62a7ec7a50","type":"group","x":-4840,"y":4838,"width":4160,"height":2272,"color":"1","label":"Encounters"},
 		{"id":"cb837eb5241a2518","type":"group","x":-6560,"y":5280,"width":1680,"height":1680,"label":"Rolls"},
-		{"id":"ef221cbfa72d4e9b","type":"group","x":-2440,"y":5191,"width":1660,"height":1180,"label":"Movement"},
+		{"id":"ef221cbfa72d4e9b","type":"group","x":-2440,"y":5191,"width":1660,"height":1253,"label":"Movement"},
 		{"id":"ed8fb4ebec371805","type":"group","x":-4780,"y":6200,"width":2240,"height":840,"label":"HP and Dying"},
 		{"id":"fac4fca739470564","type":"group","x":-8138,"y":5920,"width":1490,"height":1240,"color":"3","label":"Gear & Weapons"},
 		{"id":"46c7f9d56ffb5dc7","type":"group","x":-6600,"y":3760,"width":2040,"height":846,"color":"6","label":"Senses"},
@@ -50,7 +50,6 @@
 		{"id":"fc97f78f6af35997","type":"text","text":" ### Falling on a creature\n\nLanding on a creature after a long fall is nearly impossible. A fallen-upon creature rolls a **reflex save** to determine how much damage they take if you do fall on them.\n\n* On a **critical success** they take no damage\n* On a **success** they take 1/4 the damage you took during the fall\n* On a **failure** they take 1/2 the damage you took during the fall\n* On a **critical failure** they take the full damage you took during the fall.","x":-1380,"y":5791,"width":500,"height":384},
 		{"id":"6de1469e0388ff65","type":"text","text":"Falling **into a soft substance** like water or snow allows you to treat the fall as if it were **20 feet shorter** or **30 feet shorter** if you fell into it intentionally.","x":-1700,"y":6078,"width":295,"height":157},
 		{"id":"93feb613babe3930","type":"text","text":"Dropping an object **damages it the same way falling would damage a creature**, and dropping an object on a creature follows the same rules as a creature falling on a creature.","x":-1380,"y":6198,"width":500,"height":120},
-		{"id":"f733198dd0db1134","type":"text","text":"If two creatures **end up in the same space** the GM determines which one gets shoved out or optionally falls [[Prone]]","x":-2386,"y":6133,"width":318,"height":131},
 		{"id":"fca6547f9ce80a87","type":"text","text":"In the first round of falling, you fall **500 feet** and **1500 feet** every round thereafter.","x":-1700,"y":5791,"width":295,"height":117},
 		{"id":"f02d31083b9307a8","type":"text","text":"When you fall, you take bludgeoning damage equal to **half the distance you fell** and you fall [[Prone]].","x":-1700,"y":5927,"width":295,"height":124},
 		{"id":"96399dba4b5fb8d6","type":"text","text":"You can **share a space with a [[Prone]] creature** if it is willing, [[Incapacitated]], or dead. The GM may also allow you to climb atop the corpse or unconscious body of a larger creature in some situations.","x":-2040,"y":5608,"width":294,"height":212},
@@ -169,7 +168,10 @@
 		{"id":"7bb2f0d7c9c9d12d","type":"text","text":"If you hit 0 via a nonlethal attack, you are [[Unconscious]] with 0 HP.","x":-3560,"y":6477,"width":262,"height":113},
 		{"id":"ff9645bf5c3bada6","type":"text","text":"If you **die**, you're reduced to 0 HP if you previously had more and for all intents and purposes you are an **object**.","x":-3560,"y":6606,"width":262,"height":168},
 		{"id":"df0828852cf85f2e","x":-2040,"y":5832,"width":294,"height":157,"type":"text","text":"You may move through  the space of a creature if it's **at least 3 sizes larger** than you, but you still **cannot end your movement in their space** (unless you are tiny)."},
-		{"id":"f4681a95d54d52f6","x":-2040,"y":6016,"width":294,"height":102,"type":"text","text":"The GM determines whether you're able to occupy the same space as an object."}
+		{"id":"f4681a95d54d52f6","x":-2040,"y":6016,"width":294,"height":102,"type":"text","text":"The GM determines whether you're able to occupy the **same space as an object**."},
+		{"id":"99dcbfb97d2350f4","x":-4392,"y":5954,"width":367,"height":97,"type":"text","text":"If something **forces you to move** you don't trigger reactions such as [[Attack of Opportunity]]."},
+		{"id":"f733198dd0db1134","type":"text","text":"If two creatures **end up in the same space** the GM determines which one gets shoved out or optionally falls [[Prone]]","x":-2386,"y":6146,"width":318,"height":131},
+		{"id":"9647add859f4c692","x":-2040,"y":6131,"width":294,"height":189,"type":"text","text":"The GM makes the final call, but generally unless you're pushed or pulled abilities that reposition you can't leave you in hazardous terrain or throw you off a ledge unless the effect says otherwise."}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
