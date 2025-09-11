@@ -8,7 +8,7 @@
 		{"id":"b107e6a10c80e67f","type":"group","x":-3400,"y":5191,"width":906,"height":767,"label":"Damage"},
 		{"id":"f4c26ce6fcc67abe","type":"group","x":-1720,"y":5760,"width":860,"height":578,"label":"Falling"},
 		{"id":"6fb39b52262c3c65","type":"group","x":-1720,"y":5251,"width":920,"height":482,"label":"On a Grid"},
-		{"id":"7142f858c3cfec96","x":-1720,"y":6349,"width":335,"height":411,"type":"group","label":"Difficult Terrain"},
+		{"id":"7142f858c3cfec96","x":-1720,"y":6349,"width":920,"height":411,"type":"group","label":"Difficult Terrain"},
 		{"id":"cb837eb5241a2518","type":"group","x":-6560,"y":5280,"width":1680,"height":1680,"label":"Rolls"},
 		{"id":"fac4fca739470564","type":"group","x":-8138,"y":5920,"width":1490,"height":1240,"color":"3","label":"Gear & Weapons"},
 		{"id":"46c7f9d56ffb5dc7","type":"group","x":-6600,"y":3760,"width":2040,"height":846,"color":"6","label":"Senses"},
@@ -174,7 +174,11 @@
 		{"id":"f733198dd0db1134","type":"text","text":"If two creatures **end up in the same space** the GM determines which one gets shoved out or optionally falls [[Prone]]","x":-2386,"y":6146,"width":318,"height":131},
 		{"id":"9647add859f4c692","type":"text","text":"The GM makes the final call, but generally unless you're pushed or pulled abilities that reposition you can't leave you in hazardous terrain or throw you off a ledge unless the effect says otherwise.","x":-2040,"y":6131,"width":294,"height":189},
 		{"id":"804a7e1da245bc7d","type":"text","text":"**Difficult Terrain** costs 5 extra feet of movement for every 5 feet traveled, and **Greater Difficult Terrain** costs 10 extra feet for every 5 feet of movement.","x":-1700,"y":6369,"width":295,"height":189},
-		{"id":"19032e76fa17f400","x":-1700,"y":6580,"width":295,"height":160,"type":"text","text":"Some abilities allow you to **ignore the movement cost of difficult terrain.** These abilities reduce the effect of Greater Difficult Terrain to that of normal Difficult Terrain."}
+		{"id":"19032e76fa17f400","x":-1700,"y":6580,"width":295,"height":160,"type":"text","text":"Some abilities allow you to **ignore the movement cost of difficult terrain.** These abilities reduce the effect of Greater Difficult Terrain to that of normal Difficult Terrain."},
+		{"id":"93060f82b94fbc32","x":-1380,"y":6369,"width":280,"height":148,"type":"text","text":"A **Narrow Surface** is precariously thin, requiring you to [[Balance]]. You are [[Flat-footed]] on a narrow surface."},
+		{"id":"2e0af09360ee62cd","x":-1074,"y":6369,"width":250,"height":177,"type":"text","text":"**Uneven Terrain** is unsteady and requires you to [[Balance]] on it or risk falling [[Prone]] and possibly injuring yourself. You are [[Flat-footed]] on uneven ground."},
+		{"id":"3c5e933a3a88da96","x":-1074,"y":6558,"width":250,"height":122,"type":"text","text":"An **incline** is so steep that you need to [[Climb]] to get up it. You're [[Flat-footed]] while climbing an incline."},
+		{"id":"668a873d791a45f2","x":-1380,"y":6545,"width":279,"height":174,"type":"text","text":"When you are hit by an attack on a narrow surface or uneven terrain, you must roll a **reflex save** against the narrow surface's [[Balance]] DC or fall."}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
