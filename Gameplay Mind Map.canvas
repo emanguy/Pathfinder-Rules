@@ -21,6 +21,7 @@
 		{"id":"f4c26ce6fcc67abe","type":"group","x":-1700,"y":5740,"width":860,"height":578,"label":"Falling"},
 		{"id":"56b91ebac251a415","type":"group","x":-2408,"y":5473,"width":686,"height":698,"label":"Methods of Movement"},
 		{"id":"197f8db09941fbe7","type":"group","x":-7771,"y":6003,"width":1079,"height":435,"label":"Attributes"},
+		{"id":"e753705d2e352110","x":-460,"y":6000,"width":1006,"height":444,"type":"group","label":"Cover"},
 		{"id":"6fb39b52262c3c65","type":"group","x":-1700,"y":5232,"width":920,"height":482,"label":"On a Grid"},
 		{"id":"cb0746ca10614253","type":"group","x":-2408,"y":6220,"width":683,"height":623,"label":"Occupying the same space"},
 		{"type":"group","id":"36daed7121a34b22","x":-6520,"y":5660,"width":732,"height":580,"label":"Attack Rolls"},
@@ -182,8 +183,10 @@
 		{"type":"text","text":"Instead of picking a class feat, you can instead take an **archetype** which effectively grants you access to feats from other classes, which is Pathfinder's version of multiclassing","id":"cb202561f6c886bd","x":-7007,"y":5302,"width":279,"height":210},
 		{"type":"text","text":"If your intelligence modifier increases, make sure to become **trained in an additional skill** and **gain a new language**","id":"ba31ebf322a0cf78","x":-7662,"y":5385,"width":310,"height":127},
 		{"id":"4958423517ddeb7a","type":"file","file":"Level Up Checklist.md","x":-7564,"y":5548,"width":755,"height":300},
-		{"id":"73b56afa2f318fd2","type":"text","text":"### Cover\nStandard & higher gives bonuses to **Reflex saves** against area effects and **Stealth checks** to [[Hide]], [[Sneak]], or avoid detection.\n\n[[Take Cover]] increases Standard to Greater cover, lesser cover comes from hiding behind a creature\n\nGreater cover can also be given for large obstructions\n\n| Cover Type | Bonus                  | Can hide |\n| ---------- | ---------------------- | -------- |\n| Lesser     | +1 AC                  | No       |\n| Standard   | +2 AC, Reflex, Stealth | Yes      |\n| Greater    | +4 AC, Reflex, Stealth | Yes      |","x":-432,"y":5976,"width":642,"height":404},
-		{"id":"aa6c8749b588bf98","x":254,"y":5976,"width":250,"height":60,"type":"text","text":"A creature **two or more sizes** larger tha"}
+		{"id":"73b56afa2f318fd2","type":"text","text":"### Cover\nStandard & higher gives bonuses to **Reflex saves** against area effects and **Stealth checks** to [[Hide]], [[Sneak]], or avoid detection.\n\n\n\n| Cover Type | Bonus                  | Can hide |\n| ---------- | ---------------------- | -------- |\n| Lesser     | +1 AC                  | No       |\n| Standard   | +2 AC, Reflex, Stealth | Yes      |\n| Greater    | +4 AC, Reflex, Stealth | Yes      |","x":-440,"y":6020,"width":642,"height":404},
+		{"id":"6165fa6c018750af","x":232,"y":6020,"width":294,"height":120,"type":"text","text":"[[Take Cover]] increases Standard to Greater cover, lesser cover comes from hiding behind a creature"},
+		{"id":"aa6c8749b588bf98","x":232,"y":6155,"width":294,"height":104,"type":"text","text":"A creature **two or more sizes** larger than you can provide **standard cover**"},
+		{"id":"2ca1423ee3ca4454","x":232,"y":6282,"width":294,"height":60,"type":"text","text":"Greater cover can also be given for large obstructions"}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
