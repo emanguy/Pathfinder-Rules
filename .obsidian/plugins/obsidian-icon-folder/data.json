@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCar",
       "FasPersonWalking",
       "FasAlignLeft",
       "FasBolt",
-      "FasListCheck",
-      "FasMap"
+      "FasListCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,5 +47,5 @@
   "Detailed Conditions": "FasBolt",
   "Actions Index.md": "FasPersonWalking",
   "Detailed Actions": "FasPersonWalking",
-  "Detailed Exploration Activities": "FasMap"
+  "Detailed Exploration Activities": "LiCar"
 }

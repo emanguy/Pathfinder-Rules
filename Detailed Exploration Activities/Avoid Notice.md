@@ -1,0 +1,7 @@
+# Avoid Notice
+
+#Ability-tag/Exploration
+
+Attempt a **Stealth Check** while moving at half speed 
+* or full speed if you have **Swift Sneak**, but no secondary activity
+* or full speed if you have **Legendary Sneak**, with a secondary activity
