@@ -9,4 +9,5 @@
 
 You try to bully a creature into doing what you want. You have to converse with the creature **for at least 1 minute** who can either see or sense you. Perform an intimidation check **against the target's Will DC**.
 
-* **Critical Success:** 
+* **Critical Success:** The target complies as long as they won't harm the target. They continue complying for up to 1 day as determined by the GM, at which point the target becomes [[Unfriendly]].
+* 
