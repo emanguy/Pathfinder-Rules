@@ -14,7 +14,7 @@
 * [[Borrow an Arcane Spell]]
 * [[Coerce]]
 * [[Cover Tracks]]
-* [[Decipher Warning]]
+* [[Decipher Writing]]
 * [[Gather Information]]
 * [[Identify Alchemy]]
 * [[Identify Magic]]
