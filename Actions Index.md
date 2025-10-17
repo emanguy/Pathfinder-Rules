@@ -1,7 +1,8 @@
 # Actions Index
 ## Action Icons
 ![[Pathfinder Action Icons.png]]
-## Index
+## Combat Action Index
+### Actions
 * [[Aid]]
 * [[Crawl]]
 * [[Delay]]
@@ -18,7 +19,7 @@
 * [[Stride]]
 * [[Strike]]
 * [[Take Cover]]
-## Specialty Actions
+### Specialty Actions
 * [[Arrest a Fall]]       
 * [[Avert Gaze]]
 * [[Burrow]]
@@ -27,3 +28,5 @@
 * [[Mount]]
 * [[Point Out]]
 * [[Raise a Shield]]
+### Reactions
+* [[Attack of Opportunity]]

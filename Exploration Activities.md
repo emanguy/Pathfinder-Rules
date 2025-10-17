@@ -1,0 +1,28 @@
+# Exploration Activities
+
+* [[Avoid Notice]]
+* [[Defend]]
+* [[Detect Magic]]
+* [[Follow the Expert]]
+* [[Hustle]]
+* [[Investigate]]
+* [[Repeat a Spell]]
+* [[Scout]]
+* [[Search]]
+
+## Skill Exploration Activities
+* [[Borrow an Arcane Spell]]
+* [[Coerce]]
+* [[Cover Tracks]]
+* [[Decipher Writing]]
+* [[Gather Information]]
+* [[Identify Alchemy]]
+* [[Identify Magic]]
+* [[Impersonate]]
+* [[Learn a Spell]]
+* [[Make an Impression]]
+* [[Repair]]
+* [[Sense Direction]]
+* [[Squeeze]]
+* [[Track]]
+* [[Treat Wounds]]

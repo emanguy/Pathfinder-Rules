@@ -1,16 +1,16 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCar",
       "FasPersonWalking",
       "FasAlignLeft",
       "FasBolt",
-      "FasListCheck",
-      "FasMap"
+      "FasListCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -20,7 +20,19 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Locations": "FasLocationDot",
   "Characters": "FasUserGroup",
@@ -34,5 +46,6 @@
   "Level-based DC table.md": "FasAlignLeft",
   "Detailed Conditions": "FasBolt",
   "Actions Index.md": "FasPersonWalking",
-  "Detailed Actions": "FasPersonWalking"
+  "Detailed Actions": "FasPersonWalking",
+  "Detailed Exploration Activities": "LiCar"
 }
