@@ -4,4 +4,10 @@
 #Ability-tag/Manipulate 
 #Ability-tag/Secret 
 
-Roll a **Deception Check** to disguise yourself as something or someone you are not. Convincing disguises require a _disguise kit_ but if you're not trying to impersonate a specific person the DM may allow you to do a simple, quick disguise.
+Roll a **Deception Check** to disguise yourself as something or someone you are not. Convincing disguises require 10 minutes and a _disguise kit_ but if you're not trying to impersonate a specific person the DM may allow you to do a simple, quick disguise.
+
+Creatures will detect your disguise if they use the [[Seek]] action do perception checks against your deception DC.
+
+If you interact with someone while disguised, the GM will do a secret deception check for you against the creature's perception DC. Creatures familiar with the individual you're disguised as may get a circumstance bonus on the secret check.
+
+* **Success:** You trick the creature into thinking you're the person you're disguised as
