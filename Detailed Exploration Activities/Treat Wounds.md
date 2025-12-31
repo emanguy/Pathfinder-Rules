@@ -10,6 +10,8 @@ You spend 10 minutes treating one injured living creature. The creature is then 
 The DC for this check is usually 15 but may be adjusted by the DM.
 
 * **Critical Success:** The target regains 4d8 HP and its [[Wounded]] condition is removed.
+* **Success:** The target regains 2d8 HP and its wounded condition is removed.
+* **Critical failure:** The target takes 1d8 damage.
 ## Alternate DCs based on training
 Injury caused on critical failure does not change based on these higher attempts.
 * If you're an **Expert** in medicine, you can attempt a DC 20 check to increase HP gained by 10
