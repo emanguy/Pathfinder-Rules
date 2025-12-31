@@ -25,3 +25,12 @@
 | 10    | 27  |     | 23    | 46  |
 | 11    | 28  |     | 24    | 48  |
 | 12    | 30  |     | 25    | 50  |
+## Adjustments based on difficulty & rarity
+
+| Difficulty      | Rarity   | Adjustment |
+| --------------- | -------- | ---------- |
+| Incredibly Easy |          | -10        |
+| Very easy       |          | -5         |
+| Easy            |          | -2         |
+| Hard            | Uncommon | +2         |
+| Very Hard       | Rare     | ?+         |
