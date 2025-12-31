@@ -43,9 +43,9 @@
   "Level Up Checklist.md": "FasListCheck",
   "Character Creation.md": "FasUserGroup",
   "Conditions Index.md": "FasBolt",
-  "Level-based DC table.md": "FasAlignLeft",
   "Detailed Conditions": "FasBolt",
   "Actions Index.md": "FasPersonWalking",
   "Detailed Actions": "FasPersonWalking",
-  "Detailed Exploration Activities": "LiCar"
+  "Detailed Exploration Activities": "LiCar",
+  "DC Tables.md": "FasAlignLeft"
 }

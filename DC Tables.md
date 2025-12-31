@@ -1,4 +1,15 @@
-# DC by effect level
+# DC Tables
+
+## By expertise
+| Expertise | DC  |
+| --------- | --- |
+| Untrained | 10  |
+| Trained   | 15  |
+| Expert    | 20  |
+| Master    | 30  |
+| Legendary | 40  |
+## By effect level
+
 | Level | DC  |     | Level | DC  |
 | ----- | --- | --- | ----- | --- |
 | 0     | 14  |     | 13    | 31  |

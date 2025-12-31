@@ -195,7 +195,7 @@
 		{"type":"text","text":"**Free actions** cost no action such as dropping an object or talking","id":"a92086b6d681377c","x":-4761,"y":5537,"width":347,"height":77},
 		{"type":"text","text":"For **saving throws**, here's how degrees of success work\n* Crit success = no damage\n* Success = half damage\n* Failure = full damage\n* Crit failure = double damage","id":"59a5e41582244e5f","x":-5700,"y":5890,"width":344,"height":214},
 		{"type":"text","text":"**Counteract levels** determine the outcome of a counteract check. The counteract level of a spell is **equal to a spell's level** and for an item it's **half the item level rounded up**. For an ambiguous effect from a creature, use **half the creature's level rounded up.**","id":"d91e9068ef4ebb00","x":-5375,"y":6192,"width":313,"height":255},
-		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[Level-based DC table]]","id":"e50990108915a478","x":-5691,"y":6192,"width":290,"height":180},
+		{"type":"text","text":"The **counteract DC** is based on either the spellcaster DC or the DC listed in the affliction/effect. A DC can also be determined via the [[DC Tables]]","id":"e50990108915a478","x":-5691,"y":6192,"width":290,"height":180},
 		{"type":"text","text":"The **counteract modifier** is the spellcasting modifier of the caster if it's a spell, otherwise the modifier could be outlined in the effect of an item","id":"2a1d7d059e0696cf","x":-5691,"y":6392,"width":290,"height":157},
 		{"type":"text","text":"Counteract checks are used in the removal of **afflictions, effects, and spells**.","id":"27a531841c5f131d","x":-5375,"y":6455,"width":313,"height":94}
 	],
