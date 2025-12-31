@@ -1,9 +1,10 @@
 # Downtime Activities
 * Crafting
 	* [[Craft]]
+* Medicine
+	* [[Treat disease]]
 * Society
 	* [[Create Forgery]]
 * Multiple
-	* Crafting, [[Earn Income]]
-* [[Subsist]]
-* [[Treat disease]]
+	* Crafting, Lore, Performance: [[Earn Income]]
+	* Society, Survival: [[Subsist]]
