@@ -198,7 +198,9 @@
 		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-4453,"y":4858,"width":276,"height":91},
 		{"id":"c166cac844e3739b","type":"text","text":"Special rules for **mounted, aerial, and aquatic combat** can be found on page 479 of the core rulebook.","x":-4160,"y":4858,"width":285,"height":143},
 		{"id":"99c0cc44c09d1771","type":"text","text":"If you **take damage while dying**, increase your [[Dying]] level by 1, or 2 if it's the result of a crit success from an enemy or your own crit failure. You add your [[Wounded]] level as well.","x":-3280,"y":6277,"width":257,"height":240},
-		{"id":"e6d418644b059dd4","x":-6540,"y":7640,"width":380,"height":80,"type":"text","text":"Once every 24 hours you may **rest**. Doing so for **hour"}
+		{"id":"e6d418644b059dd4","x":-6540,"y":7620,"width":400,"height":140,"type":"text","text":"Once every 24 hours you may **rest**. Doing so for **8 hours** gives you HP equal to your **con mod times your level** and you may recover from certain [[Conditions Index|Conditions]]"},
+		{"id":"e74cede66446f380","x":-6125,"y":7620,"width":405,"height":140,"type":"text","text":"If you **rest in armor or don't rest for more than 16 hours** you become [[Fatigued]]. You recover from fatigue by resting for more than **6 continuous hours**."},
+		{"id":"b91ca82da779a2d5","x":-6540,"y":7780,"width":400,"height":200,"type":"text","text":"After resting you do your **daily prep** which takes about an hour:\n\n* **Spellcasters** regain spell slots and choose spe"}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
