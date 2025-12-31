@@ -19,7 +19,6 @@
 * [[Frightened]] - Fear makes you less capable of attacking or defending
 * [[Grabbed]] - Something is holding you in place
 * [[Hidden]] - A creature you've hidden from knows you're there but can't see you
-* [[Hostile]] - An NPC with this condition wants to harm you
 * [[Immobilized]] - You can't move
 * [[Invisible]] - An NPC with this condition is invisible due to magic
 * [[Observed]] - You're in plain view
@@ -35,7 +34,6 @@
 * [[Stupefied]] - You cannot access your full mental faculties and have trouble casting spells
 * [[Unconscious]] - You're asleep or knocked out
 * [[Undetected]] - A creature doesn't know where you are
-* [[Unfriendly]] - An NPC with this condition doesn't like you
 * [[Unnoticed]] - A creature has no idea you're there
 * [[Wounded]] - You've been brought back from the brink of death but haven't fully recovered
 

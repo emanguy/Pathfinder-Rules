@@ -12,3 +12,5 @@ The result of your impression only lingers for the extent of the current convers
 * **Critical success:** The target's attitude toward you improves by 2 steps
 * **Success:** The target's attitude toward you improves by 1 step
 * **Critical failure:** The target's attitude toward you decreases by 1 step
+
+See [[Conditions Index#Attitude conditions]] for more info on attitude
