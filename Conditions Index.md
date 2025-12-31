@@ -16,14 +16,11 @@
 * [[Fatigued]] - Your defenses are lower and you can't do exploration activities while traveling
 * [[Flat-footed]] - you cannot defend yourself to full capacity
 * [[Fleeing]] - You must run away
-* [[Friendly]] - An NPC with this condition has a good attitude towards you
 * [[Frightened]] - Fear makes you less capable of attacking or defending
 * [[Grabbed]] - Something is holding you in place
-* [[Helpful]] - An NPC with this condition wants to help you
 * [[Hidden]] - A creature you've hidden from knows you're there but can't see you
 * [[Hostile]] - An NPC with this condition wants to harm you
 * [[Immobilized]] - You can't move
-* [[Indifferent]] - An NPC with this condition is indifferent towards you
 * [[Invisible]] - An NPC with this condition is invisible due to magic
 * [[Observed]] - You're in plain view
 * [[Paralyzed]] - Your body is frozen in place
@@ -41,3 +38,10 @@
 * [[Unfriendly]] - An NPC with this condition doesn't like you
 * [[Unnoticed]] - A creature has no idea you're there
 * [[Wounded]] - You've been brought back from the brink of death but haven't fully recovered
+
+## Attitude conditions
+* [[Helpful]] - An NPC with this condition wants to help you
+* [[Friendly]] - An NPC with this condition has a good attitude towards you
+* [[Indifferent]] - An NPC with this condition is indifferent towards you
+* [[Unfriendly]] - An NPC with this condition doesn't like you
+* [[Hostile]] - An NPC with this condition wants to harm you
