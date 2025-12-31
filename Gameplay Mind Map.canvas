@@ -30,6 +30,7 @@
 		{"type":"group","id":"60679394a6e34b7b","x":-5720,"y":5649,"width":830,"height":482,"label":"Saving Throws"},
 		{"id":"7142f858c3cfec96","type":"group","x":-1700,"y":6360,"width":920,"height":411,"label":"Difficult Terrain"},
 		{"id":"8d442600b2fb3416","type":"group","x":-8200,"y":7160,"width":912,"height":380,"label":"Holding Breath"},
+		{"id":"49a128be9540f38b","x":-5497,"y":7406,"width":692,"height":414,"type":"group","label":"Retraining"},
 		{"type":"group","id":"30c5a45ab4e85eec","x":-6464,"y":6400,"width":620,"height":440,"label":"DCs and Crits"},
 		{"id":"cc6927013d96ab8f","type":"group","x":-6320,"y":4206,"width":640,"height":371,"label":"Perception"},
 		{"id":"1fdf3b8ebf1cc6a6","type":"group","x":293,"y":4758,"width":567,"height":415,"label":"Bulk"},
@@ -204,7 +205,10 @@
 		{"id":"087b1236a0ba8056","x":-5480,"y":7266,"width":300,"height":104,"type":"text","text":"You can do **long-term rest** during downtime which gives you HP equal to **con mod * 2 * your level**"},
 		{"id":"cb6e516c8ec1834b","x":-5480,"y":7140,"width":360,"height":106,"type":"text","text":"**Downtime** occurs while not on the move anymore - in a settlement, recovering from your adventures, or studying an artifact."},
 		{"id":"216fadcc0421073b","x":-6000,"y":7066,"width":400,"height":114,"type":"text","text":"**Exploration mode** is the typical \"adventuring\" game mode - you might be on the move, trading with merchants, or exploring dungeons."},
-		{"id":"75a5d2d173756fa3","type":"file","file":"Exploration Activities.md","x":-6000,"y":7193,"width":400,"height":387}
+		{"id":"75a5d2d173756fa3","type":"file","file":"Exploration Activities.md","x":-6000,"y":7193,"width":400,"height":387},
+		{"id":"56d463599294fa05","x":-5477,"y":7426,"width":295,"height":147,"type":"text","text":"You can retrain your character to go in a new direction - you may only retrain **feats, skills, and some selectable class features**."},
+		{"id":"f8e26fb8ca98fedd","x":-5160,"y":7426,"width":335,"height":140,"type":"text","text":"You typically need to **find a teacher** to retrain you and possibly pay them or some other form of learning (gyms, libraries, etc.)."},
+		{"id":"36074f8b20e1c7f6","x":-5477,"y":7617,"width":342,"height":183,"type":"text","text":"You **can't make a new choice that you weren't eligible for** during the original choice (i.e. you can't swap a 4th level feat in for a 2nd level feat)"}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
