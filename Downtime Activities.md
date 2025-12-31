@@ -1,0 +1,5 @@
+* [[Craft]]
+* [[Create Forgery]]
+* [[Earn Income]]
+* [[Subsist]]
+* [[Treat disease]]

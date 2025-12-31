@@ -15,7 +15,7 @@
 		{"id":"b107e6a10c80e67f","type":"group","x":-3400,"y":5191,"width":906,"height":767,"label":"Damage"},
 		{"id":"be9e9cb96268a4ad","type":"group","x":-6560,"y":4820,"width":1670,"height":400,"label":"Hero Points"},
 		{"id":"e05bbed9c64a20ef","type":"group","x":-7682,"y":5282,"width":990,"height":586,"label":"Leveling up"},
-		{"id":"49a128be9540f38b","x":-5472,"y":7416,"width":752,"height":744,"type":"group","label":"Retraining"},
+		{"id":"49a128be9540f38b","x":-5472,"y":7416,"width":752,"height":724,"type":"group","label":"Retraining"},
 		{"type":"group","id":"99f1a9a2af2efa21","x":-5720,"y":6180,"width":678,"height":749,"label":"Counteract Checks"},
 		{"id":"54ec69dd11c808dc","type":"group","x":-5460,"y":3784,"width":855,"height":588,"label":"Special Senses"},
 		{"id":"1432d4bcd2507a50","type":"group","x":-460,"y":5244,"width":700,"height":714,"label":"Targeting"},
@@ -211,8 +211,8 @@
 		{"id":"53e673e318bd4add","x":-5100,"y":7600,"width":340,"height":143,"type":"text","text":"If you **lose the prerequisites for an ability** during the process of retraining, you cannot use that ability. You may need to retrain a set of abilities in order."},
 		{"id":"238df48d1f3d35fc","x":-5100,"y":7770,"width":340,"height":270,"type":"text","text":"You can spend **one week to retrain a skill** - this requires decreasing training in one level and increasing training in another. The training increase must be below or up to the level of the skill you took away from. (i.e. you may go from expert to trained in deception and trained to expert in diplomacy, but not expert to master)"},
 		{"id":"36074f8b20e1c7f6","x":-5452,"y":7657,"width":332,"height":143,"type":"text","text":"You **can't make a new choice that you weren't eligible for** during the original choice (i.e. you can't swap a 4th level feat in for a 2nd level feat)"},
-		{"id":"98107861d4d0cfbc","x":-5452,"y":7840,"width":332,"height":130,"type":"text","text":"When **retraining a feat**, swap the old one with another of the same type. You could swap a skill feat for another, but not a wizard feat. This takes **1 week**."},
-		{"id":"838eab16a7a57d48","x":-5452,"y":8010,"width":332,"height":110,"type":"text","text":"You can **retrain class features** - swapping out a choice for a differe"}
+		{"id":"98107861d4d0cfbc","x":-5452,"y":7820,"width":332,"height":130,"type":"text","text":"When **retraining a feat**, swap the old one with another of the same type. You could swap a skill feat for another, but not a wizard feat. This takes **1 week**."},
+		{"id":"838eab16a7a57d48","x":-5452,"y":7965,"width":332,"height":150,"type":"text","text":"You can **retrain class features** - swapping out a choice for a different choice. Small things may take a week, but larger changes like a druid order or wizard school could take up to a month."}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBed",
+      "LiWrench",
       "LiCar",
       "FasPersonWalking",
-      "FasAlignLeft",
-      "FasBolt",
-      "FasListCheck"
+      "FasAlignLeft"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,6 +46,10 @@
   "Detailed Conditions": "FasBolt",
   "Actions Index.md": "FasPersonWalking",
   "Detailed Actions": "FasPersonWalking",
-  "Detailed Exploration Activities": "LiCar",
-  "DC Tables.md": "FasAlignLeft"
+  "DC Tables.md": "FasAlignLeft",
+  "Exploration Activities.md": "LiCar",
+  "Detailed Activities/Detailed Exploration Activities": "LiCar",
+  "Detailed Activities": "LiWrench",
+  "Detailed Activities/Detailed Downtime Activities": "LiBed",
+  "Downtime Activities.md": "LiBed"
 }
