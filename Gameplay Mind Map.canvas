@@ -9,7 +9,7 @@
 		{"id":"46c7f9d56ffb5dc7","type":"group","x":-6600,"y":3760,"width":2040,"height":846,"color":"6","label":"Senses"},
 		{"id":"fa63b97906a766d8","type":"group","x":-8232,"y":6532,"width":1540,"height":1028,"label":"Conditions, Afflictions"},
 		{"type":"group","id":"ea5a402a1e848871","x":-4780,"y":5191,"width":1340,"height":940,"label":"Actions"},
-		{"id":"d9ca4d297a8a131a","type":"group","x":-6560,"y":7046,"width":1060,"height":934,"color":"6","label":"Exploration Mode"},
+		{"id":"d9ca4d297a8a131a","type":"group","x":-6560,"y":7046,"width":1014,"height":1154,"color":"6","label":"Exploration Mode"},
 		{"id":"6c7558da8e2e754f","type":"group","x":-4480,"y":3530,"width":880,"height":1076,"label":"Setting & Resources"},
 		{"id":"a39aba164a8d645b","type":"group","x":-3580,"y":6250,"width":972,"height":760,"label":"0 HP"},
 		{"id":"b107e6a10c80e67f","type":"group","x":-3400,"y":5191,"width":906,"height":767,"label":"Damage"},
@@ -22,6 +22,7 @@
 		{"id":"f4c26ce6fcc67abe","type":"group","x":-1700,"y":5740,"width":860,"height":578,"label":"Falling"},
 		{"id":"56b91ebac251a415","type":"group","x":-2408,"y":5473,"width":686,"height":698,"label":"Methods of Movement"},
 		{"id":"197f8db09941fbe7","type":"group","x":-7771,"y":6003,"width":1079,"height":435,"label":"Attributes"},
+		{"id":"524c10044e0f0d96","x":-6540,"y":7640,"width":892,"height":520,"type":"group","label":"Rest & Daily Prep"},
 		{"id":"e753705d2e352110","type":"group","x":-460,"y":6000,"width":1006,"height":444,"label":"Cover"},
 		{"id":"6fb39b52262c3c65","type":"group","x":-1700,"y":5232,"width":920,"height":482,"label":"On a Grid"},
 		{"id":"cb0746ca10614253","type":"group","x":-2408,"y":6220,"width":683,"height":623,"label":"Occupying the same space"},
@@ -198,9 +199,11 @@
 		{"type":"text","text":"Encounters are similar to D&D (initiative + rounds containing turns)","id":"8972f11d7be07f3b","x":-4453,"y":4858,"width":276,"height":91},
 		{"id":"c166cac844e3739b","type":"text","text":"Special rules for **mounted, aerial, and aquatic combat** can be found on page 479 of the core rulebook.","x":-4160,"y":4858,"width":285,"height":143},
 		{"id":"99c0cc44c09d1771","type":"text","text":"If you **take damage while dying**, increase your [[Dying]] level by 1, or 2 if it's the result of a crit success from an enemy or your own crit failure. You add your [[Wounded]] level as well.","x":-3280,"y":6277,"width":257,"height":240},
-		{"id":"e6d418644b059dd4","x":-6540,"y":7620,"width":400,"height":140,"type":"text","text":"Once every 24 hours you may **rest**. Doing so for **8 hours** gives you HP equal to your **con mod times your level** and you may recover from certain [[Conditions Index|Conditions]]"},
-		{"id":"e74cede66446f380","x":-6125,"y":7620,"width":405,"height":140,"type":"text","text":"If you **rest in armor or don't rest for more than 16 hours** you become [[Fatigued]]. You recover from fatigue by resting for more than **6 continuous hours**."},
-		{"id":"b91ca82da779a2d5","x":-6540,"y":7780,"width":400,"height":200,"type":"text","text":"After resting you do your **daily prep** which takes about an hour:\n\n* **Spellcasters** regain spell slots and choose spe"}
+		{"id":"e74cede66446f380","x":-6073,"y":7660,"width":405,"height":140,"type":"text","text":"If you **rest in armor or don't rest for more than 16 hours** you become [[Fatigued]]. You recover from fatigue by resting for more than **6 continuous hours**."},
+		{"id":"b91ca82da779a2d5","x":-6520,"y":7820,"width":415,"height":320,"type":"text","text":"After resting you do your **daily prep** which takes about an hour:\n\n* **Spellcasters** regain spell slots and choose spells for the day if they prepare them\n* **Refreshable abilities and magic items** reset their uses as appropriate (i.e. focus points or magic items that reset uses daily)\n* You **don armor and gear**\n* You **invest magic items** (up to 10) and gain their benefits for the day."},
+		{"id":"e6d418644b059dd4","x":-6520,"y":7660,"width":415,"height":140,"type":"text","text":"Once every 24 hours you may **rest**. Doing so for **8 hours** gives you HP equal to your **con mod times your level** and you may recover from certain [[Conditions Index|Conditions]]"},
+		{"id":"087b1236a0ba8056","x":-5480,"y":7266,"width":300,"height":104,"type":"text","text":"You can do **long-term rest** during downtime which gives you HP equal to **con mod * 2 * your level**"},
+		{"id":"cb6e516c8ec1834b","x":-5480,"y":7160,"width":250,"height":60,"type":"text","text":"**Downtime** occurs while "}
 	],
 	"edges":[
 		{"id":"8d1c37d30e77e68b","fromNode":"7ead8186a683758f","fromSide":"bottom","toNode":"ba6f414d0bec2037","toSide":"top"},
