@@ -22,3 +22,9 @@ You spend **at least 4 days working on crafting** then perform a crafting check.
 On a successful craft, you **expend the materials you supplied**. You may then choose to:
 1. Pay the remaining portion of the item's material price to complete it right away
 2. Spend additional days working on the item. For each day, reduce the cost of materials spent building the item using the table in [[Earn Income]], using your crafting proficiency and level instead of a task level
+
+You may **stop crafting an item partway through** and pick up where you left off later.
+
+* **Critical success:** Your attempt is successful. Each additional day spent crafting reduces materials needed to complete the item by **your level + 1** and your **proficiency in crafting** in the [[Earn Income]] table.
+* **Success:** Your attempt is successful. Each additional day spent crafting reduces materials needed to complete the item by your level and proficiency in crafting on the [[Earn Income]] table.
+* **Failure:** You fail to create the item but don't 
