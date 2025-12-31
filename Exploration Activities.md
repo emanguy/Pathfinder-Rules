@@ -11,13 +11,21 @@
 * [[Search]]
 
 ## Skill Exploration Activities
-
+* Arcana
+	* [[Borrow an Arcane Spell]]
+* Diplomacy
+* Intimidation
+	* [[Coerce]]
+* Medicine
+	* [[Treat Wounds]]
 * Survival
+	* [[Cover Tracks]]
 	* [[Track]]
-* [[Borrow an Arcane Spell]]
-* [[Coerce]]
-* [[Cover Tracks]]
-* [[Decipher Writing]]
+* Multiple
+	* Arcana, Occultism, Religion, Society: [[Decipher Writing]]
+* 
+* 
+* 
 * [[Gather Information]]
 * [[Identify Alchemy]]
 * [[Identify Magic]]
@@ -28,4 +36,4 @@
 * [[Sense Direction]]
 * [[Squeeze]]
 
-* [[Treat Wounds]]
+* 
