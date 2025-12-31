@@ -13,7 +13,13 @@
 ## Skill Exploration Activities
 * Arcana
 	* [[Borrow an Arcane Spell]]
+* Crafting
+	* [[Identify Alchemy]]
+* Deception
+	* [[Impersonate]]
 * Diplomacy
+	* [[Gather Information]]
+	* [[Make an Impression]]
 * Intimidation
 	* [[Coerce]]
 * Medicine
@@ -23,15 +29,9 @@
 	* [[Track]]
 * Multiple
 	* Arcana, Occultism, Religion, Society: [[Decipher Writing]]
-* 
-* 
-* 
-* [[Gather Information]]
-* [[Identify Alchemy]]
-* [[Identify Magic]]
-* [[Impersonate]]
-* [[Learn a Spell]]
-* [[Make an Impression]]
+	* Arcana, Occultism, Religion: [[Identify Magic]]
+	* Arcana, Nature, Occultism, Religion: [[Learn a Spell]]
+
 * [[Repair]]
 * [[Sense Direction]]
 * [[Squeeze]]
