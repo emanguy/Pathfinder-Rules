@@ -4,6 +4,8 @@
 #Ability-tag/Move 
 #Actions/1 
 
+**Requirements:** trained in survival.
+
 Make a **Survival Check** to follow tracks up to half your Exploration Speed (see exploration section in [[Gameplay Mind Map.canvas|Gameplay Mind Map]]).
 
 During exploration, each success on your Survival check will allow you to continue following the trail for an hour. During an encounter, you use this ability for 1 action and it doesn't have the exploration tag. In encounters you need to make the check more frequently.

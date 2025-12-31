@@ -1,1 +1,10 @@
-(page 238)
+# Identify Magic
+#Ability-tag/Concentrate 
+#Ability-tag/Exploration 
+#Ability-tag/Secret 
+
+**Requirement:** trained in the skill you're using for this (either Arcana, Occultism, or Religion)
+
+You spend 10 minutes trying to identify the particulars of an ongoing magical effect. If your attempt is interrupted you must start over.
+
+* **Critical success:** You learn all the attributes of the magic
