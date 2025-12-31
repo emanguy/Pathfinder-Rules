@@ -33,4 +33,5 @@
 | Very easy       |          | -5         |
 | Easy            |          | -2         |
 | Hard            | Uncommon | +2         |
-| Very Hard       | Rare     | ?+         |
+| Very Hard       | Rare     | +5         |
+| Incredibly Hard | Unique   | +10        |
