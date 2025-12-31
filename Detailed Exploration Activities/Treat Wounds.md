@@ -3,9 +3,9 @@
 #Ability-tag/Healing
 #Ability-tag/Manipulate 
 
-**Requirements:** You're wearing or holding _healer's tools_.
+**Requirements:** You're wearing or holding _healer's tools_ and are trained in medicine.
 
-You spend 10 minutes treating one injured living creature. The creature is then **temporarily immune to Treat Wounds for 1 hour** which overlaps with the time you spent treating.
+Roll a **medicine check** to spend 10 minutes treating one injured living creature. The creature is then **temporarily immune to Treat Wounds for 1 hour** which overlaps with the time you spent treating.
 
 The DC for this medicine check is usually 15 but may be adjusted by the DM.
 
