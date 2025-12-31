@@ -25,6 +25,7 @@ On a successful craft, you **expend the materials you supplied**. You may then c
 
 You may **stop crafting an item partway through** and pick up where you left off later.
 
-* **Critical success:** Your attempt is successful. Each additional day spent crafting reduces materials needed to complete the item by **your level + 1** and your **proficiency in crafting** in the [[Earn Income]] table.
+* **Critical success:** Your attempt is successful. Each additional day spent crafting reduces materials needed to complete the item by **your level + 1** and your proficiency in crafting in the [[Earn Income]] table.
 * **Success:** Your attempt is successful. Each additional day spent crafting reduces materials needed to complete the item by your level and proficiency in crafting on the [[Earn Income]] table.
-* **Failure:** You fail to create the item but don't 
+* **Failure:** You fail to create the item but don't lose the materials. You must also start over on crafting the item.
+* **Critical failure:** You fail to create the item and lose 10% of the materials. You must start over on crafting the item if you want to make it again.
