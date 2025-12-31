@@ -17,4 +17,8 @@ There are requirements for crafting items:
 * You have the correct **set of tools and possibly a workshop** (e.g. a smithy for a metal shield or an alchemist's lab for alchemical items)
 * You supply **raw materials worth at least half the item's price**. You always spend at least that amount on materials when crafting successfully. In a settlement, you can probably purchase raw materials you need unless they are rare
 
-You spend **at least 4 days working on crafting** then perform a crafting check. The GM determines the DC based on 
+You spend **at least 4 days working on crafting** then perform a crafting check. The GM determines the DC based on its level, rarity, and other circumstances (see [[DC Tables]]).
+
+On a successful craft, you **expend the materials you supplied**. You may then choose to:
+1. Pay the remaining portion of the item's material price to complete it right away
+2. Spend additional days working on the item. For each day, reduce the cost of materials spent building the item using the table in [[Earn Income]], using your crafting proficiency and level instead of a task level
