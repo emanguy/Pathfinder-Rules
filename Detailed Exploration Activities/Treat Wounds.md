@@ -7,7 +7,7 @@
 
 You spend 10 minutes treating one injured living creature. The creature is then **temporarily immune to Treat Wounds for 1 hour** which overlaps with the time you spent treating.
 
-The DC for this check is usually 15 but may be adjusted by the DM.
+The DC for this medicine check is usually 15 but may be adjusted by the DM.
 
 * **Critical Success:** The target regains 4d8 HP and its [[Wounded]] condition is removed.
 * **Success:** The target regains 2d8 HP and its wounded condition is removed.

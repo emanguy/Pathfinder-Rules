@@ -11,6 +11,9 @@
 * [[Search]]
 
 ## Skill Exploration Activities
+
+* Survival
+	* [[Track]]
 * [[Borrow an Arcane Spell]]
 * [[Coerce]]
 * [[Cover Tracks]]
@@ -24,5 +27,5 @@
 * [[Repair]]
 * [[Sense Direction]]
 * [[Squeeze]]
-* [[Track]]
+
 * [[Treat Wounds]]
