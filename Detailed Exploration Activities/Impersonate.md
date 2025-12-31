@@ -10,4 +10,6 @@ Creatures will detect your disguise if they use the [[Seek]] action do perceptio
 
 If you interact with someone while disguised, the GM will do a secret deception check for you against the creature's perception DC. Creatures familiar with the individual you're disguised as may get a circumstance bonus on the secret check.
 
-* **Success:** You trick the creature into thinking you're the person you're disguised as
+* **Success:** You trick the creature into thinking you're the person you're disguised as. You may need to re-roll this check if your behavior changes.
+* **Failure:** The creature can tell you're not who you claim to be.
+* **Critical Failure:** The creature can tell you're not who you claim to be and recognizes you if it would know you without a disguise.
