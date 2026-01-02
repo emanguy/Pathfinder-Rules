@@ -6,4 +6,6 @@
 
 Make a **medicine check** to spend at least 8 hours caring for a diseased creature against the disease's DC. You can't treat the creature again until its next save against the disease.
 
-* **Critical success:** You grant the creature a **+4 bonus** on its next check against the disease.
+* **Critical success:** You grant the creature a **+4 bonus** on its next save against the disease.
+* **Success:** You grant the creature a **+2 bonus** on its next save against the disease.
+* **Critical failure:** You give the creature a **-2 bonus** on its next save against the disease.
