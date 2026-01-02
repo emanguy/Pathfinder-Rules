@@ -37,4 +37,5 @@ Depending on the task, you may stop working on it and pick up where you left off
 
 * **Critical success:** Gain the amount of money for the **task level + 1** and your proficiency in the skill.
 * **Success:** Gain the amount of money for the task level and your proficiency.
-* **Failure:** Gain the amount of money in the failure column for your task level.
+* **Failure:** Gain the amount of money in the failure column for your task level and proficiency. The GM will likely shrink the amount of time you can work on the task.
+* **Critical failure:** You earn no money and are fired immediately. Your reputation suffers and may make it harder to find work in the same community in the future.
