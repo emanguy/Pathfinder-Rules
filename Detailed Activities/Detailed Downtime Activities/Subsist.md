@@ -9,6 +9,6 @@ You may need a minimum proficiency rank for subsisting in certain environments.
 | -------------- | -------------------------------------------------------------------- |
 | Untrained      | Lush forest with calm weather or large city with plentiful resources |
 | Trained        | Typical hillside or village                                          |
-| Expert         |                                                                      |
-| Master         |                                                                      |
-| Legendary      |                                                                      |
+| Expert         | Typical mountains or insular hamlet                                  |
+| Master         | Typical desert or city under siege                                   |
+| Legendary      | Barren wasteland or city of undead                                   |
