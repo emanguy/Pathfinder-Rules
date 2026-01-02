@@ -41,4 +41,5 @@ Depending on the task, you may stop working on it and pick up where you left off
 * **Critical failure:** You earn no money and are fired immediately. Your reputation suffers and may make it harder to find work in the same community in the future.
 
 ## Crafting Goods
-It's usually easy to find work crafting basic goods that are 1-2 levels below the settlement's level. Higher level tasks are usually special commissions and may require you to [[Craft]] the item and sell it to the buyer at full price.
+It's usually easy to find work crafting basic goods that are 1-2 levels below the settlement's level. Higher level tasks are usually special commissions and may require you to [[Craft]] the item and sell it to the buyer at full price (in which case your profit is the difference between the cost of materials and the sale price).
+
