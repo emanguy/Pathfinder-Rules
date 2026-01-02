@@ -7,8 +7,6 @@ You use a skill to earn money - typically Crafting, Lore, or Performance (though
 
 Based on what you're doing, the DM will assign a task level to your work and have you roll a check with the chosen skill to do the job. **You may spend time preparing** to reduce the DC of the check, such as practicing or using [[Gather Information]] to find better jobs. On a successful job, you earn income based on the task level and your proficiency in the skill as seen in the table below.
 
-The DM determines how long you can work on the task - typically a week or two but sometimes months or years depending on the task. Each day you continue working on the task after succeeding the check you earn the same amount until the task's completion.
-
 | Task Level            | Failure  | Trained  | Expert   | Master   | Legendary |
 | --------------------- | -------- | -------- | -------- | -------- | --------- |
 | 0                     | 1cp      | 5cp      | 5cp      | 5cp      | 5cp       |
@@ -33,9 +31,14 @@ The DM determines how long you can work on the task - typically a week or two bu
 | 19                    | 6gp      | 30gp     | 60gp     | 100gp    | 130gp     |
 | 20                    | 8gp      | 40gp     | 75gp     | 150gp    | 200gp     |
 | 20 (critical success) |          | 50gp     | 90gp     | 175gp    | 300gp     |
+The DM determines how long you can work on the task - typically a week or two but sometimes months or years depending on the task. Each day you continue working on the task after succeeding the check you earn the same amount until the task's completion.
+
 Depending on the task, you may stop working on it and pick up where you left off later. You can keep your roll and continue earning income in this case. You'll have to roll again if you quit a job though.
 
 * **Critical success:** Gain the amount of money for the **task level + 1** and your proficiency in the skill.
 * **Success:** Gain the amount of money for the task level and your proficiency.
 * **Failure:** Gain the amount of money in the failure column for your task level and proficiency. The GM will likely shrink the amount of time you can work on the task.
 * **Critical failure:** You earn no money and are fired immediately. Your reputation suffers and may make it harder to find work in the same community in the future.
+
+## Crafting Goods
+It's usually easy to find work crafting basic goods that are 1-2 levels below the settlement's level. Higher level tasks are usually special commissions and may require you to [[Craft]] the item and sell it to the buyer at full price.
