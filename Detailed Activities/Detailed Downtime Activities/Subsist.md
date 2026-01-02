@@ -12,3 +12,6 @@ You may need a minimum proficiency rank for subsisting in certain environments.
 | Expert         | Typical mountains or insular hamlet                                  |
 | Master         | Typical desert or city under siege                                   |
 | Legendary      | Barren wasteland or city of undead                                   |
+If you **subsist during exploration** (i.e. trying to live off the land since you ran out of food) you take a -5 penalty to the check.
+
+* **Critical success:** 
