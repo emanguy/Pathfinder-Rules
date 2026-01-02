@@ -1,6 +1,14 @@
 # Subsist
 #Ability-tag/Downtime 
 
-Make a **Society or Survival check** (depending on if you're in a settlement or in the wild) to provide food and shelter for yourself, paying money based on the standard of living you're going for and the amount of time you're spending there.
+Make a **Society or Survival check** (depending on if you're in a settlement or in the wild) to provide food and shelter for yourself and possibly another person by living off the land.
 
 You may need a minimum proficiency rank for subsisting in certain environments.
+
+| Training Level | Environment                                                          |
+| -------------- | -------------------------------------------------------------------- |
+| Untrained      | Lush forest with calm weather or large city with plentiful resources |
+| Trained        | Typical hillside or village                                          |
+| Expert         |                                                                      |
+| Master         |                                                                      |
+| Legendary      |                                                                      |
