@@ -45,4 +45,4 @@ It's usually easy to find work crafting basic goods that are 1-2 levels below th
 ## Practice a Trade via Lore
 Use a lore skill to make money - this can be effective with business, law, or sailing in areas where those are in high demand. Using obscure lore might make the DC higher or only make low-level tasks available. You may also need special tools to practice your trade.
 ## Stage a Performance
-The audience you perform for determines the task level.
+The audience you perform for determines the task level. Performing for commoners is usually level 0, but artisans with refined tastes may be level 2 or 3. Merchants, nobility, and royalty may be even higher level.

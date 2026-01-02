@@ -1,1 +1,4 @@
-(page 240)
+# Subsist
+#Ability-tag/Downtime 
+
+Make a **Society or Survival check** 
