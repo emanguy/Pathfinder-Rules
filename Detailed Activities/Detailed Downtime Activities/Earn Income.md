@@ -33,3 +33,8 @@ The DM determines how long you can work on the task - typically a week or two bu
 | 19                    | 6gp      | 30gp     | 60gp     | 100gp    | 130gp     |
 | 20                    | 8gp      | 40gp     | 75gp     | 150gp    | 200gp     |
 | 20 (critical success) |          | 50gp     | 90gp     | 175gp    | 300gp     |
+Depending on the task, you may stop working on it and pick up where you left off later. You can keep your roll and continue earning income in this case. You'll have to roll again if you quit a job though.
+
+* **Critical success:** Gain the amount of money for the **task level + 1** and your proficiency in the skill.
+* **Success:** Gain the amount of money for the task level and your proficiency.
+* **Failure:** Gain the amount of money in the failure column for your task level.
