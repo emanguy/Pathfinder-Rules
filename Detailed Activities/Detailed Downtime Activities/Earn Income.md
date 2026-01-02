@@ -42,4 +42,7 @@ Depending on the task, you may stop working on it and pick up where you left off
 
 ## Crafting Goods
 It's usually easy to find work crafting basic goods that are 1-2 levels below the settlement's level. Higher level tasks are usually special commissions and may require you to [[Craft]] the item and sell it to the buyer at full price (in which case your profit is the difference between the cost of materials and the sale price).
-
+## Practice a Trade via Lore
+Use a lore skill to make money - this can be effective with business, law, or sailing in areas where those are in high demand. Using obscure lore might make the DC higher or only make low-level tasks available. You may also need special tools to practice your trade.
+## Stage a Performance
+The audience you perform for determines the task level.
