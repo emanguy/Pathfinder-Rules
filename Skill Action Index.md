@@ -77,23 +77,50 @@
 		* [[Command an Animal]]
 		* [[Recall Knowledge]]
 	* Trained
+		* [[Identify Magic]]
+		* [[Learn a Spell]]
 * Occultism
 	* Untrained
+		* [[Recall Knowledge]]
 	* Trained
+		* [[Decipher Writing]]
+		* [[Identify Magic]]
+		* [[Learn a Spell]]
 * Performance
 	* Untrained
+		* [[Perform]]
 	* Trained
+		* [[Earn Income]]
 * Religion
 	* Untrained
+		* [[Recall Knowledge]]
 	* Trained
+		* [[Decipher Writing]]
+		* [[Identify Magic]]
+		* [[Learn a Spell]]
 * Society
 	* Untrained
+		* [[Recall Knowledge]]
+		* [[Subsist]]
 	* Trained
+		* [[Create Forgery]]
+		* [[Decipher Writing]]
 * Stealth
 	* Untrained
+		* [[Conceal an Object]]
+		* [[Hide]]
+		* [[Sneak]]
 * Survival
 	* Untrained
+		* [[Sense Direction]]
+		* [[Subsist]]
 	* Trained
+		* [[Cover Tracks]]
+		* [[Track]]
 * Thievery
 	* Untrained
+		* [[Palm an Object]]
+		* [[Steal]]
 	* Trained
+		* [[Disable a Device]]
+		* [[Pick a Lock]]
