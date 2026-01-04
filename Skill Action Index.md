@@ -1,7 +1,7 @@
 # Skill Action Index
 * General Actions
 	* Untrained
-		* [[Recall Knowledge]] <-
+		* [[Recall Knowledge]]
 		* [[Subsist]]
 	* Trained
 		* [[Decipher Writing]]

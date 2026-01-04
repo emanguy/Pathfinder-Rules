@@ -12,5 +12,9 @@ Do one of the following skill checks to recall some knowledge related to the ski
 * Occultism (Ancient mysteries, obscure philosophy, creatures of occult significance, esoteric planes)
 * Religion (Divine agents, divine planes, theology, obscure myths, creatures of religious significance)
 * Society (Local history, key personalities, legal institutions, societal structure, humanoid culture)
+
 Other skills can be used (such as acrobatics to assess acrobatic skill) but in most cases a mental ability score like intelligence will be used instead.
 
+* **Critical success:** You recall the knowledge accurately and gain additional information or context
+* **Success:** You recall the knowledge accurately or gain a useful clue
+* **Critical failure:** You recall incorrect information or get a misleading clue
