@@ -66,15 +66,15 @@
 		* [[Earn Income]]
 * Medicine
 	* Untrained
-		* [[Administer First Aid]]
+		* [[Administer First Aid]] <-
 		* [[Recall Knowledge]]
 	* Trained
 		* [[Treat disease]]
-		* [[Treat Poison]]
+		* [[Treat Poison]] <-
 		* [[Treat Wounds]]
 * Nature
 	* Untrained
-		* [[Command an Animal]]
+		* [[Command an Animal]] <-
 		* [[Recall Knowledge]]
 	* Trained
 		* [[Identify Magic]]
@@ -88,7 +88,7 @@
 		* [[Learn a Spell]]
 * Performance
 	* Untrained
-		* [[Perform]]
+		* [[Perform]] <-
 	* Trained
 		* [[Earn Income]]
 * Religion
@@ -107,9 +107,9 @@
 		* [[Decipher Writing]]
 * Stealth
 	* Untrained
-		* [[Conceal an Object]]
-		* [[Hide]]
-		* [[Sneak]]
+		* [[Conceal an Object]] <-
+		* [[Hide]] <-
+		* [[Sneak]] <-
 * Survival
 	* Untrained
 		* [[Sense Direction]]
@@ -119,8 +119,8 @@
 		* [[Track]]
 * Thievery
 	* Untrained
-		* [[Palm an Object]]
-		* [[Steal]]
+		* [[Palm an Object]] <-
+		* [[Steal]] <-
 	* Trained
-		* [[Disable a Device]]
-		* [[Pick a Lock]]
+		* [[Disable a Device]] <-
+		* [[Pick a Lock]] <-
