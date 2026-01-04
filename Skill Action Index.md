@@ -1,7 +1,7 @@
 # Skill Action Index
 * General Actions
 	* Untrained
-		* [[Recall Knowledge]]
+		* [[Recall Knowledge]] <-
 		* [[Subsist]]
 	* Trained
 		* [[Decipher Writing]]
@@ -10,10 +10,10 @@
 		* [[Learn a Spell]]
 * Acrobatics
 	* Untrained
-		* [[Balance]]
-		* [[Tumble Through]]
+		* [[Balance]] <-
+		* [[Tumble Through]] <-
 	* Trained
-		* [[Maneuver in Flight]]
+		* [[Maneuver in Flight]] <-
 		* [[Squeeze]]
 * Arcana
 	* Untrained
@@ -25,16 +25,16 @@
 		* [[Learn a Spell]]
 * Athletics
 	* Untrained
-		* [[Climb]]
-		* [[Force Open]]
-		* [[Grapple]]
-		* [[High Jump]]
-		* [[Long Jump]]
-		* [[Shove]]
-		* [[Swim]]
-		* [[Trip]]
+		* [[Climb]] <-
+		* [[Force Open]] <-
+		* [[Grapple]] <-
+		* [[High Jump]] <-
+		* [[Long Jump]] <-
+		* [[Shove]] <-
+		* [[Swim]] <-
+		* [[Trip]] <-
 	* Trained
-		* [[Disarm]]
+		* [[Disarm]] <-
 * Crafting
 	* Untrained
 		* [[Recall Knowledge]]
@@ -45,20 +45,20 @@
 		* [[Identify Alchemy]]
 * Deception
 	* Untrained
-		* [[Create a Diversion]]
+		* [[Create a Diversion]] <-
 		* [[Impersonate]]
-		* [[Lie]]
+		* [[Lie]] <-
 	* Trained
-		* [[Feint]]
+		* [[Feint]] <-
 * Diplomacy
 	* Untrained
 		* [[Gather Information]]
 		* [[Make an Impression]]
-		* [[Request]]
+		* [[Request]] <-
 * Intimidation
 	* Untrained
 		* [[Coerce]]
-		* [[Demoralize]]
+		* [[Demoralize]] <-
 * Lore
 	* Untrained
 		* [[Recall Knowledge]]
