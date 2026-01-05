@@ -27,7 +27,7 @@
 	* Untrained
 		* [[Climb]]
 		* [[Force Open]]
-		* [[Grapple]] <-
+		* [[Grapple]]
 		* [[High Jump]] <-
 		* [[Long Jump]] <-
 		* [[Shove]] <-
