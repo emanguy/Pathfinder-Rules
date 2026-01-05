@@ -13,7 +13,7 @@
 		* [[Balance]]
 		* [[Tumble Through]]
 	* Trained
-		* [[Maneuver in Flight]] <-
+		* [[Maneuver in Flight]]
 		* [[Squeeze]]
 * Arcana
 	* Untrained
