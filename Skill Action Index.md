@@ -31,7 +31,7 @@
 		* [[High Jump]]
 		* [[Long Jump]]
 		* [[Shove]]
-		* [[Swim]] <-
+		* [[Swim]]
 		* [[Trip]] <-
 	* Trained
 		* [[Disarm]] <-
