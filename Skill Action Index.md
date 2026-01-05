@@ -32,7 +32,7 @@
 		* [[Long Jump]]
 		* [[Shove]]
 		* [[Swim]]
-		* [[Trip]] <-
+		* [[Trip]]
 	* Trained
 		* [[Disarm]] <-
 * Crafting

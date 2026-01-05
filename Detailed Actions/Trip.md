@@ -6,4 +6,6 @@
 
 Perform an **athletics check** against your target's **reflex DC** to try and knock them to the ground.
 
-* **Critical success:** The target falls a
+* **Critical success:** The target falls [[Prone]] and takes **1d6 bludgeoning damage**.
+* **Success:** The target falls prone.
+* **Critical failure:** You lose your balance and fall prone.
