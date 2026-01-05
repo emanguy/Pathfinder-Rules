@@ -25,7 +25,7 @@
 		* [[Learn a Spell]]
 * Athletics
 	* Untrained
-		* [[Climb]] <-
+		* [[Climb]]
 		* [[Force Open]] <-
 		* [[Grapple]] <-
 		* [[High Jump]] <-
