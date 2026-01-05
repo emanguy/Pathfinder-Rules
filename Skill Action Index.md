@@ -49,7 +49,7 @@
 		* [[Impersonate]]
 		* [[Lie]]
 	* Trained
-		* [[Feint]] <-
+		* [[Feint]]
 * Diplomacy
 	* Untrained
 		* [[Gather Information]]
