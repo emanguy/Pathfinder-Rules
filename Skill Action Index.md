@@ -47,7 +47,7 @@
 	* Untrained
 		* [[Create a Diversion]]
 		* [[Impersonate]]
-		* [[Lie]] <-
+		* [[Lie]]
 	* Trained
 		* [[Feint]] <-
 * Diplomacy
