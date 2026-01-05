@@ -28,8 +28,8 @@
 		* [[Climb]]
 		* [[Force Open]]
 		* [[Grapple]]
-		* [[High Jump]] <-
-		* [[Long Jump]] <-
+		* [[High Jump]]
+		* [[Long Jump]]
 		* [[Shove]] <-
 		* [[Swim]] <-
 		* [[Trip]] <-
