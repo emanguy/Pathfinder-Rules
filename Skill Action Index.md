@@ -11,7 +11,7 @@
 * Acrobatics
 	* Untrained
 		* [[Balance]]
-		* [[Tumble Through]] <-
+		* [[Tumble Through]]
 	* Trained
 		* [[Maneuver in Flight]] <-
 		* [[Squeeze]]
