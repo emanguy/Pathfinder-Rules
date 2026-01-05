@@ -10,7 +10,7 @@
 		* [[Learn a Spell]]
 * Acrobatics
 	* Untrained
-		* [[Balance]] <-
+		* [[Balance]]
 		* [[Tumble Through]] <-
 	* Trained
 		* [[Maneuver in Flight]] <-

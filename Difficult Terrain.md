@@ -1,0 +1,1 @@
+See the "difficult terrain" area in the "movement" section of the [[Gameplay Mind Map.canvas|Gameplay Mind Map]].
