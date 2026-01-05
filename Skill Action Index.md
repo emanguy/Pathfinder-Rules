@@ -30,7 +30,7 @@
 		* [[Grapple]]
 		* [[High Jump]]
 		* [[Long Jump]]
-		* [[Shove]] <-
+		* [[Shove]]
 		* [[Swim]] <-
 		* [[Trip]] <-
 	* Trained
