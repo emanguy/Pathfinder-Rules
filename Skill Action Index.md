@@ -45,7 +45,7 @@
 		* [[Identify Alchemy]]
 * Deception
 	* Untrained
-		* [[Create a Diversion]] <-
+		* [[Create a Diversion]]
 		* [[Impersonate]]
 		* [[Lie]] <-
 	* Trained
