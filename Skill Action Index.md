@@ -34,7 +34,7 @@
 		* [[Swim]]
 		* [[Trip]]
 	* Trained
-		* [[Disarm]] <-
+		* [[Disarm]]
 * Crafting
 	* Untrained
 		* [[Recall Knowledge]]
