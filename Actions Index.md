@@ -2,6 +2,10 @@
 ## Action Icons
 ![[Pathfinder Action Icons.png]]
 ## Combat Action Index
+**Note - Multiple Attack Penalty:** Performing _any_ action that has the "attack" trait counts toward the multiple attack penalty on your turn. 
+* Your second attack action on a turn takes a **-5 circumstance penalty**
+* Your third attack action on a turn takes a **-10 circumstance penalty**
+This includes actions like [[Shove]] or [[Trip]].
 ### Actions
 * [[Aid]]
 * [[Crawl]]
