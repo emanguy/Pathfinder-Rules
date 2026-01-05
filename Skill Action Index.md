@@ -26,7 +26,7 @@
 * Athletics
 	* Untrained
 		* [[Climb]]
-		* [[Force Open]] <-
+		* [[Force Open]]
 		* [[Grapple]] <-
 		* [[High Jump]] <-
 		* [[Long Jump]] <-
