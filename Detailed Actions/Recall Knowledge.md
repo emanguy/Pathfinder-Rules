@@ -3,7 +3,7 @@
 #Ability-tag/Concentrate 
 #Ability-tag/Secret 
 
-Do one of the following skill checks to recall some knowledge related to the skill:
+The DM rolls a secret skill check for one of the following skills for you to recall some knowledge related to the skill:
 * Arcana (Arcane theories, magical traditions, creatures of arcane significance, arcane planes)
 * Crafting (Alchcemical reactions and creatures, item value, engineering, unusual materials, constructs)
 * Lore (the subject of the lore skill)
