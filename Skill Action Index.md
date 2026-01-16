@@ -70,7 +70,7 @@
 		* [[Recall Knowledge]]
 	* Trained
 		* [[Treat disease]]
-		* [[Treat Poison]] <-
+		* [[Treat Poison]]
 		* [[Treat Wounds]]
 * Nature
 	* Untrained
