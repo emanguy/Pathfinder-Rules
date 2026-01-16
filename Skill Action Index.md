@@ -54,11 +54,11 @@
 	* Untrained
 		* [[Gather Information]]
 		* [[Make an Impression]]
-		* [[Request]] <-
+		* [[Request]]
 * Intimidation
 	* Untrained
 		* [[Coerce]]
-		* [[Demoralize]] <-
+		* [[Demoralize]]
 * Lore
 	* Untrained
 		* [[Recall Knowledge]]
