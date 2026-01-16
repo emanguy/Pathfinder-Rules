@@ -66,7 +66,7 @@
 		* [[Earn Income]]
 * Medicine
 	* Untrained
-		* [[Administer First Aid]] <-
+		* [[Administer First Aid]]
 		* [[Recall Knowledge]]
 	* Trained
 		* [[Treat disease]]
