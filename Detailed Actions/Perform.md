@@ -12,4 +12,9 @@
 | Orate or Sing      | #Ability-tag/Auditory #Ability-tag/Linguistic                       |
 This action is used for a brief performance which can be useful for proving your capability or impressing someone. It may have an **impact on DCs** of subsequent diplomacy checks against observers or change their attitude towards you depending on the DM's discretion.
 
-Make a **Performance check** against the 
+Make a **Performance check** against the toughness of the audience (see [[DC Tables#By expertise]]).
+
+* **Critical success:** You impress the observers and they're likely to share stories of your ability.
+* **Success:** You prove yourself and observers appreciate your performance's quality.
+* **Failure:** Your performance falls flat.
+* **Critical failure:** You only demonstrate incompetence.

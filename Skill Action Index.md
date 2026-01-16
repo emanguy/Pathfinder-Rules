@@ -88,7 +88,7 @@
 		* [[Learn a Spell]]
 * Performance
 	* Untrained
-		* [[Perform]] <-
+		* [[Perform]]
 	* Trained
 		* [[Earn Income]]
 * Religion
