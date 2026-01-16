@@ -74,7 +74,7 @@
 		* [[Treat Wounds]]
 * Nature
 	* Untrained
-		* [[Command an Animal]] <-
+		* [[Command an Animal]]
 		* [[Recall Knowledge]]
 	* Trained
 		* [[Identify Magic]]

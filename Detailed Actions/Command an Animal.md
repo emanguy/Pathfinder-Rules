@@ -9,3 +9,5 @@ You auto-fail if the animal is [[Hostile]] or [[Unfriendly]] toward you. If the 
 Most animals know [[Drop Prone]], [[Leap]], [[Seek]], [[Stand]], [[Stride]], and [[Strike]] basic actions. If the animal knows an activity, you can command it to do that too (like a Horse's _Gallop_). Activities require you to **spend as many actions on Command an Animal as the Animal would spend on the activity**. You can also use this action multiple times to issue multiple commands to the animal.
 
 * **Success:** The animal does as you command on its next turn.
+* **Failure:** The animal is hesitant or resistant and does nothing.
+* **Critical failure:** The animal misbehaves or misunderstands and takes some other action as determined by the DM.
