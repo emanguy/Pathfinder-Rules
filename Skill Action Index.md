@@ -107,7 +107,7 @@
 		* [[Decipher Writing]]
 * Stealth
 	* Untrained
-		* [[Conceal an Object]] <-
+		* [[Conceal an Object]]
 		* [[Hide]] <-
 		* [[Sneak]] <-
 * Survival
