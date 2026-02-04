@@ -7,4 +7,4 @@ You hide behind Cover or Greater Cover to become [[Hidden]]. The DM rolls your *
   
   If you leave cover/greater cover or concealment you automatically become [[Observed]] by the creature again. You cease being hidden if you take any action other than [[Hide]], [[Sneak]], or [[Step]].
   
-  If you attempt to [[Strike]] a creature, the creature is [[Flat-footed]] against the attack and then you become [[Observed]]. Otherwise, with any other action you become [[Observed]] right before you act unless the DM says otherwise.
+  If you attempt to [[Strike]] a creature, the creature is [[Flat-footed]] against the attack and then you become [[Observed]]. Otherwise, with any other action you become [[Observed]] right before you act unless the DM says otherwise. They may allow you to take an unobtrusive action without being noticed 
