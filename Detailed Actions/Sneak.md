@@ -10,4 +10,6 @@ At the end of your movement, the GM rolls your **Stealth check** in secret again
   
   You become [[Observed]] as soon as you do anything other than [[Hide]], [[Sneak]], or [[Step]]. Attempting to [[Strike]] a creature makes it [[Flat-footed]] against the attack, then you become [[Observed]]. Doing anything else causes you to become Observed just before the action.
   
-  The GM may allow you to do an unobtrusive action and remain undetected or perform a **Stealth check** to 
+  The GM may allow you to do an unobtrusive action and remain undetected or perform a **Stealth check** to maintain that status.
+  
+  If you speak or
