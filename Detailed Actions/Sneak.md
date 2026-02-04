@@ -12,4 +12,4 @@ At the end of your movement, the GM rolls your **Stealth check** in secret again
   
   The GM may allow you to do an unobtrusive action and remain undetected or perform a **Stealth check** to maintain that status.
   
-  If you speak or
+  If you speak or deliberately make a loud noise you become [[Hidden]] instead of [[Undetected]]. 
