@@ -5,7 +5,7 @@
 
 **Requirement:** trained in the skill you're using for this (either Arcana, Occultism, or Religion)
 
-You spend 10 minutes trying to identify the particulars of an ongoing magical effect. If your attempt is interrupted you must start over. The DM rolls a **secret check** with the skill you're using.
+You spend 10 minutes trying to identify the particulars of an ongoing magical effect. If your attempt is interrupted you must start over. The GM rolls a **secret check** with the skill you're using.
 
 Attempting to use a skill inappropriate for the magic increases the DC of the check.
 

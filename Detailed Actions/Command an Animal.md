@@ -10,4 +10,4 @@ Most animals know [[Drop Prone]], [[Leap]], [[Seek]], [[Stand]], [[Stride]], and
 
 * **Success:** The animal does as you command on its next turn.
 * **Failure:** The animal is hesitant or resistant and does nothing.
-* **Critical failure:** The animal misbehaves or misunderstands and takes some other action as determined by the DM.
+* **Critical failure:** The animal misbehaves or misunderstands and takes some other action as determined by the GM.

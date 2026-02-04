@@ -5,7 +5,7 @@
 
 You use a skill to earn money - typically Crafting, Lore, or Performance (though other skills might be used situationally and the DC for this task will be higher than usual).
 
-Based on what you're doing, the DM will assign a task level to your work and have you roll a check with the chosen skill to do the job. **You may spend time preparing** to reduce the DC of the check, such as practicing or using [[Gather Information]] to find better jobs. On a successful job, you earn income based on the task level and your proficiency in the skill as seen in the table below.
+Based on what you're doing, the GM will assign a task level to your work and have you roll a check with the chosen skill to do the job. **You may spend time preparing** to reduce the DC of the check, such as practicing or using [[Gather Information]] to find better jobs. On a successful job, you earn income based on the task level and your proficiency in the skill as seen in the table below.
 
 | Task Level            | Failure  | Trained  | Expert   | Master   | Legendary |
 | --------------------- | -------- | -------- | -------- | -------- | --------- |
@@ -31,7 +31,7 @@ Based on what you're doing, the DM will assign a task level to your work and hav
 | 19                    | 6gp      | 30gp     | 60gp     | 100gp    | 130gp     |
 | 20                    | 8gp      | 40gp     | 75gp     | 150gp    | 200gp     |
 | 20 (critical success) |          | 50gp     | 90gp     | 175gp    | 300gp     |
-The DM determines how long you can work on the task - typically a week or two but sometimes months or years depending on the task. Each day you continue working on the task after succeeding the check you earn the same amount until the task's completion.
+The GM determines how long you can work on the task - typically a week or two but sometimes months or years depending on the task. Each day you continue working on the task after succeeding the check you earn the same amount until the task's completion.
 
 Depending on the task, you may stop working on it and pick up where you left off later. You can keep your roll and continue earning income in this case. You'll have to roll again if you quit a job though.
 

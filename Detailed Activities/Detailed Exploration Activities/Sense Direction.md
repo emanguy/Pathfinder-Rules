@@ -2,7 +2,7 @@
 #Ability-tag/Exploration 
 #Ability-tag/Secret 
 
-The DM rolls a **secret Survival check** for you to orient yourself in the world based on your surroundings. This typically only needs to be done once per day, and usually only takes about a minute.
+The GM rolls a **secret Survival check** for you to orient yourself in the world based on your surroundings. This typically only needs to be done once per day, and usually only takes about a minute.
 
 You may need higher training levels to sense direction in certain environments. Not having a _compass_ applies a **-2 item penalty** to this check.
 
