@@ -108,7 +108,7 @@
 * Stealth
 	* Untrained
 		* [[Conceal an Object]]
-		* [[Hide]] <-
+		* [[Hide]]
 		* [[Sneak]] <-
 * Survival
 	* Untrained
